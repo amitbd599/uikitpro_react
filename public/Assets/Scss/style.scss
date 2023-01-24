@@ -1,0 +1,57 @@
+/*
+Theme Name: UikitPro
+Theme URI: http://s7template.com/tf/uikitpro/
+Author: s7template
+Author URI: http://s7template.com/
+Description: UikitPro - Wallet & Banking HTML Mobile Template
+Version: 1.0.1
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+    ## Global
+    ## Mixins
+    ## Theme
+    ## Variables
+    ## Common
+
+# Sections
+    ## Nav Bar
+    ## Banner
+    ## Brand Area
+    ## Footer
+    ## Widgets
+
+# Elements
+    ## Flaticon
+
+--------------------------------------------------------------*/
+
+//== Global Design
+@import "global/_mixins";
+@import "global/_variables";
+@import "global/_global";
+@import "global/_common";
+//== Pages
+//== Sections
+@import "sections/_widgets";
+@import "sections/_header";
+@import "sections/_banner";
+@import "sections/_content";
+@import "sections/_footer";
+//== Components
+@import "components/_header-style";
+@import "components/_ui_commmon";
+@import "components/_accordion";
+@import "components/_alerts";
+@import "components/_buttons";
+@import "components/_modal";
+@import "components/_progress";
+@import "components/_tabs";
+@import "components/_tooltip";
+@import "components/_notifications";
+@import "components/_dark";
+@import "components/_badge";
+@import "components/_table";

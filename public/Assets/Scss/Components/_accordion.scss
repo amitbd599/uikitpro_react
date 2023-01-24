@@ -1,0 +1,26 @@
+/*
+ * 01. ACCORDION
+ */
+
+.uik-accordion-inner {
+    .accordion-item {
+        .accordion-button {
+            outline: 0 !important;
+            box-shadow: none !important;
+            i {
+                margin-right: 8px;
+            }
+        }
+    }
+    &.style-4 {
+        .accordion-item {
+            border: 0;
+            margin-bottom: 10px; 
+            .accordion-button {
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+}
