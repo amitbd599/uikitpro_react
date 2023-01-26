@@ -5,7 +5,7 @@ const Saving = () => {
   return (
     <>
       {/* goal area Start */}
-      <div className='goal-area mg-top-90'>
+      <div className='goal-area '>
         <Container>
           <div className='section-title'>
             <h3 className='title'>Saving Goals</h3>

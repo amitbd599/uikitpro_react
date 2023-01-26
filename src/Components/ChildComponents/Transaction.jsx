@@ -6,7 +6,7 @@ const Transaction = () => {
   return (
     <>
       {/* transaction start */}
-      <div className='transaction-area mg-top-90'>
+      <div className='transaction-area'>
         <Container>
           <div className='section-title'>
             <h3 className='title'>Recently Transaction</h3>

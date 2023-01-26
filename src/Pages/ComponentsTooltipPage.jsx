@@ -1,20 +1,20 @@
 import React, { Fragment, Suspense } from "react";
 import { Helmet } from "react-helmet";
-const HomeComponent = React.lazy(() =>
-  import("../Components/RootComponents/HomeComponent")
+const ComponentsTooltipComponent = React.lazy(() =>
+  import("../Components/RootComponents/ComponentsTooltipComponent")
 );
-const HomePage = () => {
+const ComponentsTooltipPage = () => {
   return (
     <Fragment>
       <Suspense fallback={"Loader"}>
         <Helmet>
-          <title>Home || **********</title>
+          <title>Components Typography || **********</title>
           <meta name='description' content='****************' />
         </Helmet>
-        <HomeComponent />
+        <ComponentsTooltipComponent />
       </Suspense>
     </Fragment>
   );
 };
 
-export default HomePage;
+export default ComponentsTooltipPage;

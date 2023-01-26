@@ -9,11 +9,11 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Home = () => {
+const View = () => {
   return (
     <>
       {/* start banner section */}
-      <div className='sc5'>
+      <div className='sc5 dark'>
         <div className='bemo-banner'>
           <Container>
             <Row className='justify-content-center'>
@@ -86,7 +86,7 @@ const Home = () => {
                 <div className='phoneContent'>
                   <div className='phoneWrapper'>
                     <div className='in'>
-                      <iframe className='getFrame' src='/' />
+                      <iframe className='getFrame' src='/home_1' />
                     </div>
                   </div>
                 </div>
@@ -233,4 +233,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default View;

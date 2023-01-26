@@ -7,7 +7,9 @@ const SavingComponent = () => {
   return (
     <>
       <Header />
-      <Saving />
+      <div className='mg-top-90'>
+        <Saving />
+      </div>
       <Footer />
     </>
   );

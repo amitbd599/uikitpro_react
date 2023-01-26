@@ -7,7 +7,9 @@ const TransactionComponent = () => {
   return (
     <>
       <Header />
-      <Transaction />
+      <div className='mg-top-90'>
+        <Transaction />
+      </div>
       <Footer />
     </>
   );
