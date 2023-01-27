@@ -1,20 +1,20 @@
 import React, { Fragment, Suspense } from "react";
 import { Helmet } from "react-helmet";
-const ComponentsToastComponent = React.lazy(() =>
-  import("../Components/RootComponents/ComponentsToastComponent")
+const NotificationsComponent = React.lazy(() =>
+  import("../Components/RootComponents/NotificationsComponent")
 );
-const ComponentsToastPage = () => {
+const NotificationsPage = () => {
   return (
     <Fragment>
       <Suspense fallback={"Loader"}>
         <Helmet>
-          <title>Components Typography || **********</title>
+          <title>Components Radio || **********</title>
           <meta name='description' content='****************' />
         </Helmet>
-        <ComponentsToastComponent />
+        <NotificationsComponent />
       </Suspense>
     </Fragment>
   );
 };
 
-export default ComponentsToastPage;
+export default NotificationsPage;

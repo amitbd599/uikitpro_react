@@ -1,6 +1,6 @@
 import React from "react";
 
-const ComponentsTooltip = () => {
+const Tooltip = () => {
   return (
     <>
       {/* components tooltip start */}
@@ -138,4 +138,4 @@ const ComponentsTooltip = () => {
   );
 };
 
-export default ComponentsTooltip;
+export default Tooltip;

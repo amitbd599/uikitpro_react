@@ -1,16 +1,16 @@
 import React from "react";
-import ComponentsToast from "../ChildComponents/ComponentsToast";
+import ListView from "../ChildComponents/ListView";
 import Footer from "../Common/Footer";
 import Header from "../Common/Header";
 
-const ComponentsToastComponent = () => {
+const ListViewComponent = () => {
   return (
     <>
       <Header />
-      <ComponentsToast />
+      <ListView />
       <Footer />
     </>
   );
 };
 
-export default ComponentsToastComponent;
+export default ListViewComponent;

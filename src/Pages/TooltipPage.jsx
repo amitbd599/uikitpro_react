@@ -1,9 +1,9 @@
 import React, { Fragment, Suspense } from "react";
 import { Helmet } from "react-helmet";
-const ComponentsTypographyComponent = React.lazy(() =>
-  import("../Components/RootComponents/ComponentsTypographyComponent")
+const TooltipComponent = React.lazy(() =>
+  import("../Components/RootComponents/TooltipComponent")
 );
-const ComponentsTypographyPage = () => {
+const TooltipPage = () => {
   return (
     <Fragment>
       <Suspense fallback={"Loader"}>
@@ -11,10 +11,10 @@ const ComponentsTypographyPage = () => {
           <title>Components Typography || **********</title>
           <meta name='description' content='****************' />
         </Helmet>
-        <ComponentsTypographyComponent />
+        <TooltipComponent />
       </Suspense>
     </Fragment>
   );
 };
 
-export default ComponentsTypographyPage;
+export default TooltipPage;

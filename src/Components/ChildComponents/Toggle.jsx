@@ -1,6 +1,6 @@
 import React from "react";
 
-const ComponentsToggle = () => {
+const Toggle = () => {
   return (
     <>
       {/* toggle start */}
@@ -104,4 +104,4 @@ const ComponentsToggle = () => {
   );
 };
 
-export default ComponentsToggle;
+export default Toggle;

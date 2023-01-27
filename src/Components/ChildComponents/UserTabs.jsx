@@ -2,7 +2,7 @@ import React from "react";
 import { FaRegCreditCard, FaRegMap, FaRegSun } from "react-icons/fa";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 
-const ComponentsTabs = () => {
+const UserTabs = () => {
   return (
     <>
       {/* components tabs start */}
@@ -220,4 +220,4 @@ const ComponentsTabs = () => {
   );
 };
 
-export default ComponentsTabs;
+export default UserTabs;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const ComponentsTypography = () => {
+const Typography = () => {
   return (
     <>
       {/* table 1 start */}
@@ -105,4 +105,4 @@ const ComponentsTypography = () => {
   );
 };
 
-export default ComponentsTypography;
+export default Typography;

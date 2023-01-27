@@ -736,6 +736,7 @@
         font-weight: 500;
         display: flex;
         align-items: center;
+        border-bottom: 1px solid #e5e5e5;
         justify-content: space-between;
 
         svg {
@@ -802,6 +803,18 @@
   &.style-no-arrow {
     a:after {
       display: none;
+    }
+  }
+}
+.listview {
+  ul {
+    li {
+      a {
+        padding: 8px 0;
+        img {
+          width: 28px;
+        }
+      }
     }
   }
 }

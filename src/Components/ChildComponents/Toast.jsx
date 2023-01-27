@@ -1,7 +1,7 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
 
-const ComponentsToast = () => {
+const Toast = () => {
   return (
     <div className='allpage-area mg-top-90'>
       <div className='container'>
@@ -162,4 +162,4 @@ const ComponentsToast = () => {
   );
 };
 
-export default ComponentsToast;
+export default Toast;

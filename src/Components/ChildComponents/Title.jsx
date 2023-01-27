@@ -1,6 +1,6 @@
 import React from "react";
 
-const ComponentsTitle = () => {
+const Title = () => {
   return (
     <div className='uikit-alert-area'>
       <div className='uikit-alert-inner text-center'>
@@ -22,4 +22,4 @@ const ComponentsTitle = () => {
   );
 };
 
-export default ComponentsTitle;
+export default Title;

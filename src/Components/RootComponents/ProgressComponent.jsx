@@ -1,16 +1,16 @@
 import React from "react";
-import ComponentsTabs from "../ChildComponents/ComponentsTabs";
+import Progress from "../ChildComponents/Progress";
 import Footer from "../Common/Footer";
 import Header from "../Common/Header";
 
-const ComponentsTabsComponent = () => {
+const ProgressComponent = () => {
   return (
     <>
       <Header />
-      <ComponentsTabs />
+      <Progress />
       <Footer />
     </>
   );
 };
 
-export default ComponentsTabsComponent;
+export default ProgressComponent;

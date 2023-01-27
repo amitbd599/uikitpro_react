@@ -1,9 +1,9 @@
 import React, { Fragment, Suspense } from "react";
 import { Helmet } from "react-helmet";
-const ComponentsToggleComponent = React.lazy(() =>
-  import("../Components/RootComponents/ComponentsToggleComponent")
+const ToggleComponent = React.lazy(() =>
+  import("../Components/RootComponents/ToggleComponent")
 );
-const ComponentsTogglePage = () => {
+const TogglePage = () => {
   return (
     <Fragment>
       <Suspense fallback={"Loader"}>
@@ -11,10 +11,10 @@ const ComponentsTogglePage = () => {
           <title>Components Typography || **********</title>
           <meta name='description' content='****************' />
         </Helmet>
-        <ComponentsToggleComponent />
+        <ToggleComponent />
       </Suspense>
     </Fragment>
   );
 };
 
-export default ComponentsTogglePage;
+export default TogglePage;

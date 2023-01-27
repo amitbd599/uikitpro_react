@@ -1,10 +1,14 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ComponentsTabsPage from "./Pages/ComponentsTabsPage";
-import ComponentsTitlePage from "./Pages/ComponentsTitlePage";
-import ComponentsToastPage from "./Pages/ComponentsToastPage";
-import ComponentsTogglePage from "./Pages/ComponentsTogglePage";
-import ComponentsTooltipPage from "./Pages/ComponentsTooltipPage";
-import ComponentsTypographyPage from "./Pages/ComponentsTypographyPage";
+import ProgressPage from "./Pages/ProgressPage";
+import RadioPage from "./Pages/RadioPage";
+import SuccessPage from "./Pages/SuccessPage";
+import TablePage from "./Pages/TablePage";
+import TabsPage from "./Pages/TabsPage";
+import TitlePage from "./Pages/TitlePage";
+import ToastPage from "./Pages/ToastPage";
+import TogglePage from "./Pages/TogglePage";
+import TooltipPage from "./Pages/TooltipPage";
+import TypographyPage from "./Pages/TypographyPage";
 import ContactPage from "./Pages/ContactPage";
 import HomePage_1 from "./Pages/HomePage_1";
 import HomePage_2 from "./Pages/HomePage_2";
@@ -19,6 +23,9 @@ import UserSettingPage from "./Pages/UserSettingPage";
 import UserVerificationPage from "./Pages/UserVerificationPage";
 import ViewPage from "./Pages/ViewPage";
 import WelcomePage from "./Pages/WelcomePage";
+import NotificationsPage from "./Pages/NotificationsPage";
+import ModalPage from "./Pages/ModalPage";
+import ListViewPage from "./Pages/ListViewPage";
 
 function App() {
   const darkBG = localStorage.getItem("color");
@@ -52,33 +59,25 @@ function App() {
           <Route
             exact
             path='/components-typography'
-            element={<ComponentsTypographyPage />}
+            element={<TypographyPage />}
           />
+          <Route exact path='/components-tooltip' element={<TooltipPage />} />
+          <Route exact path='/components-toggle' element={<TogglePage />} />
+          <Route exact path='/components-toast' element={<ToastPage />} />
+          <Route exact path='/components-title' element={<TitlePage />} />
+          <Route exact path='/components-tabs' element={<TabsPage />} />
+          <Route exact path='/components-table' element={<TablePage />} />
+          <Route exact path='/components-success' element={<SuccessPage />} />
+          <Route exact path='/components-search' element={<SuccessPage />} />
+          <Route exact path='/components-radio' element={<RadioPage />} />
+          <Route exact path='/components-progress' element={<ProgressPage />} />
           <Route
             exact
-            path='/components-tooltip'
-            element={<ComponentsTooltipPage />}
+            path='/components-notifications'
+            element={<NotificationsPage />}
           />
-          <Route
-            exact
-            path='/components-toggle'
-            element={<ComponentsTogglePage />}
-          />
-          <Route
-            exact
-            path='/components-toast'
-            element={<ComponentsToastPage />}
-          />
-          <Route
-            exact
-            path='/components-title'
-            element={<ComponentsTitlePage />}
-          />
-          <Route
-            exact
-            path='/components-tabs'
-            element={<ComponentsTabsPage />}
-          />
+          <Route exact path='/components-modal' element={<ModalPage />} />
+          <Route exact path='/components-listview' element={<ListViewPage />} />
         </Routes>
       </BrowserRouter>
     </div>
