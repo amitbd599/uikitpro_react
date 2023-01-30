@@ -1,20 +1,20 @@
 import React, { Fragment, Suspense } from "react";
 import { Helmet } from "react-helmet";
-const HomeComponent_1 = React.lazy(() =>
-  import("../Components/RootComponents/HomeComponent_1")
+const ErrorIntroComponent = React.lazy(() =>
+  import("../Components/RootComponents/ErrorIntroComponent")
 );
-const HomePage_1 = () => {
+const ErrorIntroPage = () => {
   return (
     <Fragment>
       <Suspense fallback={"Loader"}>
         <Helmet>
-          <title>Home 1 || **********</title>
+          <title>Error Intro || **********</title>
           <meta name='description' content='****************' />
         </Helmet>
-        <HomeComponent_1 />
+        <ErrorIntroComponent />
       </Suspense>
     </Fragment>
   );
 };
 
-export default HomePage_1;
+export default ErrorIntroPage;

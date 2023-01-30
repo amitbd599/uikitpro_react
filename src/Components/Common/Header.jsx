@@ -118,7 +118,7 @@ const Header = () => {
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
-                  to='/home'
+                  to='/home-1'
                 >
                   <span>Uikitpro Display</span>
                   <FaAngleRight />

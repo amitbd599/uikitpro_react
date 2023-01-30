@@ -26,6 +26,13 @@ import WelcomePage from "./Pages/WelcomePage";
 import NotificationsPage from "./Pages/NotificationsPage";
 import ModalPage from "./Pages/ModalPage";
 import ListViewPage from "./Pages/ListViewPage";
+import InsetPage from "./Pages/InsetPage";
+import ImagePage from "./Pages/ImagePage";
+import IcondPage from "./Pages/IcondPage";
+import IntroPopPage from "./Pages/IntroPopPage";
+import AllHeaderPage from "./Pages/AllHeaderPage";
+import ErrorIntroPage from "./Pages/ErrorIntroPage";
+import DropdownPage from "./Pages/DropdownPage";
 
 function App() {
   const darkBG = localStorage.getItem("color");
@@ -78,6 +85,13 @@ function App() {
           />
           <Route exact path='/components-modal' element={<ModalPage />} />
           <Route exact path='/components-listview' element={<ListViewPage />} />
+          <Route exact path='/components-inset' element={<InsetPage />} />
+          <Route exact path='/components-image' element={<ImagePage />} />
+          <Route exact path='/components-icond' element={<IcondPage />} />
+          <Route exact path='/components-intro' element={<IntroPopPage />} />
+          <Route exact path='/components-header' element={<AllHeaderPage />} />
+          <Route exact path='/components-error' element={<ErrorIntroPage />} />
+          <Route exact path='/components-dropdown' element={<DropdownPage />} />
         </Routes>
       </BrowserRouter>
     </div>

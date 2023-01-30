@@ -19,7 +19,7 @@ const Home_1 = () => {
   return (
     <>
       {/* Balance start */}
-      <div className='balance-area'>
+      <div className='balance-area mg-top-90'>
         <Container>
           <div className='balance-area-bg balance-area-bg-home'>
             <div className='balance-title text-center'>
