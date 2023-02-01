@@ -18,7 +18,7 @@ const UserSetting = () => {
   return (
     <>
       {/* navbar end */}
-      <div className='allpage-area'>
+      <div className='allpage-area mg-top-120'>
         <Container>
           <div className='ba-all-page-inner style-no-border'>
             <h5>Account</h5>

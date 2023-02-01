@@ -1,21 +1,21 @@
 import React, { Fragment, Suspense } from "react";
 import { Helmet } from "react-helmet";
 import Preloader from "../Components/Common/Preloader";
-const NotificationsComponent = React.lazy(() =>
-  import("../Components/RootComponents/NotificationsComponent")
+const AllLinkComponent = React.lazy(() =>
+  import("../Components/RootComponents/AllLinkComponent")
 );
-const NotificationsPage = () => {
+const AllLinkPage = () => {
   return (
     <Fragment>
-   <Suspense fallback={<Preloader/>}>
+    <Suspense fallback={<Preloader/>}>
         <Helmet>
-          <title>Components Radio || **********</title>
+          <title>All Page Link || **********</title>
           <meta name='description' content='****************' />
         </Helmet>
-        <NotificationsComponent />
+        <AllLinkComponent />
       </Suspense>
     </Fragment>
   );
 };
 
-export default NotificationsPage;
+export default AllLinkPage;

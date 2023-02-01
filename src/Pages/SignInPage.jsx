@@ -7,7 +7,7 @@ const SignInComponent = React.lazy(() =>
 const SignInPage = () => {
   return (
     <Fragment>
-      <Suspense fallback={<Preloader />}>
+     <Suspense fallback={<Preloader/>}>
         <Helmet>
           <title>SignIn || **********</title>
           <meta name='description' content='****************' />

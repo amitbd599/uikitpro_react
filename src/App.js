@@ -50,6 +50,8 @@ import CartsPage from "./Pages/CartsPage";
 import BlogPage from "./Pages/BlogPage";
 import BlogDetailsPage from "./Pages/BlogDetailsPage";
 import BillPayPage from "./Pages/BillPayPage";
+import AllLinkPage from "./Pages/AllLinkPage";
+import AboutPage from "./Pages/AboutPage";
 
 function App() {
   const darkBG = localStorage.getItem("color");
@@ -133,6 +135,8 @@ function App() {
           />
           <Route exact path='/all-intro' element={<AllIntroPage />} />
           <Route exact path='/carts' element={<CartsPage />} />
+          <Route exact path='/all-page' element={<AllLinkPage />} />
+          <Route exact path='/about' element={<AboutPage />} />
         </Routes>
       </BrowserRouter>
     </div>

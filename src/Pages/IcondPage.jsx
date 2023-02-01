@@ -7,7 +7,7 @@ const IcondComponent = React.lazy(() =>
 const IcondPage = () => {
   return (
     <Fragment>
-      <Suspense fallback={<Preloader />}>
+  <Suspense fallback={<Preloader/>}>
         <Helmet>
           <title>Icond || **********</title>
           <meta name='description' content='****************' />

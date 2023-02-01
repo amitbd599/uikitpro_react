@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import {
   FaFacebookF,
@@ -10,10 +10,14 @@ import {
 import { Link } from "react-router-dom";
 
 const View = () => {
+  const [show, setShow] = useState(true);
+  const QRControl = () => {
+    setShow(!show);
+  };
   return (
     <>
       {/* start banner section */}
-      <div className='sc5 dark'>
+      <div className='sc5'>
         <div className='bemo-banner'>
           <Container>
             <Row className='justify-content-center'>
@@ -64,7 +68,11 @@ const View = () => {
                   </Link>
                 </div>
                 <div
-                  className='qr-button alert alert-warning alert-dismissible fade show'
+                  className={
+                    show
+                      ? "qr-button alert alert-warning alert-dismissible fade show"
+                      : "qr-button alert alert-warning alert-dismissible fade "
+                  }
                   role='alert'
                 >
                   <img src='/Assets/Images/qr.png' alt='qr' className='qr' />
@@ -79,6 +87,7 @@ const View = () => {
                     className='btn-close'
                     data-bs-dismiss='alert'
                     aria-label='Close'
+                    onClick={QRControl}
                   />
                 </div>
               </Col>
@@ -86,7 +95,7 @@ const View = () => {
                 <div className='phoneContent'>
                   <div className='phoneWrapper'>
                     <div className='in'>
-                      <iframe className='getFrame' src='/home_1' />
+                      <iframe className='getFrame' src='/home-1' />
                     </div>
                   </div>
                 </div>

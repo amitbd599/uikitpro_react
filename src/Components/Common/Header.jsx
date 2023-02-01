@@ -43,12 +43,12 @@ const Header = () => {
             </div>
             <Row>
               <Col sm={4} xs={4} className='align-self-center'>
-                {window.location.pathname === "/home_1" || "/home_2" ? (
+                {window.location.pathname === "/home-1" || "/home-2" ? (
                   <span className='menu-back-page' onClick={navbarControl}>
                     <img src='/Assets/Images/icon/0.png' alt='img' />
                   </span>
                 ) : (
-                  <Link className='menu-back-page' to='/home_1'>
+                  <Link className='menu-back-page' to='/home-1'>
                     <img src='/Assets/Images/icon/28.png' alt='img' />
                   </Link>
                 )}
