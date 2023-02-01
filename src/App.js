@@ -33,10 +33,26 @@ import IntroPopPage from "./Pages/IntroPopPage";
 import AllHeaderPage from "./Pages/AllHeaderPage";
 import ErrorIntroPage from "./Pages/ErrorIntroPage";
 import DropdownPage from "./Pages/DropdownPage";
+import DialogPage from "./Pages/DialogPage";
+import DepositPage from "./Pages/DepositPage";
+import ContentPage from "./Pages/ContentPage";
+import CheckboxPage from "./Pages/CheckboxPage";
+import CarouselPage from "./Pages/CarouselPage";
+import ButtonsPage from "./Pages/ButtonsPage";
+import BadgePage from "./Pages/BadgePage";
+import PaymentPopupPage from "./Pages/PaymentPopupPage";
+import AlertsPage from "./Pages/AlertsPage";
+import AddHomePage from "./Pages/AddHomePage";
+import ActionPage from "./Pages/ActionPage";
+import AccordionIntroPage from "./Pages/AccordionIntroPage";
+import AllIntroPage from "./Pages/AllIntroPage";
+import CartsPage from "./Pages/CartsPage";
+import BlogPage from "./Pages/BlogPage";
+import BlogDetailsPage from "./Pages/BlogDetailsPage";
+import BillPayPage from "./Pages/BillPayPage";
 
 function App() {
   const darkBG = localStorage.getItem("color");
-  console.log(darkBG);
   return (
     <div className={darkBG}>
       <BrowserRouter>
@@ -58,6 +74,9 @@ function App() {
             element={<TransactionDetailsPage />}
           />
           <Route exact path='/signup' element={<SignUpPage />} />
+          <Route exact path='/blog' element={<BlogPage />} />
+          <Route exact path='/blog-details' element={<BlogDetailsPage />} />
+          <Route exact path='/bill-pay' element={<BillPayPage />} />
           <Route exact path='/signin' element={<SignInPage />} />
           <Route exact path='/saving' element={<SavingPage />} />
           <Route exact path='/open-inner' element={<OpenInnerPage />} />
@@ -92,6 +111,28 @@ function App() {
           <Route exact path='/components-header' element={<AllHeaderPage />} />
           <Route exact path='/components-error' element={<ErrorIntroPage />} />
           <Route exact path='/components-dropdown' element={<DropdownPage />} />
+          <Route exact path='/components-dialog' element={<DialogPage />} />
+          <Route exact path='/components-deposit' element={<DepositPage />} />
+          <Route exact path='/components-content' element={<ContentPage />} />
+          <Route exact path='/components-checkbox' element={<CheckboxPage />} />
+          <Route exact path='/components-carousel' element={<CarouselPage />} />
+          <Route exact path='/components-buttons' element={<ButtonsPage />} />
+          <Route exact path='/components-badge' element={<BadgePage />} />
+          <Route
+            exact
+            path='/components-payment-popup'
+            element={<PaymentPopupPage />}
+          />
+          <Route exact path='/components-alerts' element={<AlertsPage />} />
+          <Route exact path='/components-add-home' element={<AddHomePage />} />
+          <Route exact path='/components-action' element={<ActionPage />} />
+          <Route
+            exact
+            path='/components-accordion'
+            element={<AccordionIntroPage />}
+          />
+          <Route exact path='/all-intro' element={<AllIntroPage />} />
+          <Route exact path='/carts' element={<CartsPage />} />
         </Routes>
       </BrowserRouter>
     </div>
