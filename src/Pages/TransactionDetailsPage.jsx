@@ -9,8 +9,14 @@ const TransactionDetailsPage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Transaction Details || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Transaction Details || Bootstrap 5 Based React Mobile UI Kit
+            Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <TransactionDetailsComponent />
       </Suspense>

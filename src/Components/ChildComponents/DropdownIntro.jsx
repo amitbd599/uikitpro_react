@@ -1,14 +1,21 @@
 import React from "react";
-import { Button, ButtonGroup, DropdownButton } from "react-bootstrap";
+import {
+  Button,
+  ButtonGroup,
+  Col,
+  Container,
+  DropdownButton,
+  Row,
+} from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 const DropdownIntro = () => {
   return (
     <>
       {/* components buttons start */}
       <div className='container-inner mg-top-90'>
-        <div className='container-fluid'>
-          <div className='row flex-row'>
-            <div className='col-xl-6'>
+        <Container fluid>
+          <Row className=' flex-row'>
+            <Col xl={6}>
               {/* Basic Buttons */}
               <div className='widget-header'>
                 <h4>Basic</h4>
@@ -33,8 +40,8 @@ const DropdownIntro = () => {
                 </div>
               </div>
               {/* End Basic Buttons */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Split button dropdowns */}
               <div className='widget-header'>
                 <h4>Split button dropdowns</h4>
@@ -63,8 +70,8 @@ const DropdownIntro = () => {
                 </div>
               </div>
               {/* End Split button dropdowns */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Dark dropdowns */}
               <div className='widget-header'>
                 <h4>Dark dropdowns</h4>
@@ -98,10 +105,10 @@ const DropdownIntro = () => {
                 </div>
               </div>
               {/* End Outline Buttons */}
-            </div>
-          </div>
+            </Col>
+          </Row>
           {/* End Row */}
-        </div>
+        </Container>
       </div>
       {/* components buttons End */}
     </>

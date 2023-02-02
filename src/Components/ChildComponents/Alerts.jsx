@@ -1,13 +1,14 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Alerts = () => {
   return (
     <>
       {/* components alerts start */}
       <div className='container-inner mg-top-90'>
-        <div className='container-fluid'>
-          <div className='row flex-row'>
-            <div className='col-xl-6'>
+        <Container fluid>
+          <Row className=' flex-row'>
+            <Col xl={6}>
               {/* Basic Alerts */}
               <div className='widget-header'>
                 <h4>Default</h4>
@@ -35,8 +36,8 @@ const Alerts = () => {
                 </div>
               </div>
               {/* End Basic Alerts */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Basic Alerts */}
               <div className='widget-header'>
                 <h4>Image</h4>
@@ -44,17 +45,19 @@ const Alerts = () => {
               <div className='widget has-shadow border-radius-5'>
                 <div className='widget-body'>
                   <div className='alert alert-primary' role='alert'>
-                    <img src='assets/img/user.png' alt='img' /> A Simple alert !
+                    <img src='/Assets/Images/user.png' alt='img' />A Simple
+                    alert !
                   </div>
                   <div className='alert alert-secondary' role='alert'>
-                    <img src='assets/img/user.png' alt='img' /> Dismissible
+                    <img src='/Assets/Images/user.png' alt='img' /> Dismissible
                     Alert !
                   </div>
                   <div
                     className='alert alert-outline-secondary alert-dismissible fade show'
                     role='alert'
                   >
-                    <img src='assets/img/user.png' alt='img' /> Outline Alert !
+                    <img src='/Assets/Images/user.png' alt='img' /> Outline
+                    Alert !
                     <button
                       type='button'
                       className='btn-close'
@@ -65,8 +68,8 @@ const Alerts = () => {
                 </div>
               </div>
               {/* End Basic Alerts */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Basic Alerts */}
               <div className='widget-header'>
                 <h4>Colors</h4>
@@ -94,8 +97,8 @@ const Alerts = () => {
                 </div>
               </div>
               {/* End Basic Alerts */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               <div className='widget-header'>
                 <h4>Alerts Botder</h4>
               </div>
@@ -140,8 +143,8 @@ const Alerts = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               <div className='widget-header'>
                 <h4>Border Style</h4>
               </div>
@@ -167,8 +170,8 @@ const Alerts = () => {
                   </p>
                 </div>
               </div>
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               <div className='widget-header'>
                 <h4>Gradient Style</h4>
               </div>
@@ -190,10 +193,10 @@ const Alerts = () => {
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
           {/* End Row */}
-        </div>
+        </Container>
       </div>
       {/* components alerts End */}
     </>

@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 const Toast = () => {
   return (
-    <div className='allpage-area mg-top-90'>
+    <div className='allpage-area pd-top-110'>
       <Container>
         <h5>Usage</h5>
         <div className='ba-all-page-inner mb-4 d-flex justify-content-between'>

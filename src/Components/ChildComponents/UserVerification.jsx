@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 const UserVerification = () => {
   return (
     <>
-      {/* singin-area start */}
-      <div className='signin-area mg-top-90'>
+      {/* ========== singin-area start ==========*/}
+      <div className='signin-area pd-top-110'>
         <Container>
           <div className='signin-area-inner text-center mb-4'>
             <img src='/Assets/Images/other/2.png' alt='img' />
@@ -38,7 +38,7 @@ const UserVerification = () => {
           </form>
         </Container>
       </div>
-      {/* singin-area End */}
+      {/*========== singin-area End ==========*/}
     </>
   );
 };

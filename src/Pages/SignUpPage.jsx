@@ -9,8 +9,13 @@ const SignUpPage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Transaction || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            SignUp || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <SignUpComponent />
       </Suspense>

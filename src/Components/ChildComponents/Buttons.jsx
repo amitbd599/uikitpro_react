@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import {
   FaExclamationCircle,
   FaExclamationTriangle,
@@ -13,9 +14,9 @@ const Buttons = () => {
     <>
       {/* components buttons start */}
       <div className='container-inner mg-top-90'>
-        <div className='container-fluid'>
-          <div className='row flex-row'>
-            <div className='col-xl-6'>
+        <Container fluid>
+          <Row className=' flex-row'>
+            <Col xl={6}>
               {/* Basic Buttons */}
               <div className='widget-header'>
                 <h4>Basic Buttons</h4>
@@ -60,8 +61,8 @@ const Buttons = () => {
                 </div>
               </div>
               {/* End Basic Buttons */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Basic Buttons */}
               <div className='widget-header'>
                 <h4>Ripple Effect</h4>
@@ -109,8 +110,8 @@ const Buttons = () => {
                 </div>
               </div>
               {/* End Basic Buttons */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Outline Buttons */}
               <div className='widget-header'>
                 <h4>Outline Buttons</h4>
@@ -158,8 +159,8 @@ const Buttons = () => {
                 </div>
               </div>
               {/* End Outline Buttons */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Bankapp Buttons */}
               <div className='widget-header'>
                 <h4>UikitPro Buttons</h4>
@@ -207,8 +208,8 @@ const Buttons = () => {
                 </div>
               </div>
               {/* End Bankapp Buttons */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Square Buttons */}
               <div className='widget-header'>
                 <h4>Square Buttons</h4>
@@ -256,8 +257,8 @@ const Buttons = () => {
                 </div>
               </div>
               {/* End Square Buttons */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Buttons Group */}
               <div className='widget-header'>
                 <h4>Group Buttons</h4>
@@ -296,8 +297,8 @@ const Buttons = () => {
                 </div>
               </div>
               {/* End Buttons Group */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Buttons With Icons */}
               <div className='widget-header'>
                 <h4>With Icons</h4>
@@ -348,8 +349,8 @@ const Buttons = () => {
                 </div>
               </div>
               {/* End Buttons With Icons */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Buttons Sizes */}
               <div className='widget-header'>
                 <h4>Size Buttons</h4>
@@ -374,10 +375,10 @@ const Buttons = () => {
                 </div>
               </div>
               {/* End Buttons Sizes */}
-            </div>
-          </div>
+            </Col>
+          </Row>
           {/* End Row */}
-        </div>
+        </Container>
       </div>
       {/* components buttons End */}
     </>

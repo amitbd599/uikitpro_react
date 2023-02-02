@@ -1,10 +1,9 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { FaPlus } from "react-icons/fa";
+import { FaAngleRight, FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-import Saving from "./Saving";
-import Transaction from "./Transaction";
+import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 
 const Home_1 = () => {
   const settings = {
@@ -18,7 +17,7 @@ const Home_1 = () => {
   };
   return (
     <>
-      {/* Balance start */}
+      {/* ========== Balance start ========== */}
       <div className='balance-area pd-top-110'>
         <Container>
           <div className='balance-area-bg balance-area-bg-home'>
@@ -37,8 +36,8 @@ const Home_1 = () => {
           </div>
         </Container>
       </div>
-      {/* Balance End */}
-      {/* Add Balance start */}
+      {/* ========== Balance End ========== */}
+      {/* ========== Add Balance start ========== */}
       <div className='add-balance-area pt-4'>
         <Container>
           <div className='ba-add-balance-title ba-add-balance-btn'>
@@ -77,16 +76,137 @@ const Home_1 = () => {
           </div>
         </Container>
       </div>
-      {/* Add Balance End */}
-      {/* Goal area Start */}
-      <Saving />
-      {/* Goal area End */}
-      {/* History start */}
+      {/* ========== Add Balance End  ==========*/}
+      {/* ========== Goal area Start ========== */}
+      {/* goal area Start */}
+      <div className='goal-area pt-4'>
+        <Container>
+          <div className='section-title'>
+            <h3 className='title'>Saving Goals</h3>
+            <a href='#'>Total-$ 129898</a>
+          </div>
+          <div className='single-goal single-goal-one'>
+            <Row>
+              <Col xs={7} className='pe-0'>
+                <div className='details'>
+                  <h6>Finance Business</h6>
+                  <p>Business</p>
+                </div>
+              </Col>
+              <Col xs={5} className='ps-0'>
+                <div className='circle-inner circle-inner-one'>
+                  <h6 className='goal-amount'>$130</h6>
+                  <div>
+                    <CircularProgressbar
+                      value={33}
+                      text={"33%"}
+                      styles={buildStyles({
+                        textSize: "26px",
+                        textColor: "#11A44C",
+                        pathColor: "#11A44C",
+                      })}
+                    >
+                      <span>33%</span>
+                    </CircularProgressbar>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </div>
+          <div className='single-goal single-goal-two'>
+            <Row>
+              <Col xs={7} className='pe-0'>
+                <div className='details'>
+                  <h6>App Store</h6>
+                  <p>Technology</p>
+                </div>
+              </Col>
+              <Col xs={5} className='ps-0'>
+                <div className='circle-inner circle-inner-two'>
+                  <h6 className='goal-amount'>$165</h6>
+                  <div>
+                    <CircularProgressbar
+                      value={45}
+                      text={"45%"}
+                      styles={buildStyles({
+                        textSize: "26px",
+                        textColor: "#fb025c",
+                        pathColor: "#fb025c",
+                      })}
+                    >
+                      <span>45%</span>
+                    </CircularProgressbar>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </div>
+          <div className='single-goal single-goal-three'>
+            <Row>
+              <Col xs={7} className='pe-0'>
+                <div className='details'>
+                  <h6>Gaming Software</h6>
+                  <p>Development</p>
+                </div>
+              </Col>
+              <Col xs={5} className='ps-0'>
+                <div className='circle-inner circle-inner-three'>
+                  <h6 className='goal-amount'>$580</h6>
+                  <div>
+                    <CircularProgressbar
+                      value={85}
+                      text={"85%"}
+                      styles={buildStyles({
+                        textSize: "26px",
+                        textColor: "#02a1fb",
+                        pathColor: "#02a1fb",
+                      })}
+                    >
+                      <span>85%</span>
+                    </CircularProgressbar>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </div>
+          <div className='single-goal single-goal-four'>
+            <Row>
+              <Col xs={7} className='pe-0'>
+                <div className='details'>
+                  <h6>Racing Car</h6>
+                  <p>Playing</p>
+                </div>
+              </Col>
+              <Col xs={5} className='ps-0'>
+                <div className='circle-inner circle-inner-four'>
+                  <h6 className='goal-amount'>$980</h6>
+                  <div>
+                    <CircularProgressbar
+                      value={25}
+                      text={"25%"}
+                      styles={buildStyles({
+                        textSize: "26px",
+                        textColor: "#7e02fb",
+                        pathColor: "#7e02fb",
+                      })}
+                    >
+                      <span>25%</span>
+                    </CircularProgressbar>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </div>
+        </Container>
+      </div>
+      {/* goal area End */}
+      {/* ========== Goal area End ========== */}
+      {/* ========== History start ========== */}
       <div className='history-area pt-4'>
         <Container>
           <div className='section-title'>
             <h3 className='title'>History</h3>
-            <a href='transaction.html'>View All</a>
+            <Link to='/transaction'>View All</Link>
           </div>
           <div className='ba-history-inner'>
             <Row className=' custom-gutters-20'>
@@ -118,8 +238,8 @@ const Home_1 = () => {
           </div>
         </Container>
       </div>
-      {/* History End */}
-      {/* Cart start */}
+      {/* ========== History End ========== */}
+      {/* ========== Cart start ========== */}
       <div className='cart-area pt-3'>
         <Container>
           <div className='section-title'>
@@ -129,18 +249,104 @@ const Home_1 = () => {
           <img src='/Assets/Images/cart/1.png' alt='img' />
         </Container>
       </div>
-      {/* Cart End */}
-      {/* Transaction start */}
-      <div className='pd-top-40'>
-        <Transaction />
+      {/*========== Cart End ========== */}
+      {/*========== Transaction start========== */}
+
+      <div className='transaction-area pd-top-40'>
+        <Container>
+          <div className='section-title'>
+            <h3 className='title'>Recently Transaction</h3>
+          </div>
+          <ul className='transaction-inner'>
+            <li className='ba-single-transaction'>
+              <div className='thumb'>
+                <img src='/Assets/Images/icon/12.png' alt='img' />
+              </div>
+              <div className='details'>
+                <h5>Namecheap Inc.</h5>
+                <p>Domain Purchase</p>
+                <h5 className='amount text-end'>
+                  -$130 <br />
+                  <FaAngleRight />
+                </h5>
+              </div>
+            </li>
+            <li className='ba-single-transaction'>
+              <div className='thumb'>
+                <img src='/Assets/Images/icon/13.png' alt='img' />
+              </div>
+              <div className='details'>
+                <h5>Namecheap Inc.</h5>
+                <p>Domain Purchase</p>
+                <h5 className='amount text-end'>
+                  -$250 <br />
+                  <FaAngleRight />
+                </h5>
+              </div>
+            </li>
+            <li className='ba-single-transaction'>
+              <div className='thumb'>
+                <img src='/Assets/Images/icon/14.png' alt='img' />
+              </div>
+              <div className='details'>
+                <h5>Namecheap Inc.</h5>
+                <p>Domain Purchase</p>
+                <h5 className='amount text-end'>
+                  -$130 <br />
+                  <FaAngleRight />
+                </h5>
+              </div>
+            </li>
+            <li className='ba-single-transaction'>
+              <div className='thumb'>
+                <img src='/Assets/Images/icon/29.png' alt='img' />
+              </div>
+              <div className='details'>
+                <h5>Bill Resturant</h5>
+                <p>Fun Life</p>
+                <h5 className='amount text-end'>
+                  -$100 <br />
+                  <FaAngleRight />
+                </h5>
+              </div>
+            </li>
+            <li className='ba-single-transaction'>
+              <div className='thumb'>
+                <img src='/Assets/Images/icon/15.png' alt='img' />
+              </div>
+              <div className='details'>
+                <h5>Namecheap Inc.</h5>
+                <p>Domain Purchase</p>
+                <h5 className='amount text-end'>
+                  -$130 <br />
+                  <FaAngleRight />
+                </h5>
+              </div>
+            </li>
+            <li className='ba-single-transaction'>
+              <div className='thumb'>
+                <img src='/Assets/Images/icon/17.png' alt='img' />
+              </div>
+              <div className='details'>
+                <h5>Namecheap Inc.</h5>
+                <p>Domain Purchase</p>
+                <h5 className='amount text-end'>
+                  -$130 <br />
+                  <FaAngleRight />
+                </h5>
+              </div>
+            </li>
+          </ul>
+        </Container>
       </div>
-      {/* Transaction End */}
-      {/* Send-money start */}
+
+      {/* ========== Transaction End ==========*/}
+      {/*========== Send-money start ==========*/}
       <div className='send-money-area pd-top-36'>
         <Container>
           <div className='section-title'>
             <h3 className='title'>Send Money</h3>
-            <a href='bill-pay.html'>View All</a>
+            <Link to='/bill-pay'>View All</Link>
           </div>
           <Row>
             <Col xs={4}>
@@ -182,46 +388,46 @@ const Home_1 = () => {
           </Row>
         </Container>
       </div>
-      {/* Send-money End */}
-      {/* Bill pay start */}
+      {/* ==========Send-money End ==========*/}
+      {/*========== Bill pay start ==========*/}
       <div className='bill-pay-area pt-4'>
         <Container>
           <div className='section-title'>
             <h3 className='title'>Bill Pay</h3>
-            <a href='bill-pay.html'>View All</a>
+            <Link to='/bill-pay'>View All</Link>
           </div>
           <Row>
-            <Col xs={6}>
+            <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/17.png' alt='img' />
                 <p>Electricity</p>
               </div>
             </Col>
-            <Col xs={6}>
+            <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/18.png' alt='img' />
                 <p>Water Bill </p>
               </div>
             </Col>
-            <Col xs={6}>
+            <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/19.png' alt='img' />
                 <p>Gas Bill</p>
               </div>
             </Col>
-            <Col xs={6}>
+            <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/20.png' alt='img' />
                 <p>Internet Bill</p>
               </div>
             </Col>
-            <Col xs={6}>
+            <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/21.png' alt='img' />
                 <p>Cable </p>
               </div>
             </Col>
-            <Col xs={6}>
+            <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/22.png' alt='img' />
                 <p>Bus Ticket</p>
@@ -230,13 +436,13 @@ const Home_1 = () => {
           </Row>
         </Container>
       </div>
-      {/* Bill pay End */}
-      {/* Blog-area start */}
+      {/*========== Bill pay End ==========*/}
+      {/*========== Blog-area start ==========*/}
       <div className='blog-area pt-4'>
         <Container>
           <div className='section-title'>
             <h3 className='title'>Recent Posts</h3>
-            <a href='blog.html'>View All</a>
+            <Link to='/blog'>View All</Link>
           </div>
           <div className='blog-slider owl-carousel'>
             <Slider {...settings}>
@@ -280,7 +486,7 @@ const Home_1 = () => {
           </div>
         </Container>
       </div>
-      {/* Blog-area End */}
+      {/*========== Blog-area End ==========*/}
     </>
   );
 };

@@ -9,8 +9,13 @@ const NotificationPage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Notification || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Notification || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <NotificationComponent />
       </Suspense>

@@ -46,7 +46,7 @@ const Welcome = () => {
           <Link className='btn-c btn-white-border' to='/signup'>
             Register
           </Link>
-          <Link className='btn-c btn-white' href='/signin'>
+          <Link className='btn-c btn-white' to='/signin'>
             Login
           </Link>
         </div>

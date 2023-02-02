@@ -9,8 +9,13 @@ const WelcomePage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Home || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Welcome || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <WelcomeComponent />
       </Suspense>

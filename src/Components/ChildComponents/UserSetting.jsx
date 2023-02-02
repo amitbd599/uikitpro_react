@@ -17,8 +17,24 @@ import { Link } from "react-router-dom";
 const UserSetting = () => {
   return (
     <>
-      {/* navbar end */}
-      <div className='allpage-area mg-top-120'>
+      {/* ========== user-setting start ==========*/}
+      <div className='user-setting-details pd-top-110'>
+        <div className='container'>
+          <div className='ba-navbar-user text-center'>
+            <div className='thumb'>
+              <img src='/Assets/Images/user.png' alt='user' />
+            </div>
+            <div className='details'>
+              <h5>Raduronto kelax</h5>
+              <p>ID: 99883323</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*========== user-setting End ==========*/}
+
+      {/*========== Content Start ==========*/}
+      <div className='allpage-area'>
         <Container>
           <div className='ba-all-page-inner style-no-border'>
             <h5>Account</h5>
@@ -51,7 +67,7 @@ const UserSetting = () => {
                 </span>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link href='/transaction'>
+                <Link to='/transaction'>
                   <FaComments />
                   <span>Support</span>
                 </Link>
@@ -78,7 +94,7 @@ const UserSetting = () => {
                 </span>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link href='/user-verification'>
+                <Link to='/user-verification'>
                   <FaSignOutAlt />
                   <span>Sign Out</span>
                 </Link>
@@ -92,7 +108,7 @@ const UserSetting = () => {
             <h5>More Settings</h5>
             <ul>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link href='/signin'>
+                <Link to='/signin'>
                   <FaLock />
                   <span>Change Password</span>
                 </Link>
@@ -101,7 +117,7 @@ const UserSetting = () => {
                 </span>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link href='/transaction'>
+                <Link to='/transaction'>
                   <FaCcMastercard />
                   <span>Bank Account</span>
                 </Link>
@@ -113,7 +129,7 @@ const UserSetting = () => {
           </div>
         </Container>
       </div>
-      {/* navbar end */}
+      {/*========== Content end ==========*/}
     </>
   );
 };

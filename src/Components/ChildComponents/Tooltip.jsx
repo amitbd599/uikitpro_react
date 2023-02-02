@@ -5,7 +5,7 @@ const Tooltip = () => {
   return (
     <>
       {/* components tooltip start */}
-      <div className='container-inner mg-top-90'>
+      <div className='container-inner pd-top-110'>
         <Container fluid>
           <Row className='flex-row'>
             <Col xl={6}>
@@ -64,7 +64,7 @@ const Tooltip = () => {
                 <div className='widget-body'>
                   <button
                     type='button'
-                    className='btn bg-base text-white'
+                    className='btn btn-success text-white'
                     data-bs-toggle='tooltip'
                     data-bs-placement='left'
                     title='Tooltip on left'
@@ -84,7 +84,7 @@ const Tooltip = () => {
                 <div className='widget-body'>
                   <button
                     type='button'
-                    className='btn bg-base text-white'
+                    className='btn btn-success text-white'
                     data-bs-toggle='tooltip'
                     data-bs-placement='right'
                     title='Tooltip on left'
@@ -104,7 +104,7 @@ const Tooltip = () => {
                 <div className='widget-body'>
                   <button
                     type='button'
-                    className='btn bg-base text-white'
+                    className='btn btn-success text-white'
                     data-bs-toggle='tooltip'
                     data-bs-placement='bottom'
                     title='Tooltip on left'

@@ -1,12 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { FaCheck, FaTrashAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const TransactionDetails = () => {
   return (
     <>
-      {/* balance start */}
-      <div className='balance-area mg-top-90'>
+      {/* ============= balance start =============*/}
+      <div className='balance-area pd-top-110'>
         <Container>
           <div className='section-title'>
             <h3 className='title'>Recently Transactios</h3>
@@ -25,8 +26,8 @@ const TransactionDetails = () => {
           </div>
         </Container>
       </div>
-      {/* balance End */}
-      {/* transaction start */}
+      {/*============= balance End =============*/}
+      {/*============= transaction start =============*/}
       <div className='transaction-details pd-top-36'>
         <Container>
           <ul className='transaction-details-inner'>
@@ -63,12 +64,12 @@ const TransactionDetails = () => {
           </ul>
         </Container>
       </div>
-      {/* transaction End */}
+      {/*============= transaction End=============*/}
       <div className='btn-wrap pt-3 text-center'>
         <Container>
           <p className='btn-content-text'>
             If haveing any transaction issue, Please{" "}
-            <a href='contact.html'>Contact us</a>
+            <Link to='/contact'>Contact us</Link>
           </p>
         </Container>
       </div>

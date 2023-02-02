@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 const Contact = () => {
   return (
     <>
-      {/* contact start */}
-      <div className='transaction-area mg-top-30'>
+      {/* =============== contact start ===============*/}
+      <div className='transaction-area pd-top-110'>
         <Container>
           <form action='#' className='contact-form-wrap'>
             <ul>
@@ -31,7 +31,7 @@ const Contact = () => {
           </form>
         </Container>
       </div>
-      {/* contact End */}
+      {/*=============== contact End ===============*/}
     </>
   );
 };

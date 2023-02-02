@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { FaSnowflake } from "react-icons/fa";
 
 const PaymentPopup = () => {
@@ -21,7 +22,7 @@ const PaymentPopup = () => {
       </div>
       {/* Inner Intro */}
       <div className='allpage-area mg-top-90'>
-        <div className='container'>
+        <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul>
@@ -59,7 +60,7 @@ const PaymentPopup = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

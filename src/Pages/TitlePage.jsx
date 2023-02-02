@@ -7,10 +7,13 @@ const TitleComponent = React.lazy(() =>
 const TitlePage = () => {
   return (
     <Fragment>
-      <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Components Typography || **********</title>
-          <meta name='description' content='****************' />
+          <title>Title || Bootstrap 5 Based React Mobile UI Kit Template</title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <TitleComponent />
       </Suspense>

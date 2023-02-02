@@ -7,10 +7,15 @@ const SignInComponent = React.lazy(() =>
 const SignInPage = () => {
   return (
     <Fragment>
-     <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>SignIn || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            SignIn || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <SignInComponent />
       </Suspense>

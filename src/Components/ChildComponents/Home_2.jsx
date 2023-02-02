@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Container } from "react-bootstrap";
 import { FaMoon, FaSun } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -12,6 +12,7 @@ const Home_2 = () => {
   };
 
   const settings = {
+    arrows: false,
     dots: false,
     infinite: true,
     speed: 500,
@@ -21,21 +22,17 @@ const Home_2 = () => {
   };
   return (
     <>
-      {/* balance start */}
-      <div className='balance-area pt-4'>
+      {/* ========== Balance start ========== */}
+      <div className='balance-area pd-top-110'>
         <Container>
           <h2>Discover</h2>
           <p>Welcome to UikitPro</p>
         </Container>
       </div>
-      {/* balance End */}
-      {/* Blog-area start */}
+      {/*========== Balance End========== */}
+      {/* ========== Blog-area start ==========*/}
       <div className='blog-area pt-4'>
         <Container>
-          <div className='section-title'>
-            <h3 className='title'>Recent Posts</h3>
-            <a href='blog.html'>View All</a>
-          </div>
           <div className='blog-slider owl-carousel'>
             <Slider {...settings}>
               <div className='item'>
@@ -78,8 +75,8 @@ const Home_2 = () => {
           </div>
         </Container>
       </div>
-      {/* Blog-area End */}
-      {/* dark area Start */}
+      {/*========== Blog-area End ==========*/}
+      {/*========== dark area Start ==========*/}
       <Container>
         <div className='dark-area'>
           <div className='section-title mb-0'>
@@ -119,8 +116,8 @@ const Home_2 = () => {
           </div>
         </div>
       </Container>
-      {/* dark area End */}
-      {/* history start */}
+      {/*========== dark area End ==========*/}
+      {/*========== history start ==========*/}
       <div className='history-area pd-top-40'>
         <Container>
           <div className='single-blog'>
@@ -134,15 +131,15 @@ const Home_2 = () => {
             <div className='details'>
               <p className='subtitle'>DISCOVER</p>
               <h3>
-                <a href='about.html'>About With Us</a>
+                <Link to='/about'>About With Us</Link>
               </h3>
               <p>
                 Reusable components designed for the mobile interface and ready
                 to use.
               </p>
-              <a className='btn btn-blue' href='about.html'>
+              <Link className='btn btn-blue' to='/about'>
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
           <div className='single-blog'>
@@ -156,20 +153,20 @@ const Home_2 = () => {
             <div className='details'>
               <p className='subtitle'>DISCOVER</p>
               <h3>
-                <a href='all-page.html'>Pages</a>
+                <Link to='/all-page'>Pages</Link>
               </h3>
               <p>
                 Reusable components designed for the mobile interface and ready
                 to use.
               </p>
-              <a className='btn btn-blue' href='all-page.html'>
+              <Link className='btn btn-blue' to='/all-page'>
                 Preview
-              </a>
+              </Link>
             </div>
           </div>
         </Container>
       </div>
-      {/* history End */}
+      {/*========== history End ==========*/}
     </>
   );
 };

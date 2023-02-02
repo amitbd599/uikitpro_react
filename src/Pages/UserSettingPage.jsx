@@ -9,8 +9,13 @@ const UserSettingPage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>User Setting || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            User Setting || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <UserSettingComponent />
       </Suspense>

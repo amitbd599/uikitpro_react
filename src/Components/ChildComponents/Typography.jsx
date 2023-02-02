@@ -5,7 +5,7 @@ const Typography = () => {
   return (
     <>
       {/* table 1 start */}
-      <div className='table 1-area mg-top-120'>
+      <div className='table 1-area pd-top-110'>
         <Container>
           <h5>Default</h5>
           <div className='ba-all-page-inner mb-4 p-0 border-radius-4'>
@@ -46,7 +46,7 @@ const Typography = () => {
       </div>
       {/* table 1 end */}
       {/* typography start */}
-      <div className='allpage-area mg-top-90'>
+      <div className='allpage-area mg-top-40'>
         <Container>
           <h5>Top</h5>
           <div className='uikit-badge-inner bg-white mb-4'>
@@ -61,7 +61,7 @@ const Typography = () => {
       </div>
       {/* typography end */}
       {/* typography start */}
-      <div className='allpage-area'>
+      <div className='allpage-area mg-top-40'>
         <Container>
           <h5>Top</h5>
           <div className='uikit-badge-inner bg-white mb-4'>

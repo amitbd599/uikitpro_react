@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Carts = () => {
   return (
     <>
       {/* cart start */}
       <div className='cart-area mg-top-110'>
-        <div className='container'>
+        <Container>
           <div className='section-title'>
             <h3 className='title'>You Have Carts</h3>
             <a className='count-title' href='#'>
@@ -27,7 +28,7 @@ const Carts = () => {
           <div className='ba-cart-inner mb-3'>
             <img src='/Assets/Images/cart/5.png' alt='img' />
           </div>
-        </div>
+        </Container>
       </div>
       {/* cart End */}
     </>

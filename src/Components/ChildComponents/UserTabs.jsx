@@ -7,7 +7,7 @@ const UserTabs = () => {
   return (
     <>
       {/* components tabs start */}
-      <div className='container-inner mg-top-90'>
+      <div className='container-inner pd-top-110'>
         <Container fluid>
           <Row className=' flex-row'>
             <Col xl={6}>

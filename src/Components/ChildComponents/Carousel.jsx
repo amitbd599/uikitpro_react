@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 
 const Carousel = () => {
@@ -51,7 +52,7 @@ const Carousel = () => {
   return (
     <>
       <div className='carousel-area mg-top-110'>
-        <div className='container'>
+        <Container>
           {/* Full Carousel */}
           <div className='mt-4'>
             <h5>Full Carousel</h5>
@@ -140,7 +141,7 @@ const Carousel = () => {
               ))}
             </Slider>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

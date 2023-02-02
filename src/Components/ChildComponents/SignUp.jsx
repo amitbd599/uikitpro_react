@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const SignUp = () => {
   return (
     <>
-      {/* SignUp-area start */}
-      <div className='signin-area mg-top-90'>
+      {/* ============= SignUp-area start =============*/}
+      <div className='signin-area pd-top-110'>
         <Container>
           <div className='signin-area-inner text-center mb-4'>
             <img src='/Assets/Images/other/2.png' alt='img' />
@@ -40,7 +40,7 @@ const SignUp = () => {
           </form>
         </Container>
       </div>
-      {/* SignUp-area End */}
+      {/*============= SignUp-area End =============*/}
     </>
   );
 };

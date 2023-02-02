@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const BlogDetails = () => {
   return (
     <>
       {/* blog-area start */}
       <div className='blog-details-area mg-top-110'>
-        <div className='container'>
+        <Container>
           <div className='blog-details-inner'>
             <div className='section-title'>
               <h3 className='title'>Blog Details</h3>
@@ -32,7 +33,7 @@ const BlogDetails = () => {
               </p>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       {/* blog-area End */}
     </>

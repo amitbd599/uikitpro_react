@@ -5,8 +5,8 @@ import { FaCalendarAlt, FaRegClock } from "react-icons/fa";
 const Notification = () => {
   return (
     <>
-      {/* notification start */}
-      <div className='notification-area mg-top-90'>
+      {/* ============= notification start =============*/}
+      <div className='notification-area pd-top-110'>
         <Container>
           <div className='ba-single-nitification-inner align-self-center'>
             <img
@@ -148,7 +148,7 @@ const Notification = () => {
           </div>
         </Container>
       </div>
-      {/* notification End */}
+      {/*============= notification End =============*/}
     </>
   );
 };

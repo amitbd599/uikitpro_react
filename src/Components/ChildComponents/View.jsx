@@ -17,7 +17,7 @@ const View = () => {
   };
   return (
     <>
-      {/* start banner section */}
+      {/* ========== Start Inner section ========== */}
       <div className='sc5'>
         <div className='bemo-banner'>
           <Container>
@@ -39,20 +39,22 @@ const View = () => {
                   )}
 
                   <h3 className='entry-title'>
-                    Bootstrap 5 Based HTML Mobile UI Kit Template
+                    Bootstrap 5 Based React Mobile UI Kit Template
                   </h3>
                   <p className='d-none d-lg-block'>
                     UikitPro is an elegant, modern and fully customizable Walet
-                    &amp; Banking HTML Mobile App Powered by Bootstrap 5X
+                    &amp; Banking ReactJS Mobile App Powered by Bootstrap 5X
                   </p>
                   <div className='app-content'>
                     <ul className='applist ms-0 ps-0'>
                       <li># PWA Ready</li>
-                      <li># Bootstrap 5 Based</li>
+                      <li># Use React Bootstrap 5 with SCSS</li>
                       <li># Dark / Light Mode</li>
                       <li># Clean Markup</li>
                       <li># Easy to Edit</li>
+                      <li># Component Base All Layout</li>
                       <li># Structured File</li>
+                      <li># React Router Dom</li>
                     </ul>
                   </div>
                 </div>
@@ -125,7 +127,7 @@ const View = () => {
               </Col>
               <Col xl={4} md={6} xs={12}>
                 <div className='media'>
-                  <img src='/Assets/Images/icon/8.png' alt='icon' />
+                  <img src='/Assets/Images/icon/42.png' alt='icon' />
                   <div className='media-body'>
                     <h5>Clean Markup</h5>
                     <p>
@@ -137,18 +139,19 @@ const View = () => {
               </Col>
               <Col xl={4} md={6} xs={12}>
                 <div className='media'>
-                  <img src='/Assets/Images/icon/12.png' alt='icon' />
+                  <img src='/Assets/Images/icon/46.png' alt='icon' />
                   <div className='media-body'>
-                    <h5>Bootstrap 5</h5>
+                    <h5>React Bootstrap 5</h5>
                     <p>
-                      Developed on Bootstrap 5, the most popular css framework.
+                      Developed on React Bootstrap 5, the most popular css
+                      framework.
                     </p>
                   </div>
                 </div>
               </Col>
               <Col xl={4} md={6} xs={12}>
                 <div className='media'>
-                  <img src='/Assets/Images/icon/9.png' alt='icon' />
+                  <img src='/Assets/Images/icon/43.png' alt='icon' />
                   <div className='media-body'>
                     <h5 className='mt-0'>Menu</h5>
                     <p>
@@ -160,11 +163,11 @@ const View = () => {
               </Col>
               <Col xl={4} md={6} xs={12}>
                 <div className='media'>
-                  <img src='/Assets/Images/icon/7.png' alt='icon' />
+                  <img src='/Assets/Images/icon/41.png' alt='icon' />
                   <div className='media-body'>
                     <h5 className='mt-0'>Component</h5>
                     <p>
-                      UikitPro have 100+ Component. We have designed many
+                      UikitPro have 50+ Component. We have designed many
                       components that will make you feel like using an mobile
                       apps.{" "}
                     </p>
@@ -173,7 +176,7 @@ const View = () => {
               </Col>
               <Col xl={4} md={6} xs={12}>
                 <div className='media'>
-                  <img src='/Assets/Images/icon/8.png' alt='icon' />
+                  <img src='/Assets/Images/icon/42.png' alt='icon' />
                   <div className='media-body'>
                     <h5 className='mt-0'>User Friendly Design</h5>
                     <p>
@@ -187,7 +190,7 @@ const View = () => {
               </Col>
               <Col xl={4} md={6} xs={12}>
                 <div className='media'>
-                  <img src='/Assets/Images/icon/11.png' alt='icon' />
+                  <img src='/Assets/Images/icon/45.png' alt='icon' />
                   <div className='media-body'>
                     <h5 className='mt-0'>SCSS</h5>
                     <p>
@@ -204,16 +207,18 @@ const View = () => {
         </div>
         {/* end feature section */}
       </div>
+      {/* ========== End Inner section ========== */}
 
-      {/* Footer Area */}
+      {/* ========== Start Footer section ========== */}
+
       <div className='footer-area mb-0'>
         <div className='footer-top pt-5 text-center'>
           <Container>
             <a href='index.html'>
-              <img src='assets/img/logo-2.png' alt='' />
+              <img src='/Assets/Images/logo-2.png' alt='' />
             </a>
             <p>
-              Copyright © Uikitpro 2022. All Rights Reserved. Designed By
+              Copyright © Uikitpro 2023. All Rights Reserved. Designed By
               s7template
             </p>
             <ul className='social-area'>
@@ -246,7 +251,7 @@ const View = () => {
           </Container>
         </div>
       </div>
-      {/* footer End */}
+      {/* ========== End Footer section ========== */}
     </>
   );
 };

@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
 import { FaDotCircle } from "react-icons/fa";
 const AccordionIntro = () => {
@@ -6,9 +7,9 @@ const AccordionIntro = () => {
     <>
       {/* components accordion start */}
       <div className='container-inner mg-top-90'>
-        <div className='container-fluid'>
-          <div className='row'>
-            <div className='col-xl-6 my-2'>
+        <Container>
+          <Row>
+            <Col xl={6} className='my-2'>
               {/* Begin Basic Accordion */}
               <Accordion defaultActiveKey='0'>
                 <Accordion.Item eventKey='0'>
@@ -52,8 +53,8 @@ const AccordionIntro = () => {
                 </Accordion.Item>
               </Accordion>
               {/* End Basic Accordion */}
-            </div>
-            <div className='col-xl-6 my-2'>
+            </Col>
+            <Col xl={6} className='my-2'>
               {/* Begin Basic Accordion */}
               <Accordion defaultActiveKey={["0"]} alwaysOpen>
                 <Accordion.Item eventKey='0'>
@@ -84,8 +85,8 @@ const AccordionIntro = () => {
                 </Accordion.Item>
               </Accordion>
               {/* End Basic Accordion */}
-            </div>
-            <div className='col-xl-6 my-2'>
+            </Col>
+            <Col xl={6} className='my-2'>
               {/* Begin Basic Accordion */}
               <Accordion defaultActiveKey={["0"]} alwaysOpen>
                 <Accordion.Item eventKey='0'>
@@ -120,8 +121,8 @@ const AccordionIntro = () => {
                 </Accordion.Item>
               </Accordion>
               {/* End Basic Accordion */}
-            </div>
-            <div className='col-xl-6 my-2'>
+            </Col>
+            <Col xl={6} className='my-2'>
               {/* Begin Basic Accordion */}
               <Accordion defaultActiveKey={["0"]} alwaysOpen>
                 <Accordion.Item eventKey='0' className='mb-3'>
@@ -152,10 +153,10 @@ const AccordionIntro = () => {
                 </Accordion.Item>
               </Accordion>
               {/* End Basic Accordion */}
-            </div>
-          </div>
+            </Col>
+          </Row>
           {/* End Row */}
-        </div>
+        </Container>
       </div>
       {/* components accordion End */}
     </>

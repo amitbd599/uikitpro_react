@@ -7,10 +7,15 @@ const TypographyComponent = React.lazy(() =>
 const TypographyPage = () => {
   return (
     <Fragment>
-  <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Components Typography || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Typography || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <TypographyComponent />
       </Suspense>

@@ -9,8 +9,13 @@ const OpenInnerPage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Open Inner || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            OpenInner || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <OpenInnerComponent />
       </Suspense>

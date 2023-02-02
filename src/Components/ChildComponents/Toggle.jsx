@@ -5,7 +5,7 @@ const Toggle = () => {
   return (
     <>
       {/* toggle start */}
-      <div className='allpage-area mg-top-110'>
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Top</h5>
           <div className='ba-all-page-inner mb-4'>

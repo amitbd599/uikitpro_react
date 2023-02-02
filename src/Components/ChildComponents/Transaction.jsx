@@ -5,8 +5,8 @@ import { FaAngleRight } from "react-icons/fa";
 const Transaction = () => {
   return (
     <>
-      {/* transaction start */}
-      <div className='transaction-area'>
+      {/* ============ transaction start ============*/}
+      <div className='transaction-area pd-top-110'>
         <Container>
           <div className='section-title'>
             <h3 className='title'>Recently Transaction</h3>
@@ -93,7 +93,7 @@ const Transaction = () => {
           </ul>
         </Container>
       </div>
-      {/* transaction End */}
+      {/*============ transaction End ============*/}
     </>
   );
 };

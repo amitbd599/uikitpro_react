@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Badge = () => {
   return (
     <>
       {/* badge end */}
       <div className='allpage-area mg-top-110'>
-        <div className='container'>
+        <Container fluid>
           <h5>Example</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
@@ -46,13 +47,13 @@ const Badge = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
       {/* badge end */}
       <>
         {/* badge end */}
         <div className='allpage-area mt-4'>
-          <div className='container'>
+          <Container>
             <h5>Colors</h5>
             <div className='ba-all-page-inner mb-4 pt-3 p-2'>
               <button type='button' className='btn-c btn-primary mr-1 mb-2'>
@@ -74,7 +75,7 @@ const Badge = () => {
                 Danger
               </button>
             </div>
-          </div>
+          </Container>
         </div>
         {/* badge end */}
       </>

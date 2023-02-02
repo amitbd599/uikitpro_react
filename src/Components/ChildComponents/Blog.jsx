@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Blog = () => {
   return (
     <>
       {/* blog-area start */}
       <div className='blog-area mg-top-110'>
-        <div className='container'>
+        <Container>
           <div className='section-title'>
             <h3 className='title'>Recent Posts</h3>
             <a href='#'>View All</a>
@@ -84,15 +85,15 @@ const Blog = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       {/* blog-area End */}
       <div className='btn-wrap mb-2 pb-4'>
-        <div className='container'>
+        <Container>
           <a className='btn-large btn-blue w-100' href='#'>
             Load More
           </a>
-        </div>
+        </Container>
       </div>
     </>
   );

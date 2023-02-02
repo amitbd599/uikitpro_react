@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { FaAngleRight, FaMoon, FaSun } from "react-icons/fa";
 
 const AllIntro = () => {
@@ -9,7 +10,7 @@ const AllIntro = () => {
   };
   return (
     <>
-      <div className='container mg-top-110'>
+      <Container className=' mg-top-110'>
         <div className='single-blog text-center'>
           <div className='details'>
             <h4>How to save your money in own business firm.</h4>
@@ -19,9 +20,9 @@ const AllIntro = () => {
             </p>
           </div>
         </div>
-      </div>
+      </Container>
       {/* dark area Start */}
-      <div className='container'>
+      <Container>
         <div className='dark-area'>
           <div className='section-title mb-0'>
             <h3 className='title mb-0'>Dark Mode</h3>
@@ -58,11 +59,11 @@ const AllIntro = () => {
             </div>
           </div>
         </div>
-      </div>
+      </Container>
       {/* dark area End */}
       {/* navbar end */}
       <div className='allpage-area mt-4'>
-        <div className='container'>
+        <Container>
           <h5>All Components</h5>
           <div className='ba-all-page-inner border-radius-4'>
             <div className='section-title p-3 pb-0 mb-0'>
@@ -396,7 +397,7 @@ const AllIntro = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
       {/* navbar end */}
     </>

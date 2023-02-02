@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Checkbox = () => {
   return (
     <>
       {/* badge end */}
       <div className='allpage-area mg-top-110'>
-        <div className='container'>
+        <Container>
           <h5>Example</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
@@ -61,12 +62,12 @@ const Checkbox = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
       {/* badge end */}
       {/* badge end */}
       <div className='allpage-area mt-4'>
-        <div className='container'>
+        <Container>
           <h5>Example</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
@@ -98,12 +99,12 @@ const Checkbox = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
       {/* badge end */}
       {/* badge end */}
       <div className='allpage-area mt-4'>
-        <div className='container'>
+        <Container>
           <h5>Inline</h5>
           <div className='ba-all-page-inner mb-4 p-2'>
             Lorem ipsum dolor sit, amet elit. Perferendis,
@@ -121,7 +122,7 @@ const Checkbox = () => {
             eius qui ut deleniti, tenetur fugiat dicta nam incidunt odit quod,
             vero ipsa quis!
           </div>
-        </div>
+        </Container>
       </div>
       {/* badge end */}
     </>

@@ -1,9 +1,10 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const AddHome = () => {
   return (
     <>
-      <div className='container mg-top-110'>
+      <Container className=' mg-top-110'>
         <h5>How it Works ?</h5>
         <div className='single-blog'>
           <div className='details'>
@@ -13,8 +14,8 @@ const AddHome = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className='container'>
+      </Container>
+      <Container>
         <h5>How it Use it ?</h5>
         <div className='single-blog'>
           <div className='details'>
@@ -46,7 +47,7 @@ const AddHome = () => {
             </p>
           </div>
         </div>
-      </div>
+      </Container>
     </>
   );
 };
