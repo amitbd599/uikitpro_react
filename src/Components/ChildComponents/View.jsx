@@ -10,6 +10,7 @@ import {
 import { Link } from "react-router-dom";
 
 const View = () => {
+  const darkBG = localStorage.getItem("color");
   const [show, setShow] = useState(true);
   const QRControl = () => {
     setShow(!show);
@@ -23,11 +24,20 @@ const View = () => {
             <Row className='justify-content-center'>
               <Col xl={6} className='align-self-center'>
                 <div className='section-title mt-4 mt-lg-0'>
-                  <img
-                    className='mb-4'
-                    src='/Assets/Images/logo.png'
-                    alt='icon'
-                  />
+                  {darkBG === "dark" ? (
+                    <img
+                      className='mb-4'
+                      src='/Assets/Images/logo-3.png'
+                      alt='icon'
+                    />
+                  ) : (
+                    <img
+                      className='mb-4'
+                      src='/Assets/Images/logo.png'
+                      alt='icon'
+                    />
+                  )}
+
                   <h3 className='entry-title'>
                     Bootstrap 5 Based HTML Mobile UI Kit Template
                   </h3>
@@ -99,7 +109,6 @@ const View = () => {
                     </div>
                   </div>
                 </div>
-                {/* phone */}
               </Col>
             </Row>
           </Container>
@@ -126,7 +135,7 @@ const View = () => {
                   </div>
                 </div>
               </Col>
-              <div className='col-xl-4 col-md-6 col-12'>
+              <Col xl={4} md={6} xs={12}>
                 <div className='media'>
                   <img src='/Assets/Images/icon/12.png' alt='icon' />
                   <div className='media-body'>
@@ -136,8 +145,8 @@ const View = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className='col-xl-4 col-md-6 col-12'>
+              </Col>
+              <Col xl={4} md={6} xs={12}>
                 <div className='media'>
                   <img src='/Assets/Images/icon/9.png' alt='icon' />
                   <div className='media-body'>
@@ -148,8 +157,8 @@ const View = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className='col-xl-4 col-md-6 col-12'>
+              </Col>
+              <Col xl={4} md={6} xs={12}>
                 <div className='media'>
                   <img src='/Assets/Images/icon/7.png' alt='icon' />
                   <div className='media-body'>
@@ -161,8 +170,8 @@ const View = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className='col-xl-4 col-md-6 col-12'>
+              </Col>
+              <Col xl={4} md={6} xs={12}>
                 <div className='media'>
                   <img src='/Assets/Images/icon/8.png' alt='icon' />
                   <div className='media-body'>
@@ -175,8 +184,8 @@ const View = () => {
                     </p>
                   </div>
                 </div>
-              </div>
-              <div className='col-xl-4 col-md-6 col-12'>
+              </Col>
+              <Col xl={4} md={6} xs={12}>
                 <div className='media'>
                   <img src='/Assets/Images/icon/11.png' alt='icon' />
                   <div className='media-body'>
@@ -189,7 +198,7 @@ const View = () => {
                     </p>
                   </div>
                 </div>
-              </div>
+              </Col>
             </Row>
           </Container>
         </div>
@@ -199,7 +208,7 @@ const View = () => {
       {/* Footer Area */}
       <div className='footer-area mb-0'>
         <div className='footer-top pt-5 text-center'>
-          <div className='container'>
+          <Container>
             <a href='index.html'>
               <img src='assets/img/logo-2.png' alt='' />
             </a>
@@ -234,7 +243,7 @@ const View = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </Container>
         </div>
       </div>
       {/* footer End */}

@@ -1,13 +1,14 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Tooltip = () => {
   return (
     <>
       {/* components tooltip start */}
       <div className='container-inner mg-top-90'>
-        <div className='container-fluid'>
-          <div className='row flex-row'>
-            <div className='col-xl-6'>
+        <Container fluid>
+          <Row className='flex-row'>
+            <Col xl={6}>
               {/* Basic Example */}
               <div className='widget-header'>
                 <h4>Basic Example</h4>
@@ -53,8 +54,8 @@ const Tooltip = () => {
                 </div>
               </div>
               {/* End Basic Example */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Basic Example */}
               <div className='widget-header'>
                 <h4>left Example</h4>
@@ -73,8 +74,8 @@ const Tooltip = () => {
                 </div>
               </div>
               {/* End Basic Example */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Basic Example */}
               <div className='widget-header'>
                 <h4>Right Example</h4>
@@ -93,8 +94,8 @@ const Tooltip = () => {
                 </div>
               </div>
               {/* End Basic Example */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Basic Example */}
               <div className='widget-header'>
                 <h4>Bottom Example</h4>
@@ -113,10 +114,10 @@ const Tooltip = () => {
                 </div>
               </div>
               {/* End Basic Example */}
-            </div>
-          </div>
+            </Col>
+          </Row>
           {/* End Row */}
-          <div className='col-12'>
+          <Col xs={12}>
             {/* Basic Example */}
             <div className='widget-header'>
               <h4>Text</h4>
@@ -130,8 +131,8 @@ const Tooltip = () => {
               </div>
             </div>
             {/* End Basic Example */}
-          </div>
-        </div>
+          </Col>
+        </Container>
       </div>
       {/* components tooltip End */}
     </>

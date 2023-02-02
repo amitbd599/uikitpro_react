@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import { FaRegCreditCard, FaRegMap, FaRegSun } from "react-icons/fa";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 
@@ -7,9 +8,9 @@ const UserTabs = () => {
     <>
       {/* components tabs start */}
       <div className='container-inner mg-top-90'>
-        <div className='container-fluid'>
-          <div className='row flex-row'>
-            <div className='col-xl-6'>
+        <Container fluid>
+          <Row className=' flex-row'>
+            <Col xl={6}>
               {/* Basic Tabs */}
               <div className='basic-tabs'>
                 <div className='widget-header'>
@@ -57,8 +58,8 @@ const UserTabs = () => {
                 </div>
               </div>
               {/* End Basic Tabs */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Tabs Dropdown */}
               <div className='tabs-dropdown'>
                 <div className='widget-header'>
@@ -106,8 +107,8 @@ const UserTabs = () => {
                 </div>
               </div>
               {/* End Tabs Dropdown */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* vertical Tabs */}
               <div className='vertical-tabs'>
                 <div className='widget-header'>
@@ -155,8 +156,8 @@ const UserTabs = () => {
                 </div>
               </div>
               {/* End vertical Tabs */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Justified Tabs */}
               <div className='icon-tabs'>
                 <div className='widget-header'>
@@ -210,10 +211,10 @@ const UserTabs = () => {
                 </div>
               </div>
               {/* End Justified Tabs */}
-            </div>
-          </div>
+            </Col>
+          </Row>
           {/* End Row */}
-        </div>
+        </Container>
       </div>
       {/* components tabs End */}
     </>

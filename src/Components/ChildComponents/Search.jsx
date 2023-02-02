@@ -1,21 +1,22 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Search = () => {
   return (
     <>
       {/* Search start */}
       <div className='Search-area mg-top-110'>
-        <div className='container'>
+        <Container>
           <div className='single-search-inner'>
             <input type='text' placeholder='Search' />
             <i className='fa fa-search' />
           </div>
-        </div>
+        </Container>
       </div>
       {/* Search end */}
       {/* allpage start */}
       <div className='allpage-area mt-4'>
-        <div className='container'>
+        <Container>
           <h5>Search For Title</h5>
           <div className='ba-all-page-inner border-radius-4 mb-4 pt-2'>
             <ul>
@@ -41,7 +42,7 @@ const Search = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

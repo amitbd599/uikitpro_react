@@ -19,7 +19,7 @@ const Home_1 = () => {
   return (
     <>
       {/* Balance start */}
-      <div className='balance-area mg-top-90'>
+      <div className='balance-area pd-top-110'>
         <Container>
           <div className='balance-area-bg balance-area-bg-home'>
             <div className='balance-title text-center'>
@@ -83,40 +83,40 @@ const Home_1 = () => {
       {/* Goal area End */}
       {/* History start */}
       <div className='history-area pt-4'>
-        <div className='container'>
+        <Container>
           <div className='section-title'>
             <h3 className='title'>History</h3>
             <a href='transaction.html'>View All</a>
           </div>
           <div className='ba-history-inner'>
-            <div className='row custom-gutters-20'>
-              <div className='col-6'>
+            <Row className=' custom-gutters-20'>
+              <Col xs={6}>
                 <div className='ba-single-history ba-single-history-one'>
                   <h6>Income</h6>
                   <h5>$58,968.00</h5>
                 </div>
-              </div>
-              <div className='col-6'>
+              </Col>
+              <Col xs={6}>
                 <div className='ba-single-history ba-single-history-two'>
                   <h6>Expenses</h6>
                   <h5>$50,968.00</h5>
                 </div>
-              </div>
-              <div className='col-6'>
+              </Col>
+              <Col xs={6}>
                 <div className='ba-single-history ba-single-history-three'>
                   <h6>Total Bills</h6>
                   <h5>$50,968.00</h5>
                 </div>
-              </div>
-              <div className='col-6'>
+              </Col>
+              <Col xs={6}>
                 <div className='ba-single-history ba-single-history-four'>
                   <h6>Savings</h6>
                   <h5>$58.00</h5>
                 </div>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       {/* History End */}
       {/* Cart start */}
@@ -185,50 +185,50 @@ const Home_1 = () => {
       {/* Send-money End */}
       {/* Bill pay start */}
       <div className='bill-pay-area pt-4'>
-        <div className='container'>
+        <Container>
           <div className='section-title'>
             <h3 className='title'>Bill Pay</h3>
             <a href='bill-pay.html'>View All</a>
           </div>
-          <div className='row'>
-            <div className='col-4'>
+          <Row>
+            <Col xs={6}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/17.png' alt='img' />
                 <p>Electricity</p>
               </div>
-            </div>
-            <div className='col-4'>
+            </Col>
+            <Col xs={6}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/18.png' alt='img' />
                 <p>Water Bill </p>
               </div>
-            </div>
-            <div className='col-4'>
+            </Col>
+            <Col xs={6}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/19.png' alt='img' />
                 <p>Gas Bill</p>
               </div>
-            </div>
-            <div className='col-4'>
+            </Col>
+            <Col xs={6}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/20.png' alt='img' />
                 <p>Internet Bill</p>
               </div>
-            </div>
-            <div className='col-4'>
+            </Col>
+            <Col xs={6}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/21.png' alt='img' />
                 <p>Cable </p>
               </div>
-            </div>
-            <div className='col-4'>
+            </Col>
+            <Col xs={6}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/22.png' alt='img' />
                 <p>Bus Ticket</p>
               </div>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
       {/* Bill pay End */}
       {/* Blog-area start */}

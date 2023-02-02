@@ -61,6 +61,13 @@
   color: #15131c;
   font-family: "Roboto", sans-serif;
 }
+.dark .bemo-banner .section-title .entry-title {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
 
 .bemo-banner .section-title p {
   font-size: 18px;
@@ -69,9 +76,19 @@
   color: #474747;
   font-weight: 400;
 }
+.dark .bemo-banner .section-title p {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 400;
+}
 .bemo-banner .section-title .applist li {
   font-size: 18px;
   list-style: none;
+}
+.dark .bemo-banner .section-title .applist li {
+  color: #fff;
 }
 .pd-top-30 {
   padding-top: 30px;

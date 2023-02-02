@@ -1,13 +1,14 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Progress = () => {
   return (
     <>
       {/* components progress start */}
       <div className='container-inner mg-top-110'>
-        <div className='container-fluid'>
-          <div className='row'>
-            <div className='col-xl-6'>
+        <Container fluid>
+          <Row>
+            <Col xl={6}>
               {/* Basic */}
               <div className='widget-header'>
                 <h4>Basic Progress Bars</h4>
@@ -238,8 +239,8 @@ const Progress = () => {
                 </div>
               </div>
               {/* End Multiple */}
-            </div>
-            <div className='col-xl-6'>
+            </Col>
+            <Col xl={6}>
               {/* Sizing */}
               <div className='widget-header'>
                 <h4>Sizing</h4>
@@ -437,10 +438,10 @@ const Progress = () => {
                 </div>
               </div>
               {/* End Stripped */}
-            </div>
-          </div>
+            </Col>
+          </Row>
           {/* End Row */}
-        </div>
+        </Container>
       </div>
       {/* components progress End */}
     </>

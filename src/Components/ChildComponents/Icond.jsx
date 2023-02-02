@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { FaCheck, FaCheckCircle } from "react-icons/fa";
 
 const Icond = () => {
@@ -33,7 +34,7 @@ const Icond = () => {
 
       {/* Inner View */}
       <div className='allpage-area mg-top-90'>
-        <div className='container'>
+        <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul>
@@ -71,7 +72,7 @@ const Icond = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

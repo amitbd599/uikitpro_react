@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Table = () => {
   return (
     <>
       {/* table 1 start */}
       <div className='table 1-area mg-top-90'>
-        <div className='container'>
+        <Container>
           <h5>Default</h5>
           <div className='ba-all-page-inner mb-4 p-0 border-radius-4'>
             <div className='table-responsive'>
@@ -41,12 +42,12 @@ const Table = () => {
               </table>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       {/* table 1 end */}
       {/* table 2 start */}
       <div className='table-area mg-top-90'>
-        <div className='container'>
+        <Container>
           <h5>Color Table</h5>
           <div className='ba-all-page-inner mb-4 p-0 border-radius-4'>
             <div className='table-responsive'>
@@ -82,12 +83,12 @@ const Table = () => {
               </table>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       {/* table 2 end */}
       {/* table 3 start */}
       <div className='table-area mg-top-90'>
-        <div className='container'>
+        <Container>
           <h5>BG Table</h5>
           <div className='ba-all-page-inner mb-4 p-0 border-radius-4'>
             <div className='table-responsive'>
@@ -123,7 +124,7 @@ const Table = () => {
               </table>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       {/* table 3 end */}
     </>

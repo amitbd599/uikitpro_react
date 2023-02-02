@@ -1,10 +1,11 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { FaAngleRight } from "react-icons/fa";
 
 const Toast = () => {
   return (
     <div className='allpage-area mg-top-90'>
-      <div className='container'>
+      <Container>
         <h5>Usage</h5>
         <div className='ba-all-page-inner mb-4 d-flex justify-content-between'>
           <ul>
@@ -157,7 +158,7 @@ const Toast = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </Container>
     </div>
   );
 };

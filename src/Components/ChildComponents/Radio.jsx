@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Radio = () => {
   return (
     <>
       {/* badge end */}
       <div className='allpage-area mg-top-110'>
-        <div className='container'>
+        <Container>
           <h5>Example</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
@@ -61,12 +62,12 @@ const Radio = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
       {/* badge end */}
       {/* badge end */}
       <div className='allpage-area mt-4'>
-        <div className='container'>
+        <Container>
           <h5>Example</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
@@ -98,7 +99,7 @@ const Radio = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
       {/* badge end */}
       {/* badge end */}

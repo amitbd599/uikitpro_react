@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Typography = () => {
   return (
     <>
       {/* table 1 start */}
       <div className='table 1-area mg-top-120'>
-        <div className='container'>
+        <Container>
           <h5>Default</h5>
           <div className='ba-all-page-inner mb-4 p-0 border-radius-4'>
             <div className='table-responsive'>
@@ -41,12 +42,12 @@ const Typography = () => {
               </table>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       {/* table 1 end */}
       {/* typography start */}
       <div className='allpage-area mg-top-90'>
-        <div className='container'>
+        <Container>
           <h5>Top</h5>
           <div className='uikit-badge-inner bg-white mb-4'>
             <h1>h1. Bootstrap heading</h1>
@@ -56,12 +57,12 @@ const Typography = () => {
             <h5>h5. Bootstrap heading</h5>
             <h6>h6. Bootstrap heading</h6>
           </div>
-        </div>
+        </Container>
       </div>
       {/* typography end */}
       {/* typography start */}
       <div className='allpage-area'>
-        <div className='container'>
+        <Container>
           <h5>Top</h5>
           <div className='uikit-badge-inner bg-white mb-4'>
             <p>
@@ -98,7 +99,7 @@ const Typography = () => {
               <em>This line rendered as italicized text.</em>
             </p>
           </div>
-        </div>
+        </Container>
       </div>
       {/* typography end */}
     </>

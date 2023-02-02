@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import { FaAngleLeft, FaBell } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -6,17 +7,17 @@ const AllHeader = () => {
   return (
     <>
       <div className='header-style mg-top-110'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-sm-4 col-4'>
+        <Container>
+          <Row>
+            <Col sm={4} xs={4}>
               <Link className='menu-back-page' to='/home-1'>
                 <FaAngleLeft />
               </Link>
-            </div>
-            <div className='col-sm-4 col-4 text-center'>
+            </Col>
+            <Col sm={4} xs={4} className=' text-center'>
               <div className='page-name'>Title</div>
-            </div>
-            <div className='col-sm-4 col-4 align-self-center text-end'>
+            </Col>
+            <Col sm={4} xs={4} className=' align-self-center text-end'>
               <ul className='header-right'>
                 <li>
                   <Link className='notf' to='/notification'>
@@ -25,22 +26,22 @@ const AllHeader = () => {
                   </Link>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
       <div className='header-style mt-4'>
-        <div className='container'>
-          <div className='row'>
-            <div className='col-sm-4 col-4'>
+        <Container>
+          <Row>
+            <Col sm={4} xs={4}>
               <Link className='menu-back-page' to='/home-1'>
                 <FaAngleLeft />
               </Link>
-            </div>
-            <div className='col-sm-4 col-4 text-center'>
+            </Col>
+            <Col sm={4} xs={4} className='text-center'>
               <div className='page-name'>Title</div>
-            </div>
-            <div className='col-sm-4 col-4 align-self-center text-end'>
+            </Col>
+            <Col sm={4} xs={4} className='align-self-center text-end'>
               <ul className='header-right'>
                 <li>
                   <Link className='notf' to='/notification'>
@@ -54,23 +55,23 @@ const AllHeader = () => {
                   </Link>
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
       <div className='header-style mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-white p-2 border-radius-4'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>Title</div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf' to='/notification'>
@@ -79,24 +80,24 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-white p-2 border-radius-4 border-gray'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>Title</div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf-btn' to='/notification'>
@@ -104,26 +105,26 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-white p-2 border-radius-4 border-gray'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>
                   <h4 className='mb-0'>Uikitpro</h4>
                 </div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf-text' to='/notification'>
@@ -131,26 +132,26 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-white p-2 border-radius-4 border-gray'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>
                   <h4 className='mb-0'>Uikitpro</h4>
                 </div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf' to='/notification'>
@@ -164,24 +165,24 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style style-white mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-black p-2 border-radius-4'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>Title</div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf' to='/notification'>
@@ -190,24 +191,24 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style style-white mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-purple p-2 border-radius-4'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>Title</div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf' to='/notification'>
@@ -216,24 +217,24 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style style-white mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-base p-2 border-radius-4'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>Title</div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf' to='/notification'>
@@ -242,24 +243,24 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style style-white mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-pink p-2 border-radius-4'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>Title</div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf' to='/notification'>
@@ -268,24 +269,24 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style style-white mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-yellow-2 p-2 border-radius-4'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>Title</div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf' to='/notification'>
@@ -294,24 +295,24 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style style-white mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-blue p-2 border-radius-4'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>Title</div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf' to='/notification'>
@@ -320,24 +321,24 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
       <div className='header-style mt-4'>
-        <div className='container'>
+        <Container>
           <div className='header-style-inner bg-white p-2 border-radius-4'>
-            <div className='row'>
-              <div className='col-sm-4 col-4'>
+            <Row>
+              <Col sm={4} xs={4}>
                 <Link className='menu-back-page' to='/home-1'>
                   <FaAngleLeft />
                 </Link>
-              </div>
-              <div className='col-sm-4 col-4 text-center'>
+              </Col>
+              <Col sm={4} xs={4} className='text-center'>
                 <div className='page-name'>Title</div>
-              </div>
-              <div className='col-sm-4 col-4 align-self-center text-end'>
+              </Col>
+              <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
                     <Link className='notf' to='/notification'>
@@ -346,10 +347,10 @@ const AllHeader = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
-            </div>
+              </Col>
+            </Row>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

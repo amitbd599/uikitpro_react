@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const About = () => {
   return (
     <>
       {/* blog-area start */}
       <div className='blog-details-area mg-top-110'>
-        <div className='container'>
+        <Container>
           <div className='blog-details-inner'>
             <div className='section-title'>
               <h3 className='title'>About The Uikitpro</h3>
@@ -30,7 +31,7 @@ const About = () => {
               </p>
             </div>
           </div>
-        </div>
+        </Container>
       </div>
       {/* blog-area End */}
     </>

@@ -1,11 +1,12 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 
 const Toggle = () => {
   return (
     <>
       {/* toggle start */}
       <div className='allpage-area mg-top-110'>
-        <div className='container'>
+        <Container>
           <h5>Top</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
@@ -42,12 +43,12 @@ const Toggle = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
       {/* toggle end */}
       {/* toggle start */}
       <div className='allpage-area'>
-        <div className='container'>
+        <Container>
           <h5>Text</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
@@ -97,7 +98,7 @@ const Toggle = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
       {/* toggle end */}
     </>

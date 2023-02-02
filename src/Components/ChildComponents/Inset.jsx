@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { FaCheckCircle } from "react-icons/fa";
 
 const Inset = () => {
@@ -24,7 +25,7 @@ const Inset = () => {
 
       {/* Inner Text View */}
       <div className='allpage-area mg-top-90'>
-        <div className='container'>
+        <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul>
@@ -62,7 +63,7 @@ const Inset = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );
