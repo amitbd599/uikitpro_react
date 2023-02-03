@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Deposit = () => {
   return (
     <>
-      {/* Deposit Popup */}
+      {/* ================= Deposit Popup =================*/}
       <div className='uikit-alert-area'>
         <div className='uikit-alert-inner text-center'>
           <form className='details'>
@@ -22,15 +22,15 @@ const Deposit = () => {
               <h6>Form</h6>
               <input type='text' placeholder='$150' />
             </div>
-            <a className='btn btn-blue w-100 mt-2' href='#'>
+            <a className='btn btn-success w-100 mt-2' href='#'>
               Done
             </a>
           </form>
         </div>
       </div>
 
-      {/* Inner View */}
-      <div className='allpage-area mg-top-90'>
+      {/*================= Inner View =================*/}
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>
@@ -71,7 +71,7 @@ const Deposit = () => {
           </div>
         </Container>
       </div>
-      {/* Inner end */}
+      {/*================= Inner end =================*/}
     </>
   );
 };

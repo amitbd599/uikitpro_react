@@ -4,7 +4,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 const Action = () => {
   return (
-    <div className='allpage-area mg-top-110'>
+    <div className='allpage-area pd-top-110 action-component'>
       <Container>
         <h5>Basic</h5>
         <div className='ba-all-page-inner mb-4'>

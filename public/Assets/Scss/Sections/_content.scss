@@ -1035,9 +1035,37 @@
   }
 }
 
-/****** search ******/
+/****** search component ******/
 
 .dark .search {
+  h5 {
+    color: #fff;
+  }
+}
+/****** Button component ******/
+
+.dark .button-component {
+  h4 {
+    color: #fff;
+  }
+}
+/****** Badge component ******/
+
+.dark .badge-component {
+  h5 {
+    color: #fff;
+  }
+}
+/****** alert component ******/
+
+.dark .alert-component {
+  h4 {
+    color: #fff;
+  }
+}
+/****** alert component ******/
+
+.dark .action-component {
   h5 {
     color: #fff;
   }

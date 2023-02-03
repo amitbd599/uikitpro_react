@@ -13,7 +13,7 @@ const Content = () => {
               Lorem ipsum dolor sit, amet elit. commodi odi minus maxime autem
               quo facilis, at, sint minima possimus eaque iure dolore.
             </p>
-            <a className='btn btn-blue w-100' href='#'>
+            <a className='btn btn-success w-100' href='#'>
               Close
             </a>
           </div>
@@ -21,7 +21,7 @@ const Content = () => {
       </div>
 
       {/* Inner View */}
-      <div className='allpage-area mg-top-90'>
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>

@@ -9,8 +9,11 @@ const AboutPage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>About || **********</title>
-          <meta name='description' content='****************' />
+          <title>About || Bootstrap 5 Based React Mobile UI Kit Template</title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <AboutComponent />
       </Suspense>

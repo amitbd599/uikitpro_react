@@ -7,10 +7,15 @@ const ActionComponent = React.lazy(() =>
 const ActionPage = () => {
   return (
     <Fragment>
-      <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Action || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Action || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <ActionComponent />
       </Suspense>

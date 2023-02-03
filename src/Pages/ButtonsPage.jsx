@@ -7,10 +7,15 @@ const ButtonsComponent = React.lazy(() =>
 const ButtonsPage = () => {
   return (
     <Fragment>
-   <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Buttons || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Buttons || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <ButtonsComponent />
       </Suspense>

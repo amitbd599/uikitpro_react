@@ -7,10 +7,15 @@ const CarouselComponent = React.lazy(() =>
 const CarouselPage = () => {
   return (
     <Fragment>
-     <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Carousel || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Carousel || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <CarouselComponent />
       </Suspense>

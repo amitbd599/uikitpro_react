@@ -12,12 +12,12 @@ import {
 const Buttons = () => {
   return (
     <>
-      {/* components buttons start */}
-      <div className='container-inner mg-top-90'>
+      {/* =============== components buttons start ===============*/}
+      <div className='container-inner pd-top-110 button-component'>
         <Container fluid>
           <Row className=' flex-row'>
             <Col xl={6}>
-              {/* Basic Buttons */}
+              {/*=============== Basic Buttons ===============*/}
               <div className='widget-header'>
                 <h4>Basic Buttons</h4>
               </div>
@@ -60,10 +60,10 @@ const Buttons = () => {
                   </div>
                 </div>
               </div>
-              {/* End Basic Buttons */}
+              {/*=============== End Basic Buttons =============== */}
             </Col>
             <Col xl={6}>
-              {/* Basic Buttons */}
+              {/*=============== Basic Buttons ===============*/}
               <div className='widget-header'>
                 <h4>Ripple Effect</h4>
               </div>
@@ -109,10 +109,10 @@ const Buttons = () => {
                   </div>
                 </div>
               </div>
-              {/* End Basic Buttons */}
+              {/*=============== End Basic Buttons ===============*/}
             </Col>
             <Col xl={6}>
-              {/* Outline Buttons */}
+              {/*=============== Outline Buttons ===============*/}
               <div className='widget-header'>
                 <h4>Outline Buttons</h4>
               </div>
@@ -158,10 +158,10 @@ const Buttons = () => {
                   </div>
                 </div>
               </div>
-              {/* End Outline Buttons */}
+              {/*=============== End Outline Buttons ===============*/}
             </Col>
             <Col xl={6}>
-              {/* Bankapp Buttons */}
+              {/*=============== Bankapp Buttons ===============*/}
               <div className='widget-header'>
                 <h4>UikitPro Buttons</h4>
               </div>
@@ -207,10 +207,10 @@ const Buttons = () => {
                   </div>
                 </div>
               </div>
-              {/* End Bankapp Buttons */}
+              {/*=============== End Bankapp Buttons ===============*/}
             </Col>
             <Col xl={6}>
-              {/* Square Buttons */}
+              {/*=============== Square Buttons ===============*/}
               <div className='widget-header'>
                 <h4>Square Buttons</h4>
               </div>
@@ -256,10 +256,10 @@ const Buttons = () => {
                   </div>
                 </div>
               </div>
-              {/* End Square Buttons */}
+              {/*=============== End Square Buttons ===============*/}
             </Col>
             <Col xl={6}>
-              {/* Buttons Group */}
+              {/*=============== Buttons Group ===============*/}
               <div className='widget-header'>
                 <h4>Group Buttons</h4>
               </div>
@@ -296,10 +296,10 @@ const Buttons = () => {
                   </div>
                 </div>
               </div>
-              {/* End Buttons Group */}
+              {/*=============== End Buttons Group ===============*/}
             </Col>
             <Col xl={6}>
-              {/* Buttons With Icons */}
+              {/*=============== Buttons With Icons ===============*/}
               <div className='widget-header'>
                 <h4>With Icons</h4>
               </div>
@@ -348,10 +348,10 @@ const Buttons = () => {
                   </div>
                 </div>
               </div>
-              {/* End Buttons With Icons */}
+              {/*=============== End Buttons With Icons ===============*/}
             </Col>
             <Col xl={6}>
-              {/* Buttons Sizes */}
+              {/*=============== Buttons Sizes ===============*/}
               <div className='widget-header'>
                 <h4>Size Buttons</h4>
               </div>
@@ -374,13 +374,13 @@ const Buttons = () => {
                   </button>
                 </div>
               </div>
-              {/* End Buttons Sizes */}
+              {/*=============== End Buttons Sizes ===============*/}
             </Col>
           </Row>
-          {/* End Row */}
+          {/*=============== End Row ===============*/}
         </Container>
       </div>
-      {/* components buttons End */}
+      {/*=============== components buttons End ===============*/}
     </>
   );
 };

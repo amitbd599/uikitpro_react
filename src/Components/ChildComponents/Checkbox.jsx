@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 const Checkbox = () => {
   return (
     <>
-      {/* badge end */}
-      <div className='allpage-area mg-top-110'>
+      {/* ================== badge end ==================*/}
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Example</h5>
           <div className='ba-all-page-inner mb-4'>
@@ -64,8 +64,8 @@ const Checkbox = () => {
           </div>
         </Container>
       </div>
-      {/* badge end */}
-      {/* badge end */}
+      {/*================== badge end ==================*/}
+      {/*================== badge end ==================*/}
       <div className='allpage-area mt-4'>
         <Container>
           <h5>Example</h5>
@@ -101,8 +101,8 @@ const Checkbox = () => {
           </div>
         </Container>
       </div>
-      {/* badge end */}
-      {/* badge end */}
+      {/*================== badge end ==================*/}
+      {/*================== badge end ==================*/}
       <div className='allpage-area mt-4'>
         <Container>
           <h5>Inline</h5>
@@ -124,7 +124,7 @@ const Checkbox = () => {
           </div>
         </Container>
       </div>
-      {/* badge end */}
+      {/*================== badge end ==================*/}
     </>
   );
 };

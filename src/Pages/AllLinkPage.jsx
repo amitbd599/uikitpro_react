@@ -7,10 +7,15 @@ const AllLinkComponent = React.lazy(() =>
 const AllLinkPage = () => {
   return (
     <Fragment>
-    <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>All Page Link || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            All Link || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <AllLinkComponent />
       </Suspense>

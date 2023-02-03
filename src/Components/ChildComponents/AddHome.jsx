@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const AddHome = () => {
   return (
     <>
-      <Container className=' mg-top-110'>
+      <Container className=' pd-top-110'>
         <h5>How it Works ?</h5>
         <div className='single-blog'>
           <div className='details'>

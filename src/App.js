@@ -52,6 +52,7 @@ import BlogDetailsPage from "./Pages/BlogDetailsPage";
 import BillPayPage from "./Pages/BillPayPage";
 import AllLinkPage from "./Pages/AllLinkPage";
 import AboutPage from "./Pages/AboutPage";
+import SearchPage from "./Pages/SearchPage";
 
 function App() {
   const darkBG = localStorage.getItem("color");
@@ -96,7 +97,7 @@ function App() {
           <Route exact path='/components-tabs' element={<TabsPage />} />
           <Route exact path='/components-table' element={<TablePage />} />
           <Route exact path='/components-success' element={<SuccessPage />} />
-          <Route exact path='/components-search' element={<SuccessPage />} />
+          <Route exact path='/components-search' element={<SearchPage />} />
           <Route exact path='/components-radio' element={<RadioPage />} />
           <Route exact path='/components-progress' element={<ProgressPage />} />
           <Route

@@ -43,7 +43,7 @@ const Header = () => {
             </div>
             <Row>
               <Col sm={4} xs={4} className='align-self-center'>
-                {window.location.pathname === "/home-1" || "/home-2" ? (
+                {window.location.pathname === "/home-1" ? (
                   <span className='menu-back-page' onClick={navbarControl}>
                     <img src='/Assets/Images/icon/0.png' alt='img' />
                   </span>
@@ -58,7 +58,7 @@ const Header = () => {
                 xs={4}
                 className='text-center align-self-center text-center'
               >
-                {window.location.pathname === "/home_1" || "/home_2" ? (
+                {window.location.pathname === "/home-1" || "/home-2" ? (
                   <img src='/Assets/Images/logo_4.png' alt='img' />
                 ) : (
                   <div className='page-name'>Verification</div>
@@ -170,9 +170,9 @@ const Header = () => {
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
-                  to='/component'
+                  to='/all-page'
                 >
-                  <span>Component</span> <FaAngleRight />
+                  <span>All Component</span> <FaAngleRight />
                 </NavLink>
               </li>
               <li>

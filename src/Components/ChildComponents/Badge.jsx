@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 const Badge = () => {
   return (
     <>
-      {/* badge end */}
-      <div className='allpage-area mg-top-110'>
+      {/* ============== badge end ==============*/}
+      <div className='allpage-area pd-top-110 badge-component'>
         <Container fluid>
           <h5>Example</h5>
           <div className='ba-all-page-inner mb-4'>
@@ -49,36 +49,35 @@ const Badge = () => {
           </div>
         </Container>
       </div>
-      {/* badge end */}
-      <>
-        {/* badge end */}
-        <div className='allpage-area mt-4'>
-          <Container>
-            <h5>Colors</h5>
-            <div className='ba-all-page-inner mb-4 pt-3 p-2'>
-              <button type='button' className='btn-c btn-primary mr-1 mb-2'>
-                Primary
-              </button>
-              <button type='button' className='btn-c btn-secondary mr-1 mb-2'>
-                Secondary
-              </button>
-              <button type='button' className='btn-c btn-success mr-1 mb-2'>
-                Success
-              </button>
-              <button type='button' className='btn-c btn-info mr-1 mb-2'>
-                Info
-              </button>
-              <button type='button' className='btn-c btn-warning mr-1 mb-2'>
-                Warning
-              </button>
-              <button type='button' className='btn-c btn-danger mr-1 mb-2'>
-                Danger
-              </button>
-            </div>
-          </Container>
-        </div>
-        {/* badge end */}
-      </>
+      {/*============== badge end ==============*/}
+
+      {/*============== badge end ==============*/}
+      <div className='allpage-area mt-4'>
+        <Container>
+          <h5>Colors</h5>
+          <div className='ba-all-page-inner mb-4 pt-3 p-2'>
+            <button type='button' className='btn-c btn-primary mr-1 mb-2'>
+              Primary
+            </button>
+            <button type='button' className='btn-c btn-secondary mr-1 mb-2'>
+              Secondary
+            </button>
+            <button type='button' className='btn-c btn-success mr-1 mb-2'>
+              Success
+            </button>
+            <button type='button' className='btn-c btn-info mr-1 mb-2'>
+              Info
+            </button>
+            <button type='button' className='btn-c btn-warning mr-1 mb-2'>
+              Warning
+            </button>
+            <button type='button' className='btn-c btn-danger mr-1 mb-2'>
+              Danger
+            </button>
+          </div>
+        </Container>
+      </div>
+      {/*============== badge end ==============*/}
     </>
   );
 };

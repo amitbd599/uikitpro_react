@@ -4,8 +4,8 @@ import { FaBell } from "react-icons/fa";
 const BillPay = () => {
   return (
     <>
-      {/* bill-pay start */}
-      <div className='bill-pay-area mg-top-110'>
+      {/* ================== bill-pay start ==================*/}
+      <div className='bill-pay-area pd-top-110'>
         <div className='container'>
           <div className='section-title style-three'>
             <h3 className='title'>Pay Monthly Bill</h3>
@@ -89,14 +89,14 @@ const BillPay = () => {
           </div>
         </div>
       </div>
-      {/* bill-pay End */}
-      {/* cart-area Start */}
+      {/*================== bill-pay End ==================*/}
+      {/*================== cart-area Start ==================*/}
       <div className='cart-area mt-3 mb-4'>
         <div className='container'>
           <img src='/Assets/Images/cart/6.png' alt='img' />
         </div>
       </div>
-      {/* cart-area End */}
+      {/*================== cart-area End ==================*/}
     </>
   );
 };

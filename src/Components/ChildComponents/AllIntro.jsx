@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import { FaAngleRight, FaMoon, FaSun } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const AllIntro = () => {
   const darkMode = (value) => {
@@ -10,7 +11,7 @@ const AllIntro = () => {
   };
   return (
     <>
-      <Container className=' mg-top-110'>
+      <Container className=' pd-top-110'>
         <div className='single-blog text-center'>
           <div className='details'>
             <h4>How to save your money in own business firm.</h4>
@@ -21,7 +22,7 @@ const AllIntro = () => {
           </div>
         </div>
       </Container>
-      {/* dark area Start */}
+      {/* =============== dark area Start ===============*/}
       <Container>
         <div className='dark-area'>
           <div className='section-title mb-0'>
@@ -60,8 +61,8 @@ const AllIntro = () => {
           </div>
         </div>
       </Container>
-      {/* dark area End */}
-      {/* navbar end */}
+      {/*=============== dark area End ===============*/}
+      {/*=============== Inner Action end ===============*/}
       <div className='allpage-area mt-4'>
         <Container>
           <h5>All Components</h5>
@@ -71,34 +72,34 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-action.html'>
+                <Link to='/components-action'>
                   Action
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-add-home.html'>
+                <Link to='/components-add-home'>
                   Add Home
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-all-icon.html'>
-                  All Icon
+                <Link to='/components-payment-popup'>
+                  Payment Popup
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-accordion.html'>
+                <Link to='/components-accordion'>
                   accordion
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-alerts.html'>
+                <Link to='/components-alerts'>
                   alerts
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -108,16 +109,16 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-badge.html'>
+                <Link to='/components-badge'>
                   Badge
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-buttons.html'>
+                <Link to='/components-buttons'>
                   Buttons
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -127,22 +128,22 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-carousel.html'>
+                <Link to='/components-carousel'>
                   Carousel
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-checkbox.html'>
+                <Link to='/components-checkbox'>
                   checkbox
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-content.html'>
+                <Link to='/components-content'>
                   content
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -152,22 +153,22 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-deposit.html'>
+                <Link to='/components-deposit'>
                   deposit
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-dialog.html'>
+                <Link to='/components-dialog'>
                   dialog
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-dropdown.html'>
+                <Link to='/components-dropdown'>
                   dropdown
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -177,10 +178,10 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-error.html'>
+                <Link to='/components-error'>
                   error
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -200,22 +201,22 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-home.html'>
+                <Link to='/home-1'>
                   home
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-add-home.html'>
+                <Link to='/components-add-home'>
                   add-home
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-header.html'>
+                <Link to='/components-header'>
                   header
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -225,22 +226,22 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-icond.html'>
+                <Link to='/components-icond'>
                   icond
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-image.html'>
+                <Link to='/components-image'>
                   image
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-inset.html'>
+                <Link to='/components-inset'>
                   inset
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -260,10 +261,10 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-listview.html'>
+                <Link to='/components-listview'>
                   listview
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -273,10 +274,10 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-modal.html'>
+                <Link to='/components-modal'>
                   modal
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -286,10 +287,10 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-notifications.html'>
+                <Link to='/components-notifications'>
                   notification
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -304,10 +305,10 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-progress.html'>
+                <Link to='/components-progress'>
                   progress
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -322,10 +323,10 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-radio.html'>
+                <Link to='/components-radio'>
                   radio
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -335,16 +336,16 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-search.html'>
+                <Link to='/components-search'>
                   search
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-success.html'>
+                <Link to='/components-success'>
                   success
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -354,52 +355,52 @@ const AllIntro = () => {
             </div>
             <ul>
               <li>
-                <a href='components-tabs.html'>
+                <Link to='/components-tabs'>
                   tabs
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-table.html'>
+                <Link to='/components-table'>
                   table
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-title.html'>
+                <Link to='/components-title'>
                   title
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-toast.html'>
+                <Link to='/components-toast'>
                   toast
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-toggle.html'>
+                <Link to='/components-toggle'>
                   toggle
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-tooltip.html'>
+                <Link to='/components-tooltip'>
                   tooltip
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='components-typography.html'>
+                <Link to='/components-typography'>
                   typography
                   <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
         </Container>
       </div>
-      {/* navbar end */}
+      {/* ============= Inner Action end =============*/}
     </>
   );
 };

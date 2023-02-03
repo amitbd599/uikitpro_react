@@ -4,7 +4,7 @@ import Slider from "react-slick";
 
 const Carousel = () => {
   const settings_1 = {
-    arrow: false,
+    arrows: false,
     dots: false,
     infinite: true,
     speed: 500,
@@ -13,7 +13,7 @@ const Carousel = () => {
     centerPadding: "10px",
   };
   const settings_2 = {
-    arrow: false,
+    arrows: false,
     dots: false,
     centerMode: true,
     infinite: true,
@@ -22,7 +22,7 @@ const Carousel = () => {
     speed: 500,
   };
   const settings_3 = {
-    arrow: false,
+    arrows: false,
     dots: false,
     centerMode: true,
     infinite: true,
@@ -31,7 +31,7 @@ const Carousel = () => {
     speed: 500,
   };
   const settings_4 = {
-    arrow: false,
+    arrows: false,
     dots: false,
     centerMode: true,
     infinite: true,
@@ -40,7 +40,7 @@ const Carousel = () => {
     speed: 500,
   };
   const settings_5 = {
-    arrow: false,
+    arrows: false,
     dots: false,
     centerMode: true,
     infinite: true,
@@ -51,7 +51,7 @@ const Carousel = () => {
 
   return (
     <>
-      <div className='carousel-area mg-top-110'>
+      <div className='carousel-area pd-top-110'>
         <Container>
           {/* Full Carousel */}
           <div className='mt-4'>

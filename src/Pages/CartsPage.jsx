@@ -7,10 +7,13 @@ const CartsComponent = React.lazy(() =>
 const CartsPage = () => {
   return (
     <Fragment>
-      <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Carts || **********</title>
-          <meta name='description' content='****************' />
+          <title>Carts || Bootstrap 5 Based React Mobile UI Kit Template</title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <CartsComponent />
       </Suspense>

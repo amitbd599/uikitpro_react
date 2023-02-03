@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 const Carts = () => {
   return (
     <>
-      {/* cart start */}
-      <div className='cart-area mg-top-110'>
+      {/* ================ cart start ================*/}
+      <div className='cart-area pd-top-110'>
         <Container>
           <div className='section-title'>
             <h3 className='title'>You Have Carts</h3>
@@ -30,7 +30,7 @@ const Carts = () => {
           </div>
         </Container>
       </div>
-      {/* cart End */}
+      {/*================ cart End ================*/}
     </>
   );
 };

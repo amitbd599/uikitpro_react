@@ -7,10 +7,15 @@ const DialogComponent = React.lazy(() =>
 const DialogPage = () => {
   return (
     <Fragment>
-     <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Dialog || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Dialog || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <DialogComponent />
       </Suspense>

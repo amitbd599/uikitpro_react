@@ -7,10 +7,15 @@ const BlogDetailsComponent = React.lazy(() =>
 const BlogDetailsPage = () => {
   return (
     <Fragment>
-     <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Blog Details || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Blog Details || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <BlogDetailsComponent />
       </Suspense>

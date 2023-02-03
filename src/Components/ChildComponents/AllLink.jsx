@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAngleRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const AllLink = () => {
   return (
@@ -7,9 +8,9 @@ const AllLink = () => {
       {/* page-title stary */}
       <div className='page-title pt-4'>
         <div className='container'>
-          <a className='float-start' href='home.html'>
+          <Link className='float-start' to='/home-1'>
             Home
-          </a>
+          </Link>
           <span className='float-end'>All Pages</span>
         </div>
       </div>
@@ -21,64 +22,64 @@ const AllLink = () => {
             <h5>Pages</h5>
             <ul>
               <li>
-                <a href='carts.html'>
+                <Link to='/carts'>
                   My Card <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='saving.html'>
+                <Link to='/saving'>
                   Saving <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='transaction.html'>
+                <Link to='/transaction'>
                   Transaction <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='transaction-details.html'>
+                <Link to='/transaction-details'>
                   Transaction Details <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='bill-pay.html'>
+                <Link to='/bill-pay'>
                   Bills Details <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='notification.html'>
+                <Link to='/notification'>
                   Notification <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='bill-pay.html'>
+                <Link to='/bill-pay'>
                   Bill Pay <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='blog.html'>
+                <Link to='/blog'>
                   Blog <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='blog-details.html'>
+                <Link to='/blog-details'>
                   Blog Details <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='about.html'>
+                <Link to='/about'>
                   About <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='component.html'>
-                  Component <FaAngleRight />
-                </a>
+                <Link to='/all-page'>
+                  All Component <FaAngleRight />
+                </Link>
               </li>
               <li>
-                <a href='contact.html'>
+                <Link to='/contact'>
                   Contact <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -86,29 +87,29 @@ const AllLink = () => {
             <h5>User Authentication</h5>
             <ul>
               <li>
-                <a href='signin.html'>
+                <Link to='/signin'>
                   Login <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='signup.html'>
+                <Link to='/signup'>
                   Register <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='user-setting.html'>
+                <Link to='/user-setting'>
                   User Setting <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='user-verification.html'>
+                <Link to='/user-verification'>
                   Sms Verification <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='signup.html'>
+                <Link to='/signup'>
                   Forgot Password <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -116,24 +117,24 @@ const AllLink = () => {
             <h5>Menu</h5>
             <ul>
               <li>
-                <a href='about.html'>
+                <Link to='/about'>
                   About <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='blog.html'>
+                <Link to='/blog'>
                   Blog <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='blog-details.html'>
+                <Link to='/blog-details'>
                   Blog Details <FaAngleRight />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='saving.html'>
+                <Link to='/saving'>
                   Saving <FaAngleRight />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

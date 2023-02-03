@@ -7,10 +7,15 @@ const PaymentPopupComponent = React.lazy(() =>
 const PaymentPopupPage = () => {
   return (
     <Fragment>
-    <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Al Icon || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Payment Popup || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <PaymentPopupComponent />
       </Suspense>

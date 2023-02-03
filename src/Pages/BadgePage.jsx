@@ -7,10 +7,13 @@ const BadgeComponent = React.lazy(() =>
 const BadgePage = () => {
   return (
     <Fragment>
-     <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Badge || **********</title>
-          <meta name='description' content='****************' />
+          <title>Badge || Bootstrap 5 Based React Mobile UI Kit Template</title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <BadgeComponent />
       </Suspense>

@@ -5,12 +5,12 @@ import { FaDotCircle } from "react-icons/fa";
 const AccordionIntro = () => {
   return (
     <>
-      {/* components accordion start */}
-      <div className='container-inner mg-top-90'>
+      {/* =============== components accordion start ===============*/}
+      <div className='container-inner pd-top-110'>
         <Container>
           <Row>
             <Col xl={6} className='my-2'>
-              {/* Begin Basic Accordion */}
+              {/*=============== Begin Basic Accordion ===============*/}
               <Accordion defaultActiveKey='0'>
                 <Accordion.Item eventKey='0'>
                   <Accordion.Header>Accordion Item #1</Accordion.Header>
@@ -52,10 +52,10 @@ const AccordionIntro = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              {/* End Basic Accordion */}
+              {/*=============== End Basic Accordion ===============*/}
             </Col>
             <Col xl={6} className='my-2'>
-              {/* Begin Basic Accordion */}
+              {/*=============== Begin Basic Accordion ===============*/}
               <Accordion defaultActiveKey={["0"]} alwaysOpen>
                 <Accordion.Item eventKey='0'>
                   <Accordion.Header>Accordion Item #1</Accordion.Header>
@@ -84,10 +84,10 @@ const AccordionIntro = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              {/* End Basic Accordion */}
+              {/*=============== End Basic Accordion ===============*/}
             </Col>
             <Col xl={6} className='my-2'>
-              {/* Begin Basic Accordion */}
+              {/*=============== Begin Basic Accordion ===============*/}
               <Accordion defaultActiveKey={["0"]} alwaysOpen>
                 <Accordion.Item eventKey='0'>
                   <Accordion.Header>
@@ -120,10 +120,10 @@ const AccordionIntro = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              {/* End Basic Accordion */}
+              {/*=============== End Basic Accordion ===============*/}
             </Col>
             <Col xl={6} className='my-2'>
-              {/* Begin Basic Accordion */}
+              {/*=============== Begin Basic Accordion ===============*/}
               <Accordion defaultActiveKey={["0"]} alwaysOpen>
                 <Accordion.Item eventKey='0' className='mb-3'>
                   <Accordion.Header>Accordion Item #1</Accordion.Header>
@@ -152,13 +152,13 @@ const AccordionIntro = () => {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-              {/* End Basic Accordion */}
+              {/*=============== End Basic Accordion ===============*/}
             </Col>
           </Row>
-          {/* End Row */}
+          {/*=============== End Row ===============*/}
         </Container>
       </div>
-      {/* components accordion End */}
+      {/*=============== components accordion End ===============*/}
     </>
   );
 };

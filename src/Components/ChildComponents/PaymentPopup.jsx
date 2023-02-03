@@ -5,7 +5,7 @@ import { FaSnowflake } from "react-icons/fa";
 const PaymentPopup = () => {
   return (
     <>
-      {/* PaymentPopup  */}
+      {/* ============== PaymentPopup  ==============*/}
       <div className='uikit-alert-area'>
         <div className='uikit-alert-inner text-center'>
           <div className='icon base-color'>
@@ -14,14 +14,14 @@ const PaymentPopup = () => {
           <div className='details'>
             <h6 className='title'>Tuch Id Required</h6>
             <p>You Payment Sent To Josep</p>
-            <a className='btn btn-blue w-100' href='#'>
+            <a className='btn btn-success w-100' href='#'>
               Done
             </a>
           </div>
         </div>
       </div>
-      {/* Inner Intro */}
-      <div className='allpage-area mg-top-90'>
+      {/*============== Inner Intro ==============*/}
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>

@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 const About = () => {
   return (
     <>
-      {/* blog-area start */}
-      <div className='blog-details-area mg-top-110'>
+      {/* =============== blog-area start ===============*/}
+      <div className='blog-details-area pd-top-110'>
         <Container>
           <div className='blog-details-inner'>
             <div className='section-title'>
@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </Container>
       </div>
-      {/* blog-area End */}
+      {/*=============== blog-area End ===============*/}
     </>
   );
 };

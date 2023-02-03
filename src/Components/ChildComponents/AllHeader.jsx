@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const AllHeader = () => {
   return (
     <>
-      <div className='header-style mg-top-110'>
+      <div className='header-style pd-top-110'>
         <Container>
           <Row>
             <Col sm={4} xs={4}>

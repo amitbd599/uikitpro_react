@@ -4,12 +4,12 @@ import { Col, Container, Row } from "react-bootstrap";
 const Alerts = () => {
   return (
     <>
-      {/* components alerts start */}
-      <div className='container-inner mg-top-90'>
+      {/* ==================== components alerts start ====================*/}
+      <div className='container-inner pd-top-110 alert-component'>
         <Container fluid>
           <Row className=' flex-row'>
             <Col xl={6}>
-              {/* Basic Alerts */}
+              {/*==================== Basic Alerts ====================*/}
               <div className='widget-header'>
                 <h4>Default</h4>
               </div>
@@ -35,10 +35,10 @@ const Alerts = () => {
                   </div>
                 </div>
               </div>
-              {/* End Basic Alerts */}
+              {/*==================== End Basic Alerts ====================*/}
             </Col>
             <Col xl={6}>
-              {/* Basic Alerts */}
+              {/*==================== Basic Alerts ====================*/}
               <div className='widget-header'>
                 <h4>Image</h4>
               </div>
@@ -67,10 +67,10 @@ const Alerts = () => {
                   </div>
                 </div>
               </div>
-              {/* End Basic Alerts */}
+              {/*==================== End Basic Alerts ====================*/}
             </Col>
             <Col xl={6}>
-              {/* Basic Alerts */}
+              {/*==================== Basic Alerts ====================*/}
               <div className='widget-header'>
                 <h4>Colors</h4>
               </div>
@@ -96,7 +96,7 @@ const Alerts = () => {
                   </div>
                 </div>
               </div>
-              {/* End Basic Alerts */}
+              {/*==================== End Basic Alerts ====================*/}
             </Col>
             <Col xl={6}>
               <div className='widget-header'>
@@ -150,7 +150,7 @@ const Alerts = () => {
               </div>
               <div className='widget has-shadow border-radius-5'>
                 <div className='widget-body'>
-                  {/* Bordered Style */}
+                  {/*==================== Bordered Style ====================*/}
                   <div className='alert alert-outline-info dashed' role='alert'>
                     <strong>Hey!</strong> This is a info alert with dashed
                     border
@@ -177,7 +177,7 @@ const Alerts = () => {
               </div>
               <div className='widget has-shadow border-radius-5'>
                 <div className='widget-body'>
-                  {/* Gradient Style */}
+                  {/*==================== Gradient Style ====================*/}
                   <div className='alert bg-gradient-03 no-border' role='alert'>
                     <strong>Hey!</strong> This is an alert with gradient
                     background
@@ -195,10 +195,10 @@ const Alerts = () => {
               </div>
             </Col>
           </Row>
-          {/* End Row */}
+          {/*==================== End Row ====================*/}
         </Container>
       </div>
-      {/* components alerts End */}
+      {/*==================== components alerts End ====================*/}
     </>
   );
 };

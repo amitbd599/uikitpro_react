@@ -4,23 +4,25 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Success = () => {
   return (
-    <div className='uikit-alert-area'>
+    <>
       {/* ================== Search Popup start================== */}
-      <div className='uikit-alert-inner text-center'>
-        <div className='icon base-color'>
-          <FaCheckCircle />
-        </div>
-        <div className='details'>
-          <h6 className='title'>Success</h6>
-          <p>You Payment Sent To Josep</p>
-          <a className='btn btn-blue w-100' href='#'>
-            Done
-          </a>
+      <div className='uikit-alert-area'>
+        <div className='uikit-alert-inner text-center'>
+          <div className='icon base-color'>
+            <FaCheckCircle />
+          </div>
+          <div className='details'>
+            <h6 className='title'>Success</h6>
+            <p>You Payment Sent To Josep</p>
+            <a className='btn btn-blue w-100' href='#'>
+              Done
+            </a>
+          </div>
         </div>
       </div>
       {/* ================== Search Popup End================== */}
-      {/* ================== Inner Intro Start ================== */}
-      <div className='allpage-area mg-top-90'>
+      {/*============== Inner Intro ==============*/}
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>
@@ -61,8 +63,7 @@ const Success = () => {
           </div>
         </Container>
       </div>
-      {/* ================== Inner Intro End ================== */}
-    </div>
+    </>
   );
 };
 

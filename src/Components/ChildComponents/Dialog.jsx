@@ -4,8 +4,8 @@ import { Col, Container, Row } from "react-bootstrap";
 const Dialog = () => {
   return (
     <>
-      {/* components buttons start */}
-      <div className='container-inner mg-top-90'>
+      {/* =================== components buttons start ===================*/}
+      <div className='container-inner pd-top-110'>
         <Container fluid>
           <Row className='flex-row'>
             <Col xl={6}>
@@ -37,10 +37,10 @@ const Dialog = () => {
                   </div>
                 </div>
               </div>
-              {/* End Basic Buttons */}
+              {/*=================== End Basic Buttons ===================*/}
             </Col>
             <Col xl={6}>
-              {/* Basic Buttons */}
+              {/*=================== Basic Buttons ===================*/}
               <div className='widget-header'>
                 <h4>Icond</h4>
               </div>
@@ -68,10 +68,10 @@ const Dialog = () => {
                   </div>
                 </div>
               </div>
-              {/* End Basic Buttons */}
+              {/*=================== End Basic Buttons ===================*/}
             </Col>
             <Col xl={6}>
-              {/* Outline Buttons */}
+              {/*=================== Outline Buttons ===================*/}
               <div className='widget-header'>
                 <h4>Outline Buttons</h4>
               </div>
@@ -93,10 +93,10 @@ const Dialog = () => {
                   </div>
                 </div>
               </div>
-              {/* End Outline Buttons */}
+              {/*=================== End Outline Buttons ===================*/}
             </Col>
             <Col xl={6}>
-              {/* Bankapp Buttons */}
+              {/*=================== Bankapp Buttons ===================*/}
               <div className='widget-header'>
                 <h4>More</h4>
               </div>
@@ -118,13 +118,13 @@ const Dialog = () => {
                   </div>
                 </div>
               </div>
-              {/* End Bankapp Buttons */}
+              {/*=================== End Bankapp Buttons ===================*/}
             </Col>
           </Row>
-          {/* End Row */}
+          {/*=================== End Row ===================*/}
         </Container>
       </div>
-      {/* components buttons End */}
+      {/*=================== components buttons End ===================*/}
     </>
   );
 };
