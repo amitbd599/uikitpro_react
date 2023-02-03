@@ -9,8 +9,13 @@ const ListViewPage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>ListView || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            List View || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <ListViewComponent />
       </Suspense>

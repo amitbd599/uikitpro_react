@@ -7,10 +7,15 @@ const ErrorIntroComponent = React.lazy(() =>
 const ErrorIntroPage = () => {
   return (
     <Fragment>
-     <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Error Intro || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            ErrorIntro || Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <ErrorIntroComponent />
       </Suspense>

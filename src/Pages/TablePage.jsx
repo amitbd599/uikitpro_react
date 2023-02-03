@@ -7,10 +7,13 @@ const TableComponent = React.lazy(() =>
 const TablePage = () => {
   return (
     <Fragment>
-     <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Components Table || **********</title>
-          <meta name='description' content='****************' />
+          <title>Table || Bootstrap 5 Based React Mobile UI Kit Template</title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <TableComponent />
       </Suspense>

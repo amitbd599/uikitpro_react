@@ -4,12 +4,12 @@ import { Col, Container, Row } from "react-bootstrap";
 const Progress = () => {
   return (
     <>
-      {/* components progress start */}
-      <div className='container-inner mg-top-110'>
+      {/* ============== components progress start ==============*/}
+      <div className='container-inner pd-top-110'>
         <Container fluid>
           <Row>
             <Col xl={6}>
-              {/* Basic */}
+              {/*============== Basic ==============*/}
               <div className='widget-header'>
                 <h4>Basic Progress Bars</h4>
               </div>
@@ -57,11 +57,11 @@ const Progress = () => {
                   </div>
                 </div>
               </div>
-              {/* End Basic */}
+              {/*============== End Basic ==============*/}
               <div className='widget-header'>
                 <h4>With Labels</h4>
               </div>
-              {/* Labels */}
+              {/*============== Labels ==============*/}
               <div className='widget has-shadow'>
                 <div className='widget-body'>
                   <div className='progress progress-lg mb-3'>
@@ -102,11 +102,11 @@ const Progress = () => {
                   </div>
                 </div>
               </div>
-              {/* End Labels */}
+              {/*============== End Labels ==============*/}
               <div className='widget-header'>
                 <h4>With Gradient</h4>
               </div>
-              {/* Gradient */}
+              {/*============== Gradient ==============*/}
               <div className='widget has-shadow'>
                 <div className='widget-body'>
                   <div className='progress mb-3'>
@@ -151,11 +151,11 @@ const Progress = () => {
                   </div>
                 </div>
               </div>
-              {/* End Gradient */}
+              {/*============== End Gradient ==============*/}
               <div className='widget-header'>
                 <h4>Multiple Bars</h4>
               </div>
-              {/* Multiple */}
+              {/*============== Multiple ==============*/}
               <div className='widget has-shadow'>
                 <div className='widget-body'>
                   <div className='progress mb-3'>
@@ -238,10 +238,10 @@ const Progress = () => {
                   </div>
                 </div>
               </div>
-              {/* End Multiple */}
+              {/*============== End Multiple ==============*/}
             </Col>
             <Col xl={6}>
-              {/* Sizing */}
+              {/*============== Sizing ==============*/}
               <div className='widget-header'>
                 <h4>Sizing</h4>
               </div>
@@ -309,7 +309,7 @@ const Progress = () => {
                   </div>
                 </div>
               </div>
-              {/* End Sizing */}
+              {/*============== End Sizing ==============*/}
               <div className='section-title mt-5'>
                 <h4>Large</h4>
               </div>
@@ -357,11 +357,11 @@ const Progress = () => {
                   </div>
                 </div>
               </div>
-              {/* End Sizing */}
+              {/*============== End Sizing ==============*/}
               <div className='widget-header'>
                 <h4>Stipped Progress Bars</h4>
               </div>
-              {/* Stripped */}
+              {/*============== Stripped ==============*/}
               <div className='widget has-shadow'>
                 <div className='widget-body'>
                   <div className='progress mb-3'>
@@ -409,7 +409,7 @@ const Progress = () => {
               <div className='section-title mt-5'>
                 <h4>Animated</h4>
               </div>
-              {/* Stripped */}
+              {/*============== Stripped ==============*/}
               <div className='widget has-shadow'>
                 <div className='widget-body'>
                   <div className='progress progress-lg mb-3'>
@@ -437,13 +437,13 @@ const Progress = () => {
                   </p>
                 </div>
               </div>
-              {/* End Stripped */}
+              {/*============== End Stripped ==============*/}
             </Col>
           </Row>
-          {/* End Row */}
+          {/*============== End Row ==============*/}
         </Container>
       </div>
-      {/* components progress End */}
+      {/*============== components progress End ==============*/}
     </>
   );
 };

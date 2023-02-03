@@ -9,8 +9,11 @@ const ImagePage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Image || **********</title>
-          <meta name='description' content='****************' />
+          <title>Image || Bootstrap 5 Based React Mobile UI Kit Template</title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <ImageComponent />
       </Suspense>

@@ -9,8 +9,13 @@ const IntroPopPage = () => {
     <Fragment>
       <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>IntroPop || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            IntroPop|| Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <IntroPopComponent />
       </Suspense>

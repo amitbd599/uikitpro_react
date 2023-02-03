@@ -7,10 +7,15 @@ const DropdownComponent = React.lazy(() =>
 const DropdownPage = () => {
   return (
     <Fragment>
-    <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Dropdown || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            Dropdown|| Bootstrap 5 Based React Mobile UI Kit Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <DropdownComponent />
       </Suspense>

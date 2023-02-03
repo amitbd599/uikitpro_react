@@ -5,7 +5,7 @@ import { FaCheckCircle } from "react-icons/fa";
 const Inset = () => {
   return (
     <>
-      {/* //. Inset Popup */}
+      {/* =================== Inset Popup ===================*/}
       <div className='uikit-alert-area'>
         <div className='uikit-alert-inner text-center'>
           <div className='icon base-color'>
@@ -23,8 +23,8 @@ const Inset = () => {
         </div>
       </div>
 
-      {/* Inner Text View */}
-      <div className='allpage-area mg-top-90'>
+      {/*=================== Inner Text View ===================*/}
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>

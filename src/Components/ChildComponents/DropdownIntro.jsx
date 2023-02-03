@@ -1,22 +1,15 @@
 import React from "react";
-import {
-  Button,
-  ButtonGroup,
-  Col,
-  Container,
-  DropdownButton,
-  Row,
-} from "react-bootstrap";
+import { Button, ButtonGroup, Col, Container, Row } from "react-bootstrap";
 import Dropdown from "react-bootstrap/Dropdown";
 const DropdownIntro = () => {
   return (
     <>
-      {/* components buttons start */}
-      <div className='container-inner mg-top-90'>
+      {/* ================= components buttons start =================*/}
+      <div className='container-inner pd-top-110'>
         <Container fluid>
           <Row className=' flex-row'>
             <Col xl={6}>
-              {/* Basic Buttons */}
+              {/*================= Basic Buttons =================*/}
               <div className='widget-header'>
                 <h4>Basic</h4>
               </div>
@@ -39,10 +32,10 @@ const DropdownIntro = () => {
                   </Dropdown>
                 </div>
               </div>
-              {/* End Basic Buttons */}
+              {/*================= End Basic Buttons =================*/}
             </Col>
             <Col xl={6}>
-              {/* Split button dropdowns */}
+              {/*================= Split button dropdowns =================*/}
               <div className='widget-header'>
                 <h4>Split button dropdowns</h4>
               </div>
@@ -69,10 +62,10 @@ const DropdownIntro = () => {
                   </Dropdown>
                 </div>
               </div>
-              {/* End Split button dropdowns */}
+              {/*================= End Split button dropdowns =================*/}
             </Col>
             <Col xl={6}>
-              {/* Dark dropdowns */}
+              {/*================= Dark dropdowns =================*/}
               <div className='widget-header'>
                 <h4>Dark dropdowns</h4>
               </div>
@@ -104,13 +97,13 @@ const DropdownIntro = () => {
                   </Dropdown>
                 </div>
               </div>
-              {/* End Outline Buttons */}
+              {/*================= End Outline Buttons =================*/}
             </Col>
           </Row>
-          {/* End Row */}
+          {/*================= End Row =================*/}
         </Container>
       </div>
-      {/* components buttons End */}
+      {/*================= components buttons End =================*/}
     </>
   );
 };

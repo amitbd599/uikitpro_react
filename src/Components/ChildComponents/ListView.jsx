@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 const ListView = () => {
   return (
     <>
-      {/* ListView end */}
-      <div className='allpage-area mg-top-110'>
+      {/* ================== ListView end ==================*/}
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Simple List View</h5>
           <div className='ba-all-page-inner listview style-no-arrow mb-4'>
@@ -110,7 +110,7 @@ const ListView = () => {
           </div>
         </Container>
       </div>
-      {/* ListView end */}
+      {/*================== ListView end ==================*/}
     </>
   );
 };

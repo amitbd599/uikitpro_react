@@ -4,8 +4,8 @@ import { Container } from "react-bootstrap";
 const Search = () => {
   return (
     <>
-      {/* Search start */}
-      <div className='Search-area mg-top-110'>
+      {/* ================ Search start ================*/}
+      <div className='Search-area pd-top-110'>
         <Container>
           <div className='single-search-inner'>
             <input type='text' placeholder='Search' />
@@ -13,9 +13,9 @@ const Search = () => {
           </div>
         </Container>
       </div>
-      {/* Search end */}
-      {/* allpage start */}
-      <div className='allpage-area mt-4'>
+      {/*================ Search end ================*/}
+      {/*================ allpage start ================*/}
+      <div className='allpage-area mt-4 search'>
         <Container>
           <h5>Search For Title</h5>
           <div className='ba-all-page-inner border-radius-4 mb-4 pt-2'>
@@ -44,6 +44,7 @@ const Search = () => {
           </div>
         </Container>
       </div>
+      {/*================ allpage End ================*/}
     </>
   );
 };

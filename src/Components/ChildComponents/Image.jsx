@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Image = () => {
   return (
     <>
-      {/* Image View Popup */}
+      {/* ================ Image View Popup ================*/}
       <div className='uikit-alert-area'>
         <div className='uikit-alert-inner text-center'>
           <div className='icon red-color'>
@@ -13,15 +13,15 @@ const Image = () => {
           <div className='details'>
             <h6 className='title'>Juben Send You $350</h6>
             <p>This is an Example</p>
-            <a className='btn btn-blue w-100' href='#'>
+            <a className='btn btn-success w-100' href='#'>
               Done
             </a>
           </div>
         </div>
       </div>
 
-      {/* Inner View */}
-      <div className='allpage-area mg-top-90'>
+      {/*================ Inner View ================*/}
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>

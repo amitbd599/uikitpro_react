@@ -3,12 +3,12 @@ import React from "react";
 const Notifications = () => {
   return (
     <>
-      {/* components notification start */}
-      <div className='container-inner mg-top-90'>
+      {/* ============= components notification start =============*/}
+      <div className='container-inner pd-top-110'>
         <div className='container-fluid'>
           <div className='row flex-row'>
             <div className='col-xl-6'>
-              {/* Basic Example */}
+              {/*============= Basic Example =============*/}
               <div className='widget has-shadow'>
                 <div className='widget-body'>
                   <div className='section-title mt-3 mb-3'>
@@ -118,10 +118,10 @@ const Notifications = () => {
                   </button>
                 </div>
               </div>
-              {/* End Basic Example */}
+              {/*============= End Basic Example =============*/}
             </div>
             <div className='col-xl-6'>
-              {/* Advanced Example */}
+              {/*============= Advanced Example =============*/}
               <div className='widget has-shadow'>
                 <div className='widget-body'>
                   <div className='section-title mt-3 mb-3'>
@@ -188,13 +188,13 @@ const Notifications = () => {
                   </button>
                 </div>
               </div>
-              {/* End Advanced Example */}
+              {/*============= End Advanced Example =============*/}
             </div>
           </div>
-          {/* End Row */}
+          {/*============= End Row =============*/}
         </div>
       </div>
-      {/* components notification End */}
+      {/*============= components notification End =============*/}
     </>
   );
 };

@@ -18,8 +18,8 @@ const UserModal = () => {
 
   return (
     <div className='model'>
-      {/* Model Top */}
-      <div className='mg-top-120 model-top'>
+      {/* =============== Model Top ===============*/}
+      <div className='pd-top-110 model-top'>
         <div className='header-text'>
           <h3>Model Top</h3>
         </div>
@@ -55,7 +55,7 @@ const UserModal = () => {
           </Modal>
         </div>
       </div>
-      {/* Model centered */}
+      {/*=============== Model centered ===============*/}
       <div className='model my-5'>
         <div className='model-centered'>
           <div className='header-text'>
@@ -99,7 +99,7 @@ const UserModal = () => {
         </div>
       </div>
 
-      {/* Model Input */}
+      {/*=============== Model Input ===============*/}
       <div className='model my-5'>
         <div className='model-input'>
           <div className='header-text'>

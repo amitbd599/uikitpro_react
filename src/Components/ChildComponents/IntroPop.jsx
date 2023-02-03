@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const IntroPop = () => {
   return (
     <>
-      {/* IntroPop Popup */}
+      {/* ===================== IntroPop Popup =====================*/}
       <div className='uikit-alert-area'>
         <div className='uikit-alert-inner text-center'>
           <div className='details'>
@@ -17,8 +17,8 @@ const IntroPop = () => {
         </div>
       </div>
 
-      {/* Inner View */}
-      <div className='allpage-area mg-top-90'>
+      {/*===================== Inner View =====================*/}
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>

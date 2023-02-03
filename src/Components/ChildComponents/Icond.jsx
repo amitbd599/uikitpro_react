@@ -5,7 +5,7 @@ import { FaCheck, FaCheckCircle } from "react-icons/fa";
 const Icond = () => {
   return (
     <>
-      {/* Icond Popup view */}
+      {/* ====================  Icond Popup view ====================*/}
       <div className='uikit-alert-area'>
         <div className='uikit-alert-inner text-center'>
           <div className='icon base-color'>
@@ -32,8 +32,8 @@ const Icond = () => {
         </div>
       </div>
 
-      {/* Inner View */}
-      <div className='allpage-area mg-top-90'>
+      {/*==================== Inner View ====================*/}
+      <div className='allpage-area pd-top-110'>
         <Container>
           <h5>Basic</h5>
           <div className='ba-all-page-inner mb-4'>

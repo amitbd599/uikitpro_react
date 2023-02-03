@@ -7,10 +7,13 @@ const RadioComponent = React.lazy(() =>
 const RadioPage = () => {
   return (
     <Fragment>
-     <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>Components Radio || **********</title>
-          <meta name='description' content='****************' />
+          <title>Radio || Bootstrap 5 Based React Mobile UI Kit Template</title>
+          <meta
+            name='UikitPro'
+            content='Bootstrap 5 Based React Mobile UI Kit Template'
+          />
         </Helmet>
         <RadioComponent />
       </Suspense>
