@@ -59,12 +59,12 @@ const View = () => {
                   </div>
                 </div>
                 <div className='banner-btn'>
-                  <Link
+                  {/* <Link
                     className='scroll-down-btn-demo m-auto d-none d-lg-inline-block'
                     to='/rtl/index'
                   >
                     RTL View
-                  </Link>
+                  </Link> */}
                   <a
                     className='scroll-down-btn-demo mx-1 d-none d-lg-inline-block'
                     target='_blank'
@@ -74,7 +74,7 @@ const View = () => {
                   </a>
                   <Link
                     className='scroll-down-btn-demo m-auto d-inline-block d-lg-none'
-                    to='/'
+                    to='/home-1'
                   >
                     Live Demo
                   </Link>
@@ -214,9 +214,9 @@ const View = () => {
       <div className='footer-area mb-0'>
         <div className='footer-top pt-5 text-center'>
           <Container>
-            <a href='index.html'>
+            <Link to='/'>
               <img src='/Assets/Images/logo-2.png' alt='' />
-            </a>
+            </Link>
             <p>
               Copyright © Uikitpro 2023. All Rights Reserved. Designed By
               s7template

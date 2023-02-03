@@ -16,15 +16,15 @@ const Footer = () => {
       <div className='footer-area pt-2'>
         <div className='footer-top text-center'>
           <Container>
-            <a className='main-logo' href='home.html'>
+            <Link className='main-logo' to='/home-1'>
               <img src='/Assets/Images/logo-2.png' alt='' />
-            </a>
-            <a className='dark-logo' href='home.html'>
+            </Link>
+            <Link className='dark-logo' to='/home-2'>
               <img src='/Assets/Images/logo-3.png' alt='' />
-            </a>
+            </Link>
             <p>
-              Copyright © Uikitpro 2022. All Rights Reserved. Designed By
-              s7template
+              Copyright © Uikitpro ReactJS 2023. All Rights Reserved. Designed
+              By s7template
             </p>
             <ul className='social-area'>
               <li>
@@ -64,24 +64,24 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href='all-page.html'>
+                <Link to='/all-page'>
                   <img src='/Assets/Images/icon/24.png' alt='img' />
-                </a>
+                </Link>
               </li>
               <li>
-                <a className='ba-add-balance-btn' href='#'>
+                <Link className='ba-add-balance-btn' to='/transaction'>
                   <img src='/Assets/Images/icon/27.png' alt='img' />
-                </a>
+                </Link>
               </li>
               <li>
-                <a href='cart.html'>
+                <Link to='/carts'>
                   <img src='/Assets/Images/icon/25.png' alt='img' />
-                </a>
+                </Link>
               </li>
               <li>
-                <a className='menu-bar' href='#'>
+                <Link className='menu-bar' to='/all-page'>
                   <img src='/Assets/Images/icon/26.png' alt='img' />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
