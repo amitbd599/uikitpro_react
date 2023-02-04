@@ -218,8 +218,8 @@ const View = () => {
               <img src='/Assets/Images/logo-2.png' alt='' />
             </Link>
             <p>
-              Copyright © Uikitpro 2023. All Rights Reserved. Designed By
-              s7template
+              Copyright © Uikitpro ReactJS 2023. All Rights Reserved. Designed
+              By s7template
             </p>
             <ul className='social-area'>
               <li>

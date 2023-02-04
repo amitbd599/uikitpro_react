@@ -57,7 +57,7 @@ import SearchPage from "./Pages/SearchPage";
 function App() {
   const darkBG = localStorage.getItem("color");
   return (
-    <div className={darkBG}>
+    <section className={darkBG}>
       <BrowserRouter>
         <Routes>
           <Route exact path='/' element={<ViewPage />} />
@@ -140,7 +140,7 @@ function App() {
           <Route exact path='/about' element={<AboutPage />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </section>
   );
 }
 
