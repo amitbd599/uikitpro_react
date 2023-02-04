@@ -1,9 +1,9 @@
 /*
 Theme Name: UikitPro
-Theme URI: http://s7template.com/tf/uikitpro/
+Theme URI: https://s7template.com/react/uikitpro
 Author: s7template
 Author URI: http://s7template.com/
-Description: UikitPro - Wallet & Banking HTML Mobile Template
+Description: Mobilekit Wallet & Banking React JS Mobile Template
 Version: 1.0.1
 */
 
@@ -13,26 +13,43 @@ Version: 1.0.1
 # Global
     ## Global
     ## Mixins
-    ## Theme
     ## Variables
     ## Common
 
 # Sections
-    ## Nav Bar
-    ## Banner
-    ## Brand Area
-    ## Footer
-    ## Widgets
 
-# Elements
-    ## Flaticon
+    ## Widgets
+    ## Header
+    ## Banner
+    ## Content
+    ## Footer
+
+# Components
+    ## _header-style
+    ## _ui_commmon
+    ## _accordion
+    ## _alerts
+    ## _buttons
+    ## _modal
+    ## _progress
+    ## _tabs
+    ## _tooltip
+    ## _notifications
+    ## _dark
+    ## _badge
+    ## _table
+    ## _demo
+
+# Responsive
+
+    ## responsive
 
 --------------------------------------------------------------*/
 
 //== Global Design
+@import "global/_global";
 @import "global/_mixins";
 @import "global/_variables";
-@import "global/_global";
 @import "global/_common";
 //== Pages
 //== Sections

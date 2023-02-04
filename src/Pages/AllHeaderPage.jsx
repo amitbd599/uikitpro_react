@@ -7,10 +7,15 @@ const AllHeaderComponent = React.lazy(() =>
 const AllHeaderPage = () => {
   return (
     <Fragment>
-      <Suspense fallback={<Preloader/>}>
+      <Suspense fallback={<Preloader />}>
         <Helmet>
-          <title>All Header || **********</title>
-          <meta name='description' content='****************' />
+          <title>
+            All Header || MobileKit Wallet & Banking ReactJS Mobile Template
+          </title>
+          <meta
+            name='UikitPro'
+            content='MobileKit Wallet & Banking ReactJS Mobile Template'
+          />
         </Helmet>
         <AllHeaderComponent />
       </Suspense>

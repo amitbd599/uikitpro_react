@@ -10,11 +10,11 @@ const BlogDetailsPage = () => {
       <Suspense fallback={<Preloader />}>
         <Helmet>
           <title>
-            Blog Details || Bootstrap 5 Based React Mobile UI Kit Template
+            Blog Details || MobileKit Wallet & Banking ReactJS Mobile Template
           </title>
           <meta
             name='UikitPro'
-            content='Bootstrap 5 Based React Mobile UI Kit Template'
+            content='MobileKit Wallet & Banking ReactJS Mobile Template'
           />
         </Helmet>
         <BlogDetailsComponent />

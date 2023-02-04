@@ -39,7 +39,7 @@ const View = () => {
                   )}
 
                   <h3 className='entry-title'>
-                    Bootstrap 5 Based React Mobile UI Kit Template
+                    MobileKit Wallet & Banking ReactJS Mobile Template
                   </h3>
                   <p className='d-none d-lg-block'>
                     UikitPro is an elegant, modern and fully customizable Walet

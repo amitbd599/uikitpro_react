@@ -15,7 +15,7 @@ const TransactionDetailsPage = () => {
           </title>
           <meta
             name='UikitPro'
-            content='Bootstrap 5 Based React Mobile UI Kit Template'
+            content='MobileKit Wallet & Banking ReactJS Mobile Template'
           />
         </Helmet>
         <TransactionDetailsComponent />

@@ -10,11 +10,11 @@ const CarouselPage = () => {
       <Suspense fallback={<Preloader />}>
         <Helmet>
           <title>
-            Carousel || Bootstrap 5 Based React Mobile UI Kit Template
+            Carousel || MobileKit Wallet & Banking ReactJS Mobile Template
           </title>
           <meta
             name='UikitPro'
-            content='Bootstrap 5 Based React Mobile UI Kit Template'
+            content='MobileKit Wallet & Banking ReactJS Mobile Template'
           />
         </Helmet>
         <CarouselComponent />
