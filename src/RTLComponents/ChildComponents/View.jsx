@@ -61,9 +61,9 @@ const View = () => {
                 <div className='banner-btn'>
                   <Link
                     className='scroll-down-btn-demo m-auto d-none d-lg-inline-block'
-                    to='/rtl'
+                    to='/'
                   >
-                    RTL View
+                    Main View
                   </Link>
                   <a
                     className='scroll-down-btn-demo mx-2 d-none d-lg-inline-block'
