@@ -8,82 +8,82 @@ const BillPay = () => {
       <div className='bill-pay-area pd-top-110'>
         <div className='container'>
           <div className='section-title style-three'>
-            <h3 className='title'>Pay Monthly Bill</h3>
-            <a href='#'>
+            <a href='#' className='float-start'>
               <FaBell />
             </a>
+            <h3 className='title float-end'>دفع الفاتورة الشهرية</h3>
           </div>
           <div className='row'>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/17.png' alt='img' />
-                <p>Electricity</p>
+                <p>كهرباء</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/18.png' alt='img' />
-                <p>Water Bill </p>
+                <p>فاتورة الماء</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/19.png' alt='img' />
-                <p>Gas Bill</p>
+                <p>فاتورة الغاز</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/20.png' alt='img' />
-                <p>Internet Bill</p>
+                <p>فاتورة الإنترنت</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/21.png' alt='img' />
-                <p>Cable </p>
+                <p>كابل </p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/22.png' alt='img' />
-                <p>Airfare</p>
+                <p>السفر بالطائرة</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/31.png' alt='img' />
-                <p>Food Order</p>
+                <p>طلب الطعام</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/32.png' alt='img' />
-                <p>Hotel Booking </p>
+                <p>Hotel Booking </p> <p>حجز الفندق</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/33.png' alt='img' />
-                <p>Trains Ticket</p>
+                <p>تذكرة القطارات</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/34.png' alt='img' />
-                <p>Movie Ticket</p>
+                <p>تذكرة الفيلم</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/35.png' alt='img' />
-                <p>Other Bills </p>
+                <p>فواتير أخرى</p>
               </div>
             </div>
             <div className='col-4'>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/36.png' alt='img' />
-                <p>Bus Ticket</p>
+                <p>تذكرة الباص</p>
               </div>
             </div>
           </div>

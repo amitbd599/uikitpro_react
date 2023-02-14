@@ -23,8 +23,8 @@ const Footer = () => {
               <img src='/Assets/Images/logo-3.png' alt='' />
             </Link>
             <p>
-              Copyright © Uikitpro ReactJS 2023. All Rights Reserved. Designed
-              By s7template
+              حقوق الطبع والنشر © Uikitpro ReactJS 2023. جميع الحقوق محفوظة. صمم
+              بواسطة قالب iPhone 11 Pro Max
             </p>
             <ul className='social-area'>
               <li>

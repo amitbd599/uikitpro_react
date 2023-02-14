@@ -10,17 +10,19 @@ const TransactionDetails = () => {
       <div className='balance-area pd-top-110'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>Recently Transactios</h3>
-            <a className='sub-delete' href='#'>
+            <a className='sub-delete float-start' href='#'>
               <FaTrashAlt />
             </a>
+            <h3 className='title float-end'>المعاملات الأخيرة</h3>
           </div>
           <div className='ba-transaction-details text-center'>
             <h6>
-              Here is your transactios <br /> details history
+              ها هي المعاملات الخاصة بك
+              <br /> تفاصيل التاريخ
             </h6>
             <h4>
-              Payment Sent <br />
+              ارسلت الدفعه
+              <br />
               <span>$56.00</span>
             </h4>
           </div>
@@ -32,34 +34,34 @@ const TransactionDetails = () => {
         <Container>
           <ul className='transaction-details-inner'>
             <li className='transaction-details-title'>
-              <span className='float-start pt-2'>Payment Status</span>
-              <span className='float-end'>
+              <span className='float-end pt-2'>حالة السداد</span>
+              <span className='float-start'>
                 <FaCheck />
               </span>
             </li>
-            <li>
-              <span className='float-start'>To</span> :
-              <span className='float-end'>Rakishony Roy</span>
+            <li className='text-end'>
+              <span class='float-start'>ل</span> :
+              <span class='float-end'>راكيشوني روي</span>
             </li>
-            <li>
-              <span className='float-start'>Bank Name</span> :
-              <span className='float-end'>Payoneer</span>
+            <li className='text-end'>
+              <span class='float-start'>اسم البنك</span> :
+              <span class='float-end'>بايونير</span>
             </li>
-            <li>
-              <span className='float-start'>Category</span> :
-              <span className='float-end'>Travely</span>
+            <li className='text-end'>
+              <span class='float-start'>فئة</span> :
+              <span class='float-end'>بصعوبة</span>
             </li>
-            <li>
-              <span className='float-start'>Purchase Receipt</span> :
-              <span className='float-end'>Yes</span>
+            <li className='text-end'>
+              <span class='float-start'>إيصال الشراء</span> :
+              <span class='float-end'>نعم</span>
             </li>
-            <li>
-              <span className='float-start'>Purchase Date</span> :
-              <span className='float-end'>03/22/2020</span>
+            <li className='text-end'>
+              <span class='float-start'>تاريخ الشراء</span> :
+              <span class='float-end'>03/22/2020</span>
             </li>
-            <li>
-              <span className='float-start'>Total Amounts</span> :
-              <span className='float-end'>$757.00</span>
+            <li className='text-end'>
+              <span class='float-start'>المبالغ الإجمالية</span> :
+              <span class='float-end'>$757.00</span>
             </li>
           </ul>
         </Container>
@@ -68,8 +70,8 @@ const TransactionDetails = () => {
       <div className='btn-wrap pt-3 text-center'>
         <Container>
           <p className='btn-content-text'>
-            If haveing any transaction issue, Please{" "}
-            <Link to='/contact'>Contact us</Link>
+            إذا كان لديك أي مشكلة في المعاملات ، من فضلك
+            <Link to='/rtl-contact'> اتصل بنا</Link>
           </p>
         </Container>
       </div>

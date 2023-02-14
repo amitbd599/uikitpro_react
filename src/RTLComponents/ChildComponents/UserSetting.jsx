@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import {
-  FaAngleRight,
+  FaAngleLeft,
   FaCcMastercard,
   FaComments,
   FaEnvelope,
@@ -25,7 +25,7 @@ const UserSetting = () => {
               <img src='/Assets/Images/user.png' alt='user' />
             </div>
             <div className='details'>
-              <h5>Raduronto kelax</h5>
+              <h5>رادورونتو كيلاكس</h5>
               <p>ID: 99883323</p>
             </div>
           </div>
@@ -37,93 +37,93 @@ const UserSetting = () => {
       <div className='allpage-area'>
         <Container>
           <div className='ba-all-page-inner style-no-border'>
-            <h5>Account</h5>
+            <h5>الحساب</h5>
             <ul>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link to='/user-setting'>
+                <span>
+                  <FaAngleLeft />
+                </span>
+                <Link to='/rtl-user-setting'>
+                  <span>تعديل الملف الشخصي</span>
                   <FaUserAlt />
-                  <span>Edit Profile</span>
                 </Link>
-                <span>
-                  <FaAngleRight />
-                </span>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link to='/transaction'>
+                <span>
+                  <FaAngleLeft />
+                </span>
+                <Link to='/rtl-transaction'>
+                  <span>غير رقم الهاتف</span>
                   <FaPhoneAlt />
-                  <span>Change Phone Number</span>
                 </Link>
-                <span>
-                  <FaAngleRight />
-                </span>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link to='/transaction-details'>
+                <span>
+                  <FaAngleLeft />
+                </span>
+                <Link to='/rtl-transaction-details'>
+                  <span>تغيير الايميل</span>
                   <FaEnvelope />
-                  <span>Change Email</span>
                 </Link>
-                <span>
-                  <FaAngleRight />
-                </span>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link to='/transaction'>
+                <span>
+                  <FaAngleLeft />
+                </span>
+                <Link to='/rtl-transaction'>
+                  <span>يدعم</span>
                   <FaComments />
-                  <span>Support</span>
                 </Link>
-                <span>
-                  <FaAngleRight />
-                </span>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
+                <span>
+                  <FaAngleLeft />
+                </span>
                 <Link to='#'>
+                  <span>الأسئلة الشائعة</span>
                   <FaQuestionCircle />
-                  <span>Faqs</span>
                 </Link>
-                <span>
-                  <FaAngleRight />
-                </span>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link to='/user-setting'>
+                <span>
+                  <FaAngleLeft />
+                </span>
+                <Link to='/rtl-user-setting'>
+                  <span>لغة</span>
                   <FaLanguage />
-                  <span>Language</span>
                 </Link>
-                <span>
-                  <FaAngleRight />
-                </span>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link to='/user-verification'>
-                  <FaSignOutAlt />
-                  <span>Sign Out</span>
-                </Link>
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                <Link to='/rtl-user-verification'>
+                  <span>خروج</span>
+                  <FaSignOutAlt />
+                </Link>
               </li>
             </ul>
           </div>
           <div className='ba-all-page-inner style-two style-no-border'>
-            <h5>More Settings</h5>
+            <h5 className='text-end'>المزيد من الإعدادات</h5>
             <ul>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link to='/signin'>
-                  <FaLock />
-                  <span>Change Password</span>
-                </Link>
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                <Link to='/rtl-signin'>
+                  <span>تغيير كلمة المرور</span>
+                  <FaLock />
+                </Link>
               </li>
               <li className='d-flex justify-content-between align-items-center'>
-                <Link to='/transaction'>
-                  <FaCcMastercard />
-                  <span>Bank Account</span>
-                </Link>
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                <Link to='/rtl-transaction'>
+                  <span>حساب البنك</span>
+                  <FaCcMastercard />
+                </Link>
               </li>
             </ul>
           </div>

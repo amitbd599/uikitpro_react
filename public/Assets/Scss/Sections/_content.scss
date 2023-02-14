@@ -869,13 +869,13 @@
   .btn {
     margin-bottom: 10px;
     &:hover {
+      background: #fff;
       img {
-        filter: brightness(1000);
         transition: all 0.3s ease-in;
       }
       svg,
       i {
-        color: #fff;
+        color: #4b4b4b;
       }
     }
     img {

@@ -9,16 +9,16 @@ const Transaction = () => {
       <div className='transaction-area pd-top-110'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>Recently Transaction</h3>
+            <h3 class='title float-end'>المعاملات الأخيرة</h3>
           </div>
           <ul className='transaction-inner'>
             <li className='ba-single-transaction'>
               <div className='thumb'>
                 <img src='/Assets/Images/icon/12.png' alt='img' />
               </div>
-              <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+              <div className='details text-end'>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$130 <br />
                   <FaAngleRight />
@@ -29,9 +29,9 @@ const Transaction = () => {
               <div className='thumb'>
                 <img src='/Assets/Images/icon/13.png' alt='img' />
               </div>
-              <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+              <div className='details text-end'>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$250 <br />
                   <FaAngleRight />
@@ -42,9 +42,9 @@ const Transaction = () => {
               <div className='thumb'>
                 <img src='/Assets/Images/icon/14.png' alt='img' />
               </div>
-              <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+              <div className='details text-end'>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$130 <br />
                   <FaAngleRight />
@@ -55,9 +55,9 @@ const Transaction = () => {
               <div className='thumb'>
                 <img src='/Assets/Images/icon/29.png' alt='img' />
               </div>
-              <div className='details'>
-                <h5>Bill Resturant</h5>
-                <p>Fun Life</p>
+              <div className='details text-end'>
+                <h5>مطعم بيل</h5>
+                <p>حياة ممتعة</p>
                 <h5 className='amount text-end'>
                   -$100 <br />
                   <FaAngleRight />
@@ -68,9 +68,9 @@ const Transaction = () => {
               <div className='thumb'>
                 <img src='/Assets/Images/icon/15.png' alt='img' />
               </div>
-              <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+              <div className='details text-end'>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$130 <br />
                   <FaAngleRight />
@@ -81,9 +81,9 @@ const Transaction = () => {
               <div className='thumb'>
                 <img src='/Assets/Images/icon/17.png' alt='img' />
               </div>
-              <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+              <div className='details text-end'>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$130 <br />
                   <FaAngleRight />
@@ -94,6 +94,15 @@ const Transaction = () => {
         </Container>
       </div>
       {/*============ transaction End ============*/}
+
+      <div className='btn-wrap mt-4 mb-2'>
+        <Container>
+          <a className='btn-large btn-success w-100' href='#'>
+            المزيد من المعاملات
+            <FaAngleRight />
+          </a>
+        </Container>
+      </div>
     </>
   );
 };

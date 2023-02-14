@@ -131,22 +131,7 @@
   padding: 0 25px;
   transition: $transition;
   border-radius: 50px;
-  &:hover {
-    color: $white;
-    opacity: 0.7;
-  }
-  &:focus {
-    box-shadow: none;
-    color: $white;
-    outline: 0;
-    opacity: 0.7;
-  }
-  &:active {
-    box-shadow: none;
-    color: $white;
-    outline: 0;
-    opacity: 0.7;
-  }
+
   i {
     padding-left: 10px;
   }
@@ -207,10 +192,6 @@
 .btn-white {
   background: $white;
   color: #15131c;
-  &:hover {
-    background: var(--main-color);
-    color: #fff;
-  }
 }
 
 .btn-white-border {
@@ -365,9 +346,6 @@
       align-items: center;
       justify-content: center;
       transition: $transition;
-      &:hover {
-        color: var(--main-color);
-      }
       &.facebook {
         background: #0066ff;
       }

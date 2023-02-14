@@ -1,6 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
@@ -10,31 +9,57 @@ const SignUp = () => {
         <Container>
           <div className='signin-area-inner text-center mb-4'>
             <img src='/Assets/Images/other/2.png' alt='img' />
-            <h3>Let’s Sign Up</h3>
-            <p>Welcome Back, you’ve been missed !</p>
+            <h3>هيا نشترك</h3>
+            <p>مرحبًا بعودتك ، لقد فاتتك!</p>
           </div>
           <form className='contact-form-inner'>
             <label className='single-input-wrap'>
-              <input type='text' placeholder='Fast Name' />
+              <input
+                className='text-end'
+                type='text'
+                placeholder='اسم سريع
+                    '
+              />
             </label>
             <label className='single-input-wrap'>
-              <input type='text' placeholder='Last Name' />
+              <input
+                className='text-end'
+                type='text'
+                placeholder='اسم العائلة
+                    '
+              />
             </label>
             <label className='single-input-wrap'>
-              <input type='text' placeholder='Email Address' />
+              <input
+                className='text-end'
+                type='text'
+                placeholder='عنوان البريد الالكترونى
+                    '
+              />
             </label>
             <label className='single-input-wrap'>
-              <input type='password' placeholder='Password' />
+              <input
+                className='text-end'
+                type='password'
+                placeholder='كلمة المرور
+                    '
+              />
             </label>
             <label className='single-input-wrap'>
-              <input type='password' placeholder='Confirm Password' />
+              <input
+                className='text-end'
+                type='password'
+                placeholder='تأكيد كلمة المرور
+                    '
+              />
             </label>
             <a className='btn-large btn-blue w-100' href='#'>
-              Sign Up
+              اشتراك
             </a>
             <div className='text-center'>
               <p>
-                Already have not an account? <Link to='/signin'>Sign In</Link>
+                بالفعل ليس لديك حساب؟
+                <a href='signin.html'> تسجيل الدخول</a>
               </p>
             </div>
           </form>

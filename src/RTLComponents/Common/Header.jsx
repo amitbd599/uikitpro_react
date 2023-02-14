@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
-import { FaAngleRight, FaBell, FaPlus } from "react-icons/fa";
+import { FaAngleLeft, FaBell, FaPlus } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -43,12 +43,12 @@ const Header = () => {
             </div>
             <Row>
               <Col sm={4} xs={4} className='align-self-center'>
-                {window.location.pathname === "/home-1" ? (
+                {window.location.pathname === "/rtl-home-1" ? (
                   <span className='menu-back-page' onClick={navbarControl}>
                     <img src='/Assets/Images/icon/0.png' alt='img' />
                   </span>
                 ) : (
-                  <Link className='menu-back-page' to='/home-1'>
+                  <Link className='menu-back-page' to='/rtl-home-1'>
                     <img src='/Assets/Images/icon/28.png' alt='img' />
                   </Link>
                 )}
@@ -58,7 +58,7 @@ const Header = () => {
                 xs={4}
                 className='text-center align-self-center text-center'
               >
-                {window.location.pathname === "/home-1" || "/home-2" ? (
+                {window.location.pathname === "/rtl-home-1" || "/rtl-home-2" ? (
                   <img src='/Assets/Images/logo_4.png' alt='img' />
                 ) : (
                   <div className='page-name'>Verification</div>
@@ -95,33 +95,33 @@ const Header = () => {
               <img src='/Assets/Images/user.png' alt='user' />
             </div>
             <div className='details'>
-              <h5>Raduronto kelax</h5>
-              <p>ID: 99883323</p>
+              <h5>رادورونتو كيلاكس</h5>
+              <p>ID: 998833234</p>
             </div>
           </div>
           <div className='ba-balance-inner mb-3 text-end align-self-center'>
             <div className='icon'>
               <img src='/Assets/Images/icon/1.png' alt='img' />
             </div>
-            <h5 className='title'>Available Balance</h5>
+            <h5 className='title'>الرصيد المتوفر</h5>
             <h5 className='amount'>$56,985.00</h5>
           </div>
           <div className='ba-add-balance-title'>
-            <h5>Deposit</h5>
             <span>
               <FaPlus />
             </span>
+            <h5>الوديعة</h5>
           </div>
           <div className='ba-main-menu'>
-            <h5>Menu</h5>
+            <h5>قائمة الطعام</h5>
             <ul>
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
                   to='/home-1'
                 >
-                  <span>Uikitpro Display</span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
+                  <span>عرض</span>
                 </NavLink>
               </li>
               <li>
@@ -129,8 +129,8 @@ const Header = () => {
                   className={(navData) => (navData.isActive ? "active" : "")}
                   to='/all-page'
                 >
-                  <span>Pages</span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
+                  <span>الصفحات</span>
                 </NavLink>
               </li>
               <li>
@@ -138,8 +138,8 @@ const Header = () => {
                   className={(navData) => (navData.isActive ? "active" : "")}
                   to='/about'
                 >
-                  <span>About Us</span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
+                  <span>معلومات عنا</span>
                 </NavLink>
               </li>
               <li>
@@ -147,8 +147,8 @@ const Header = () => {
                   className={(navData) => (navData.isActive ? "active" : "")}
                   to='/carts'
                 >
-                  <span>My Cart</span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
+                  <span>عربة التسوق الخاصة بي</span>
                 </NavLink>
               </li>
               <li>
@@ -156,7 +156,7 @@ const Header = () => {
                   className={(navData) => (navData.isActive ? "active" : "")}
                   to='/user-setting'
                 >
-                  <span>Setting</span> <FaAngleRight />
+                  <FaAngleLeft /> <span>جلسة</span>
                 </NavLink>
               </li>
               <li>
@@ -164,7 +164,7 @@ const Header = () => {
                   className={(navData) => (navData.isActive ? "active" : "")}
                   to='/notification'
                 >
-                  <span>Notification</span> <FaAngleRight />
+                  <FaAngleLeft /> <span>تنبيه</span>
                 </NavLink>
               </li>
               <li>
@@ -172,7 +172,7 @@ const Header = () => {
                   className={(navData) => (navData.isActive ? "active" : "")}
                   to='/all-page'
                 >
-                  <span>All Component</span> <FaAngleRight />
+                  <FaAngleLeft /> <span>مكون</span>
                 </NavLink>
               </li>
               <li>
@@ -182,7 +182,7 @@ const Header = () => {
                   }
                   to='/signup'
                 >
-                  <span>Logout</span> <FaAngleRight />
+                  <FaAngleLeft /> <span>تسجيل خروج</span>
                 </NavLink>
               </li>
             </ul>

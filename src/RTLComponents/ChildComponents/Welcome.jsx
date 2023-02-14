@@ -14,7 +14,7 @@ const Welcome = () => {
   return (
     <div className='welcome-area text-center mg-top-40'>
       <Container>
-        <h3>Welcome</h3>
+        <h3>مرحبا</h3>
         <div className='thumb-wrap'>
           <img src='/Assets/Images/other/2.png' alt='img' />
         </div>
@@ -23,31 +23,34 @@ const Welcome = () => {
         <div className='welcome-slider owl-carousel'>
           <Slider {...settings}>
             <div className='item'>
-              <h3>Simple To Use</h3>
+              <h3>سهلة الاستخدام</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                ؤتمر بين خبراء من كافة قطاعات الصناعة على الشبكة العالمية
+                انترنيت
               </p>
             </div>
             <div className='item'>
-              <h3>Simple To Use</h3>
+              <h3>سهلة الاستخدام</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                ؤتمر بين خبراء من كافة قطاعات الصناعة على الشبكة العالمية
+                انترنيت
               </p>
             </div>
             <div className='item'>
-              <h3>Simple To Use</h3>
+              <h3>سهلة الاستخدام</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                ؤتمر بين خبراء من كافة قطاعات الصناعة على الشبكة العالمية
+                انترنيت
               </p>
             </div>
           </Slider>
         </div>
         <div className='welcome-footer-bottom'>
-          <Link className='btn-c btn-white-border' to='/signup'>
-            Register
+          <Link className='btn-c btn-white-border' to='/rtl-signup'>
+            يسجل
           </Link>
-          <Link className='btn-c btn-white' to='/signin'>
-            Login
+          <Link className='btn-c btn-white' to='/rtl-signin'>
+            تسجيل الدخول
           </Link>
         </div>
       </div>

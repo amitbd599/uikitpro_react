@@ -8,15 +8,17 @@ const Saving = () => {
       <div className='goal-area pd-top-110'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>Saving Goals</h3>
-            <a href='#'>Total-$ 129898</a>
+            <h3 className='title float-end'>إنقاذ الأهداف</h3>
+            <a href='#' className='float-start'>
+              Total-$ 129898
+            </a>
           </div>
           <div className='single-goal single-goal-one'>
             <Row>
               <Col xs={7} className='pe-0'>
-                <div className='details'>
-                  <h6>Finance Business</h6>
-                  <p>Business</p>
+                <div className='details text-end'>
+                  <h6>تمويل الأعمال</h6>
+                  <p>اعمال</p>
                 </div>
               </Col>
               <Col xs={5} className='ps-0'>
@@ -42,9 +44,9 @@ const Saving = () => {
           <div className='single-goal single-goal-two'>
             <Row>
               <Col xs={7} className='pe-0'>
-                <div className='details'>
-                  <h6>App Store</h6>
-                  <p>Technology</p>
+                <div className='details text-end'>
+                  <h6>متجر التطبيقات</h6>
+                  <p>تكنولوجيا</p>
                 </div>
               </Col>
               <Col xs={5} className='ps-0'>
@@ -70,9 +72,9 @@ const Saving = () => {
           <div className='single-goal single-goal-three'>
             <Row>
               <Col xs={7} className='pe-0'>
-                <div className='details'>
-                  <h6>Gaming Software</h6>
-                  <p>Development</p>
+                <div className='details text-end'>
+                  <h6>برامج الألعاب</h6>
+                  <p>تطوير</p>
                 </div>
               </Col>
               <Col xs={5} className='ps-0'>
@@ -98,9 +100,9 @@ const Saving = () => {
           <div className='single-goal single-goal-four'>
             <Row>
               <Col xs={7} className='pe-0'>
-                <div className='details'>
-                  <h6>Racing Car</h6>
-                  <p>Playing</p>
+                <div className='details text-end'>
+                  <h6>سيارة سباق</h6>
+                  <p>تلعب</p>
                 </div>
               </Col>
               <Col xs={5} className='ps-0'>

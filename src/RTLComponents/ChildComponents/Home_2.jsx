@@ -25,8 +25,10 @@ const Home_2 = () => {
       {/* ========== Balance start ========== */}
       <div className='balance-area pd-top-110'>
         <Container>
-          <h2>Discover</h2>
-          <p>Welcome to UikitPro</p>
+          <div className='text-end'>
+            <h2>يكتشف</h2>
+            <p>مرحبًا بك في UikitPro</p>
+          </div>
         </Container>
       </div>
       {/*========== Balance End========== */}
@@ -40,9 +42,9 @@ const Home_2 = () => {
                   <div className='thumb'>
                     <img src='/Assets/Images/blog/1.png' alt='img' />
                   </div>
-                  <div className='details'>
-                    <Link to='/blog-details'>
-                      How to save your money in own business firm.
+                  <div className='details text-end'>
+                    <Link to='/rtl-blog-details'>
+                      كيف تحفظ أموالك في شركة تجارية خاصة.
                     </Link>
                   </div>
                 </div>
@@ -52,9 +54,9 @@ const Home_2 = () => {
                   <div className='thumb'>
                     <img src='/Assets/Images/blog/2.png' alt='img' />
                   </div>
-                  <div className='details'>
-                    <Link to='/blog-details'>
-                      How to save your money in own business firm.
+                  <div className='details text-end'>
+                    <Link to='/rtl-blog-details '>
+                      كيف تحفظ أموالك في شركة تجارية خاصة.
                     </Link>
                   </div>
                 </div>
@@ -64,9 +66,9 @@ const Home_2 = () => {
                   <div className='thumb'>
                     <img src='/Assets/Images/blog/3.png' alt='img' />
                   </div>
-                  <div className='details'>
-                    <Link to='/blog-details'>
-                      How to save your money in own business firm.
+                  <div className='details text-end'>
+                    <Link to='/rtl-blog-details'>
+                      كيف تحفظ أموالك في شركة تجارية خاصة.
                     </Link>
                   </div>
                 </div>
@@ -79,10 +81,8 @@ const Home_2 = () => {
       {/*========== dark area Start ==========*/}
       <Container>
         <div className='dark-area'>
-          <div className='section-title mb-0'>
-            <p className='subtitle'>DISCOVER</p>
-            <h3 className='title mb-0'>Dark Mode</h3>
-            <div className='change-mode'>
+          <div className='section-title mb-0 d-flex align-items-center justify-content-between'>
+            <div className='change-mode '>
               <div className='custom-control custom-switch custom-switch-icon custom-control-inline'>
                 <div className='custom-switch-inner'>
                   <p className='mb-0'> </p>
@@ -113,6 +113,10 @@ const Home_2 = () => {
                 </div>
               </div>
             </div>
+            <div className='text-end'>
+              <p className='subtitle'>يكتشف</p>
+              <h3 className='title mb-0'>الوضع الداكن</h3>
+            </div>
           </div>
         </div>
       </Container>
@@ -120,7 +124,7 @@ const Home_2 = () => {
       {/*========== history start ==========*/}
       <div className='history-area pd-top-40'>
         <Container>
-          <div className='single-blog'>
+          <div className='single-blog text-end'>
             <div className='thumb'>
               <img
                 className='w-100'
@@ -129,20 +133,20 @@ const Home_2 = () => {
               />
             </div>
             <div className='details'>
-              <p className='subtitle'>DISCOVER</p>
+              <p className='subtitle'>يكتشف</p>
               <h3>
-                <Link to='/about'>About With Us</Link>
+                <Link to='/rtl-about'>حول معنا</Link>
               </h3>
               <p>
-                Reusable components designed for the mobile interface and ready
-                to use.
+                مكونات قابلة لإعادة الاستخدام مصممة لواجهة الهاتف وجاهزة
+                للاستخدام.
               </p>
-              <Link className='btn btn-blue' to='/about'>
-                Learn More
+              <Link className='btn btn-success' to='/rtl-about'>
+                يتعلم أكثر
               </Link>
             </div>
           </div>
-          <div className='single-blog'>
+          <div className='single-blog text-end'>
             <div className='thumb'>
               <img
                 className='w-100'
@@ -151,16 +155,16 @@ const Home_2 = () => {
               />
             </div>
             <div className='details'>
-              <p className='subtitle'>DISCOVER</p>
+              <p className='subtitle'>يكتشف</p>
               <h3>
-                <Link to='/all-page'>Pages</Link>
+                <Link to='/rtl-all-page'>الصفحات</Link>
               </h3>
               <p>
-                Reusable components designed for the mobile interface and ready
-                to use.
+                مكونات قابلة لإعادة الاستخدام مصممة لواجهة الهاتف وجاهزة
+                للاستخدام.
               </p>
-              <Link className='btn btn-blue' to='/all-page'>
-                Preview
+              <Link className='btn btn-success' to='/rtl-all-page'>
+                معاينة
               </Link>
             </div>
           </div>

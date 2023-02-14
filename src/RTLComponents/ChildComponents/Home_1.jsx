@@ -23,14 +23,15 @@ const Home_1 = () => {
           <div className='balance-area-bg balance-area-bg-home'>
             <div className='balance-title text-center'>
               <h6>
-                Welcome! <br /> Dear MR Sen - Uikitpro Wallet
+                مرحبا!
+                <br /> عزيزي MR Sen - محفظة Uikitpro
               </h6>
             </div>
             <div className='ba-balance-inner text-end align-self-center'>
               <div className='icon'>
                 <img src='/Assets/Images/icon/1.png' alt='img' />
               </div>
-              <h5 className='title'>Available Balance</h5>
+              <h5 className='title'>الرصيد المتوفر</h5>
               <h5 className='amount'>$56,985.00</h5>
             </div>
           </div>
@@ -41,7 +42,7 @@ const Home_1 = () => {
       <div className='add-balance-area pt-4'>
         <Container>
           <div className='ba-add-balance-title ba-add-balance-btn'>
-            <h5>Add Balance</h5>
+            <h5>إضافة رصيد</h5>
             <span>
               <FaPlus />
             </span>
@@ -51,25 +52,25 @@ const Home_1 = () => {
               <Col xs={6} className='text-center'>
                 <a className='ba-add-balance-btn' href='#'>
                   <img src='/Assets/Images/icon/8.png' alt='img' />
-                  <h6>Withdraw</h6>
+                  <h6>انسحب</h6>
                 </a>
               </Col>
               <Col xs={6} className='text-center'>
                 <a className='ba-add-balance-btn' href='#'>
                   <img src='/Assets/Images/icon/9.png' alt='img' />
-                  <h6>Send</h6>
+                  <h6>إرسال</h6>
                 </a>
               </Col>
               <Col xs={6} className='text-center'>
                 <a className='ba-add-balance-btn' href='#'>
                   <img src='/Assets/Images/icon/10.png' alt='img' />
-                  <h6>Cards</h6>
+                  <h6>البطاقات</h6>
                 </a>
               </Col>
               <Col xs={6} className='text-center'>
                 <a className='ba-add-balance-btn' href='#'>
                   <img src='/Assets/Images/icon/11.png' alt='img' />
-                  <h6>Exchange</h6>
+                  <h6>تبادل</h6>
                 </a>
               </Col>
             </Row>
@@ -82,15 +83,17 @@ const Home_1 = () => {
       <div className='goal-area pt-4'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>Saving Goals</h3>
-            <a href='#'>Total-$ 129898</a>
+            <a href='#' className='float-start'>
+              مشاهدة الكل
+            </a>
+            <h3 className='title float-end'>أهداف الادخار</h3>
           </div>
           <div className='single-goal single-goal-one'>
             <Row>
               <Col xs={7} className='pe-0'>
                 <div className='details'>
-                  <h6>Finance Business</h6>
-                  <p>Business</p>
+                  <h6>تمويل الأعمال</h6>
+                  <p>اعمال</p>
                 </div>
               </Col>
               <Col xs={5} className='ps-0'>
@@ -117,8 +120,8 @@ const Home_1 = () => {
             <Row>
               <Col xs={7} className='pe-0'>
                 <div className='details'>
-                  <h6>App Store</h6>
-                  <p>Technology</p>
+                  <h6>متجر التطبيقات</h6>
+                  <p>تكنولوجيا</p>
                 </div>
               </Col>
               <Col xs={5} className='ps-0'>
@@ -145,8 +148,8 @@ const Home_1 = () => {
             <Row>
               <Col xs={7} className='pe-0'>
                 <div className='details'>
-                  <h6>Gaming Software</h6>
-                  <p>Development</p>
+                  <h6>برامج الألعاب</h6>
+                  <p>تطوير</p>
                 </div>
               </Col>
               <Col xs={5} className='ps-0'>
@@ -173,8 +176,8 @@ const Home_1 = () => {
             <Row>
               <Col xs={7} className='pe-0'>
                 <div className='details'>
-                  <h6>Racing Car</h6>
-                  <p>Playing</p>
+                  <h6>سيارة سباق</h6>
+                  <p>تلعب</p>
                 </div>
               </Col>
               <Col xs={5} className='ps-0'>
@@ -205,32 +208,34 @@ const Home_1 = () => {
       <div className='history-area pt-4'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>History</h3>
-            <Link to='/transaction'>View All</Link>
+            <h3 className='title float-end'>تاريخ</h3>
+            <Link to='/rtl-transaction' className='float-start'>
+              مشاهدة الكل
+            </Link>
           </div>
           <div className='ba-history-inner'>
             <Row className=' custom-gutters-20'>
               <Col xs={6}>
-                <div className='ba-single-history ba-single-history-one'>
-                  <h6>Income</h6>
+                <div className='ba-single-history ba-single-history-one text-end'>
+                  <h6>دخل</h6>
                   <h5>$58,968.00</h5>
                 </div>
               </Col>
               <Col xs={6}>
-                <div className='ba-single-history ba-single-history-two'>
-                  <h6>Expenses</h6>
+                <div className='ba-single-history ba-single-history-two text-end'>
+                  <h6>نفقات</h6>
                   <h5>$50,968.00</h5>
                 </div>
               </Col>
               <Col xs={6}>
-                <div className='ba-single-history ba-single-history-three'>
-                  <h6>Total Bills</h6>
+                <div className='ba-single-history ba-single-history-three text-end'>
+                  <h6>مجموع الفواتير</h6>
                   <h5>$50,968.00</h5>
                 </div>
               </Col>
               <Col xs={6}>
-                <div className='ba-single-history ba-single-history-four'>
-                  <h6>Savings</h6>
+                <div className='ba-single-history ba-single-history-four text-end'>
+                  <h6>مدخرات</h6>
                   <h5>$58.00</h5>
                 </div>
               </Col>
@@ -243,8 +248,10 @@ const Home_1 = () => {
       <div className='cart-area pt-3'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>My Cart</h3>
-            <Link to='/carts'>View All</Link>
+            <h3 className='title float-end'>عربة التسوق الخاصة بي</h3>
+            <Link to='/rtl-carts' className='float-start'>
+              مشاهدة الكل
+            </Link>
           </div>
           <img src='/Assets/Images/cart/1.png' alt='img' />
         </Container>
@@ -255,7 +262,7 @@ const Home_1 = () => {
       <div className='transaction-area pd-top-40'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>Recently Transaction</h3>
+            <h3 className='title float-end'>المعاملات</h3>
           </div>
           <ul className='transaction-inner'>
             <li className='ba-single-transaction'>
@@ -263,8 +270,8 @@ const Home_1 = () => {
                 <img src='/Assets/Images/icon/12.png' alt='img' />
               </div>
               <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+                <h5>اسم شركة رخيصة .</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$130 <br />
                   <FaAngleRight />
@@ -276,8 +283,8 @@ const Home_1 = () => {
                 <img src='/Assets/Images/icon/13.png' alt='img' />
               </div>
               <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$250 <br />
                   <FaAngleRight />
@@ -289,8 +296,8 @@ const Home_1 = () => {
                 <img src='/Assets/Images/icon/14.png' alt='img' />
               </div>
               <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$130 <br />
                   <FaAngleRight />
@@ -302,8 +309,8 @@ const Home_1 = () => {
                 <img src='/Assets/Images/icon/29.png' alt='img' />
               </div>
               <div className='details'>
-                <h5>Bill Resturant</h5>
-                <p>Fun Life</p>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$100 <br />
                   <FaAngleRight />
@@ -315,8 +322,8 @@ const Home_1 = () => {
                 <img src='/Assets/Images/icon/15.png' alt='img' />
               </div>
               <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$130 <br />
                   <FaAngleRight />
@@ -328,8 +335,8 @@ const Home_1 = () => {
                 <img src='/Assets/Images/icon/17.png' alt='img' />
               </div>
               <div className='details'>
-                <h5>Namecheap Inc.</h5>
-                <p>Domain Purchase</p>
+                <h5>اسم شركة رخيصة</h5>
+                <p>شراء المجال</p>
                 <h5 className='amount text-end'>
                   -$130 <br />
                   <FaAngleRight />
@@ -345,44 +352,46 @@ const Home_1 = () => {
       <div className='send-money-area pd-top-36'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>Send Money</h3>
-            <Link to='/bill-pay'>View All</Link>
+            <h3 className='title float-end'>إرسال الأموال</h3>
+            <Link to='/rtl-bill-pay' className='float-start'>
+              مشاهدة الكل
+            </Link>
           </div>
           <Row>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/send-money/1.png' alt='img' />
-                <p>Alex Smith</p>
+                <p>أليكس سميث</p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/send-money/2.png' alt='img' />
-                <p>Mariano </p>
+                <p>ماريانو </p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/send-money/3.png' alt='img' />
-                <p>Karitika</p>
+                <p>كاريتيكا</p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/send-money/4.png' alt='img' />
-                <p>Jhone</p>
+                <p>جون</p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/send-money/5.png' alt='img' />
-                <p>Mariano </p>
+                <p>ماريانو </p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/send-money/6.png' alt='img' />
-                <p>Karitika</p>
+                <p>كاريتيكا</p>
               </div>
             </Col>
           </Row>
@@ -393,44 +402,46 @@ const Home_1 = () => {
       <div className='bill-pay-area pt-4'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>Bill Pay</h3>
-            <Link to='/bill-pay'>View All</Link>
+            <h3 class='title float-end'>دفع الفاتورة</h3>
+            <Link to='/rtl-bill-pay' className='float-start'>
+              مشاهدة الكل
+            </Link>
           </div>
           <Row>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/17.png' alt='img' />
-                <p>Electricity</p>
+                <p>كهرباء</p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/18.png' alt='img' />
-                <p>Water Bill </p>
+                <p>فاتورة الماء</p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/19.png' alt='img' />
-                <p>Gas Bill</p>
+                <p>فاتورة الغاز</p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/20.png' alt='img' />
-                <p>Internet Bill</p>
+                <p>فاتورة الإنترنت</p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/21.png' alt='img' />
-                <p>Cable </p>
+                <p>كابل </p>
               </div>
             </Col>
             <Col xs={4}>
               <div className='single-send-money'>
                 <img src='/Assets/Images/icon/22.png' alt='img' />
-                <p>Bus Ticket</p>
+                <p>تذكرة الباص</p>
               </div>
             </Col>
           </Row>
@@ -441,8 +452,10 @@ const Home_1 = () => {
       <div className='blog-area pt-4'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>Recent Posts</h3>
-            <Link to='/blog'>View All</Link>
+            <h3 class='title float-end'>المشاركات الاخيرة</h3>
+            <Link to='/rtl-blog' className='float-start'>
+              مشاهدة الكل
+            </Link>
           </div>
           <div className='blog-slider owl-carousel'>
             <Slider {...settings}>
@@ -452,8 +465,8 @@ const Home_1 = () => {
                     <img src='/Assets/Images/blog/1.png' alt='img' />
                   </div>
                   <div className='details'>
-                    <Link to='/blog-details'>
-                      How to save your money in own business firm.
+                    <Link to='/rtl-blog-details'>
+                      كيف تحفظ أموالك في شركة تجارية خاصة
                     </Link>
                   </div>
                 </div>
@@ -464,8 +477,8 @@ const Home_1 = () => {
                     <img src='/Assets/Images/blog/2.png' alt='img' />
                   </div>
                   <div className='details'>
-                    <Link to='/blog-details'>
-                      How to save your money in own business firm.
+                    <Link to='/rtl-blog-details'>
+                      كيف تحفظ أموالك في شركة تجارية خاصة
                     </Link>
                   </div>
                 </div>
@@ -476,8 +489,8 @@ const Home_1 = () => {
                     <img src='/Assets/Images/blog/3.png' alt='img' />
                   </div>
                   <div className='details'>
-                    <Link to='/blog-details'>
-                      How to save your money in own business firm.
+                    <Link to='/rtl-blog-details'>
+                      كيف تحفظ أموالك في شركة تجارية خاصة
                     </Link>
                   </div>
                 </div>

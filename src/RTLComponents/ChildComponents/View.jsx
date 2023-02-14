@@ -107,7 +107,7 @@ const View = () => {
                 <div className='phoneContent'>
                   <div className='phoneWrapper'>
                     <div className='in'>
-                      <iframe className='getFrame' src='/home-1' />
+                      <iframe className='getFrame' src='/rtl-home-1' />
                     </div>
                   </div>
                 </div>

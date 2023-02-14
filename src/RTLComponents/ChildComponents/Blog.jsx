@@ -9,8 +9,10 @@ const Blog = () => {
       <div className='blog-area pd-top-110'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>Recent Posts</h3>
-            <a href='#'>View All</a>
+            <h3 class='title float-end'>المشاركات الاخيرة</h3>
+            <a className='float-start' href='#'>
+              مشاهدة الكل
+            </a>
           </div>
           <div className='row'>
             <div className='col-6'>
@@ -18,9 +20,9 @@ const Blog = () => {
                 <div className='thumb'>
                   <img src='/Assets/Images/blog/1.png' alt='img' />
                 </div>
-                <div className='details'>
-                  <Link to='/blog-details'>
-                    How to save your money in own business firm.
+                <div className='details text-end'>
+                  <Link to='/rtl-blog-details'>
+                    كيف تحفظ أموالك في شركة تجارية خاصة
                   </Link>
                 </div>
               </div>
@@ -30,9 +32,9 @@ const Blog = () => {
                 <div className='thumb'>
                   <img src='/Assets/Images/blog/2.png' alt='img' />
                 </div>
-                <div className='details'>
-                  <Link to='/blog-details'>
-                    How to save your money in own business firm.
+                <div className='details text-end'>
+                  <Link to='/rtl-blog-details'>
+                    كيف تحفظ أموالك في شركة تجارية خاصة
                   </Link>
                 </div>
               </div>
@@ -42,9 +44,9 @@ const Blog = () => {
                 <div className='thumb'>
                   <img src='/Assets/Images/blog/3.png' alt='img' />
                 </div>
-                <div className='details'>
-                  <Link to='/blog-details'>
-                    How to save your money in own business firm.
+                <div className='details text-end'>
+                  <Link to='/rtl-blog-details'>
+                    كيف تحفظ أموالك في شركة تجارية خاصة
                   </Link>
                 </div>
               </div>
@@ -54,9 +56,9 @@ const Blog = () => {
                 <div className='thumb'>
                   <img src='/Assets/Images/blog/4.png' alt='img' />
                 </div>
-                <div className='details'>
-                  <Link to='/blog-details'>
-                    How to save your money in own business firm.
+                <div className='details text-end'>
+                  <Link to='/rtl-blog-details'>
+                    كيف تحفظ أموالك في شركة تجارية خاصة
                   </Link>
                 </div>
               </div>
@@ -66,9 +68,9 @@ const Blog = () => {
                 <div className='thumb'>
                   <img src='/Assets/Images/blog/5.png' alt='img' />
                 </div>
-                <div className='details'>
-                  <Link to='/blog-details'>
-                    How to save your money in own business firm.
+                <div className='details text-end'>
+                  <Link to='/rtl-blog-details'>
+                    كيف تحفظ أموالك في شركة تجارية خاصة
                   </Link>
                 </div>
               </div>
@@ -78,9 +80,9 @@ const Blog = () => {
                 <div className='thumb'>
                   <img src='/Assets/Images/blog/6.png' alt='img' />
                 </div>
-                <div className='details'>
-                  <Link to='/blog-details'>
-                    How to save your money in own business firm.
+                <div className='details text-end'>
+                  <Link to='/rtl-blog-details'>
+                    كيف تحفظ أموالك في شركة تجارية خاصة
                   </Link>
                 </div>
               </div>
@@ -92,7 +94,7 @@ const Blog = () => {
       <div className='btn-wrap mb-2 pb-4'>
         <Container>
           <a className='btn-large btn-blue w-100' href='#'>
-            Load More
+            تحميل المزيد
           </a>
         </Container>
       </div>

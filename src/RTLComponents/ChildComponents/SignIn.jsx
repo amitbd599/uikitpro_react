@@ -11,8 +11,8 @@ const SignIn = () => {
         <Container>
           <div className='signin-area-inner text-center'>
             <img src='/Assets/Images/other/2.png' alt='img' />
-            <h3>Let’s Sign In</h3>
-            <p>Welcome Back, you’ve been missed !</p>
+            <h3>لنقم بتسجيل الدخول</h3>
+            <p>مرحبًا بعودتك ، لقد فاتتك!</p>
             <a className='btn btn-white w-100 mt-3' href='#'>
               <img
                 className='mb-0'
@@ -28,12 +28,20 @@ const SignIn = () => {
               <span>or</span>
             </div>
           </div>
-          <form className='contact-form-inner'>
+          <form className='contact-form-inner float-end'>
             <label className='single-input-wrap'>
-              <input type='text' placeholder='aron.banking@gmail.com' />
+              <input
+                className='text-end'
+                type='text'
+                placeholder='aron.banking@gmail.com'
+              />
             </label>
             <label className='single-input-wrap'>
-              <input type='password' placeholder='************' />
+              <input
+                className='text-end'
+                type='password'
+                placeholder='************'
+              />
             </label>
             <div className='form-check'>
               <input
@@ -43,18 +51,18 @@ const SignIn = () => {
                 id='flexCheckDefault'
               />
               <label className='form-check-label' htmlFor='flexCheckDefault'>
-                Remember Me
+                تذكرنى
               </label>
               <a className='float-end' href='#'>
-                Forget Password?
+                نسيت كلمة المرور؟
               </a>
             </div>
             <a className='btn-large btn-blue w-100' href='#'>
-              Sign In
+              تسجيل الدخول
             </a>
             <div className='text-center'>
               <p>
-                Already have not an account? <Link to='/signup'>Sign up !</Link>
+                بالفعل ليس لديك حساب؟ <Link to='/signup'>اشتراك !</Link>
               </p>
             </div>
           </form>

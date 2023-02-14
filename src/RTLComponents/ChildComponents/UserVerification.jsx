@@ -9,9 +9,10 @@ const UserVerification = () => {
         <Container>
           <div className='signin-area-inner text-center mb-4'>
             <img src='/Assets/Images/other/2.png' alt='img' />
-            <h3>Verications</h3>
+            <h3>تحقق</h3>
             <p>
-              An authentication code has been sent to <br /> (+880) 111 333 222
+              تم إرسال رمز المصادقة إلى
+              <br /> (+880) 111 333 222
             </p>
           </div>
           <form className='verify-form-inner text-center'>
@@ -29,11 +30,12 @@ const UserVerification = () => {
             </label>
             <div className='text-center mt-2'>
               <p>
-                I didn’t receive code. <a href='#'>Resend Code</a>
+                لم أتلق رمز.
+                <a href='#'>أعد إرسال الرمز</a>
               </p>
             </div>
             <a className='btn-large btn-blue w-100 mt-2' href='#'>
-              Verify
+              تحقق
             </a>
           </form>
         </Container>

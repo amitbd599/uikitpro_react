@@ -8,28 +8,31 @@ const BlogDetails = () => {
       <div className='blog-details-area pd-top-110'>
         <Container>
           <div className='blog-details-inner'>
-            <div className='section-title'>
-              <h3 className='title'>Blog Details</h3>
+            <div className='section-title float-end'>
+              <h3 className='title'>تفاصيل المدونة</h3>
             </div>
             <div className='thumb'>
               <img src='/Assets/Images/blog/7.png' alt='img' />
             </div>
-            <div className='details mb-4'>
-              <h6>How to save your money in own business firm.</h6>
+            <div className='details mb-4 text-end'>
+              <h6>كيف تحفظ أموالك في شركة تجارية خاصة.</h6>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
+                عندما يريد العالم أن ، فهو يتحدّث بلغة يونيكود. تسجّل الآن لحضور
+                المؤتمر الدولي العاشر ليونيكود بمدينة مَايِنْتْس، ألمانيا. و
+                سيجمع المؤتمر بين خبراء من كافة قطاعات الصناعة على الشبكة
+                العالمية انترنيت
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
+                عندما يريد العالم أن ، فهو يتحدّث بلغة يونيكود. تسجّل الآن لحضور
+                المؤتمر الدولي العاشر ليونيكود بمدينة مَايِنْتْس، ألمانيا. و
+                سيجمع المؤتمر بين خبراء من كافة قطاعات الصناعة على الشبكة
+                العالمية انترنيت
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
+                عندما يريد العالم أن ، فهو يتحدّث بلغة يونيكود. تسجّل الآن لحضور
+                المؤتمر الدولي العاشر ليونيكود بمدينة مَايِنْتْس، ألمانيا. و
+                سيجمع المؤتمر بين خبراء من كافة قطاعات الصناعة على الشبكة
+                العالمية انترنيت
               </p>
             </div>
           </div>
