@@ -1,159 +1,159 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleLeft } from "react-icons/fa";
 
 const Toast = () => {
   return (
     <div className='allpage-area pd-top-110'>
       <Container>
-        <h5>Usage</h5>
+        <h5 className='text-end'>الأسفل</h5>
         <div className='ba-all-page-inner mb-4 d-flex justify-content-between'>
+          <div className='arrow-icon ps-2'>
+            <span>
+              <FaAngleLeft />
+            </span>
+          </div>{" "}
           <ul>
             <li>
               <a className='d-block'>
-                <span className='color-text'>Toastbox('tasteID')</span> <br />
-                Auto Close <br /> Example : auto close in 3 second <br />
-                <span className='color-text'>Toastbox('tasteID 3000')</span>
+                <span className='color-text'>بوكس ('طعم')</span> على مقربة
+                السيارات <br />
+                <span className='color-text'>توست بوكس ('طعم 3000')</span>
               </a>
             </li>
           </ul>
-          <div className='arrow-icon'>
-            <span>
-              <FaAngleRight />
-            </span>
-          </div>
         </div>
-        <h5>Top</h5>
+        <h5 className='text-end'>قمة</h5>
         <div className='ba-all-page-inner mb-4'>
           <ul>
             <li>
               <a href='#'>
-                Default{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                مع النموذج
               </a>
             </li>
             <li>
               <a href='#'>
-                Inset{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                أقحم
               </a>
             </li>
             <li>
               <a href='#'>
-                Iconed{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                مرمز{" "}
               </a>
             </li>
           </ul>
         </div>
-        <h5>Bottom</h5>
+        <h5 className='text-end'>انذار</h5>
         <div className='ba-all-page-inner'>
           <ul>
             <li className='d-block'>
               <a href='#'>
-                With Form
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                مع النموذج
               </a>
             </li>
             <li>
               <a href='#'>
-                Content{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                النموذج
               </a>
             </li>
             <li>
               <a href='#'>
-                Transaction{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                عملية
               </a>
             </li>
             <li>
               <a href='#'>
-                Alert{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                صورة التنبيه
               </a>
             </li>
             <li>
               <a href='#'>
-                Alert Border{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                انذار
               </a>
             </li>
             <li>
               <a href='#'>
-                Alert Image{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                انذار
               </a>
             </li>
           </ul>
         </div>
-        <h5>Center</h5>
+        <h5 className='text-end'>مركز</h5>
         <div className='ba-all-page-inner'>
           <ul>
             <li>
               <a href='#'>
-                With Form{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                مع النموذج
               </a>
             </li>
             <li>
               <a href='#'>
-                Content{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                المحتوى
               </a>
             </li>
             <li>
               <a href='#'>
-                Transaction{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                عملية
               </a>
             </li>
             <li>
               <a href='#'>
-                Alert{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                انذار
               </a>
             </li>
             <li>
               <a href='#'>
-                Alert Border{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                حدود التنبيه
               </a>
             </li>
             <li>
               <a href='#'>
-                Alert Image{" "}
                 <span>
-                  <FaAngleRight />
+                  <FaAngleLeft />
                 </span>
+                صورة التنبيه
               </a>
             </li>
           </ul>

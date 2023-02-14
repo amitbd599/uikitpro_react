@@ -7,26 +7,38 @@ const Contact = () => {
       {/* =============== contact start ===============*/}
       <div className='transaction-area pd-top-110'>
         <Container>
-          <form action='#' className='contact-form-wrap'>
+          <form action='#' className='contact-form-wrap '>
             <ul>
               <li>
-                <input type='text' placeholder='Name' />
+                <input className='text-end' type='text' placeholder='اسم' />
               </li>
               <li>
-                <input type='text' placeholder='Phone Number' />
+                <input
+                  className='text-end'
+                  type='text'
+                  placeholder='رقم التليفون'
+                />
               </li>
               <li>
-                <input type='text' placeholder='Mail Address' />
+                <input
+                  className='text-end'
+                  type='text'
+                  placeholder='عنوان البريد'
+                />
               </li>
               <li>
-                <input type='text' placeholder='Subject' />
+                <input className='text-end' type='text' placeholder='موضوع' />
               </li>
               <li>
-                <textarea placeholder='Type Of Message' defaultValue={""} />
+                <textarea
+                  className='text-end'
+                  placeholder='نوع الرسالة'
+                  defaultValue={""}
+                />
               </li>
             </ul>
             <a className='btn-large btn-blue w-100' href='#'>
-              Send Message
+              أرسل رسالة
             </a>
           </form>
         </Container>

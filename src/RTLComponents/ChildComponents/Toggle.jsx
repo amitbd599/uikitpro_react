@@ -7,37 +7,37 @@ const Toggle = () => {
       {/* toggle start */}
       <div className='allpage-area pd-top-110'>
         <Container>
-          <h5>Top</h5>
+          <h5 className='text-end'>قمة</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
               <li>
                 <div className='single-checkbox-inner'>
-                  <div className='form-check form-switch'>
-                    <label
-                      className='form-check-label'
-                      htmlFor='flexSwitchCheckDefault'
-                    >
-                      Notification
-                    </label>
+                  <div className='form-check form-switch d-flex justify-content-between'>
                     <input
                       className='form-check-input'
                       type='checkbox'
                       id='flexSwitchCheckDefault'
                     />
-                  </div>
-                  <div className='form-check form-switch'>
                     <label
-                      className='form-check-label'
-                      htmlFor='flexSwitchCheckChecked'
+                      className='form-check-label text-end d-inline'
+                      htmlFor='flexSwitchCheckDefault'
                     >
-                      Newslatter
+                      تنبيه
                     </label>
+                  </div>
+                  <div className='form-check form-switch d-flex justify-content-between'>
                     <input
                       className='form-check-input'
                       type='checkbox'
                       id='flexSwitchCheckChecked'
                       defaultChecked=''
                     />
+                    <label
+                      className='form-check-label'
+                      htmlFor='flexSwitchCheckChecked'
+                    >
+                      النشرة الإخبارية
+                    </label>
                   </div>
                 </div>
               </li>
@@ -49,50 +49,52 @@ const Toggle = () => {
       {/* toggle start */}
       <div className='allpage-area'>
         <Container>
-          <h5>Text</h5>
+          <h5 className='text-end'>نص</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
               <li>
                 <div className='single-checkbox-inner'>
-                  <div className='form-check form-switch'>
-                    <label
-                      className='form-check-label'
-                      htmlFor='flexSwitchCheckDisabled'
-                    >
-                      Toggle 1
-                    </label>
+                  <div className='form-check form-switch d-flex justify-content-between'>
                     <input
                       className='form-check-input'
                       type='checkbox'
-                      id='flexSwitchCheckDisabled'
-                    />
-                  </div>
-                  <div className='form-check form-switch'>
-                    <label
-                      className='form-check-label'
-                      htmlFor='flexSwitchCheckCheckedDisabled'
-                    >
-                      Toggle 2
-                    </label>
-                    <input
-                      className='form-check-input'
-                      type='checkbox'
-                      id='flexSwitchCheckCheckedDisabled'
+                      id='flexSwitchCheckChecked'
                       defaultChecked=''
                     />
-                  </div>
-                  <div className='form-check form-switch'>
                     <label
                       className='form-check-label'
-                      htmlFor='flexSwitchCheckCheckedDisabled2'
+                      htmlFor='flexSwitchCheckChecked'
                     >
-                      Toggle 3
+                      النشرة الإخبارية
                     </label>
+                  </div>
+                  <div className='form-check form-switch d-flex justify-content-between'>
                     <input
                       className='form-check-input'
                       type='checkbox'
-                      id='flexSwitchCheckCheckedDisabled2'
+                      id='flexSwitchCheckChecked'
+                      defaultChecked=''
                     />
+                    <label
+                      className='form-check-label'
+                      htmlFor='flexSwitchCheckChecked'
+                    >
+                      النشرة الإخبارية
+                    </label>
+                  </div>
+                  <div className='form-check form-switch d-flex justify-content-between'>
+                    <input
+                      className='form-check-input'
+                      type='checkbox'
+                      id='flexSwitchCheckChecked'
+                      defaultChecked=''
+                    />
+                    <label
+                      className='form-check-label'
+                      htmlFor='flexSwitchCheckChecked'
+                    >
+                      النشرة الإخبارية
+                    </label>
                   </div>
                 </div>
               </li>

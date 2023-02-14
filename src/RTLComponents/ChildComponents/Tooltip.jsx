@@ -10,10 +10,10 @@ const Tooltip = () => {
           <Row className='flex-row'>
             <Col xl={6}>
               {/* Basic Example */}
-              <div className='widget-header'>
-                <h4>Basic Example</h4>
+              <div className='widget-header text-end'>
+                <h4>مثال أساسي</h4>
               </div>
-              <div className='widget has-shadow'>
+              <div className='widget has-shadow text-end'>
                 <div className='widget-body'>
                   <button
                     type='button'
@@ -22,7 +22,7 @@ const Tooltip = () => {
                     data-bs-placement='top'
                     title='Tooltip on top'
                   >
-                    Tooltip on top
+                    تلميح تشغيل أعلى
                   </button>
                   <button
                     type='button'
@@ -31,7 +31,7 @@ const Tooltip = () => {
                     data-bs-placement='right'
                     title='Tooltip on right'
                   >
-                    Tooltip on right
+                    تلميح تشغيل أعلى
                   </button>
                   <button
                     type='button'
@@ -40,7 +40,7 @@ const Tooltip = () => {
                     data-bs-placement='bottom'
                     title='Tooltip on bottom'
                   >
-                    Tooltip on bottom
+                    تلميح تشغيل أعلى
                   </button>
                   <button
                     type='button'
@@ -49,7 +49,7 @@ const Tooltip = () => {
                     data-bs-placement='left'
                     title='Tooltip on left'
                   >
-                    Tooltip on left
+                    تلميح تشغيل أعلى
                   </button>
                 </div>
               </div>
@@ -58,10 +58,10 @@ const Tooltip = () => {
             <Col xl={6}>
               {/* Basic Example */}
               <div className='widget-header'>
-                <h4>left Example</h4>
+                <h4 className='text-end'>اليسار مثال</h4>
               </div>
               <div className='widget has-shadow'>
-                <div className='widget-body'>
+                <div className='widget-body text-end'>
                   <button
                     type='button'
                     className='btn btn-success text-white'
@@ -69,7 +69,7 @@ const Tooltip = () => {
                     data-bs-placement='left'
                     title='Tooltip on left'
                   >
-                    Tooltip on left
+                    تلميح على اليسار
                   </button>
                 </div>
               </div>
@@ -78,10 +78,10 @@ const Tooltip = () => {
             <Col xl={6}>
               {/* Basic Example */}
               <div className='widget-header'>
-                <h4>Right Example</h4>
+                <h4 className='text-end'>المثال الصحيح</h4>
               </div>
               <div className='widget has-shadow'>
-                <div className='widget-body'>
+                <div className='widget-body text-end'>
                   <button
                     type='button'
                     className='btn btn-success text-white'
@@ -89,7 +89,7 @@ const Tooltip = () => {
                     data-bs-placement='right'
                     title='Tooltip on left'
                   >
-                    Tooltip on left
+                    تلميح على اليسار
                   </button>
                 </div>
               </div>
@@ -98,10 +98,10 @@ const Tooltip = () => {
             <Col xl={6}>
               {/* Basic Example */}
               <div className='widget-header'>
-                <h4>Bottom Example</h4>
+                <h4 className='text-end'>المثال السفلي</h4>
               </div>
               <div className='widget has-shadow'>
-                <div className='widget-body'>
+                <div className='widget-body text-end'>
                   <button
                     type='button'
                     className='btn btn-success text-white'
@@ -109,7 +109,7 @@ const Tooltip = () => {
                     data-bs-placement='bottom'
                     title='Tooltip on left'
                   >
-                    Tooltip on left
+                    تلميح على اليسار
                   </button>
                 </div>
               </div>
@@ -120,14 +120,13 @@ const Tooltip = () => {
           <Col xs={12}>
             {/* Basic Example */}
             <div className='widget-header'>
-              <h4>Text</h4>
+              <h4 className='text-end'>نص</h4>
             </div>
             <div className='widget has-shadow'>
-              <div className='widget-body'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Tenetur, nemo! Ipsam sint doloremque qui nam, odio doloribus
-                consequatur dolore voluptatibus quia fugiat minima neque cumque
-                velit rem suscipit rerum praesentium.
+              <div className='widget-body text-end'>
+                ؤتمر بين خبراء من كافة قطاعات الصناعة على الشبكة العالمية
+                انترنيت ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                سواء مناقشة سبل
               </div>
             </div>
             {/* End Basic Example */}
