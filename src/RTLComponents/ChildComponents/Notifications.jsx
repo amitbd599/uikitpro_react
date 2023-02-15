@@ -12,110 +12,116 @@ const Notifications = () => {
               <div className='widget has-shadow'>
                 <div className='widget-body'>
                   <div className='section-title mt-3 mb-3'>
-                    <h4>Layouts:</h4>
+                    <h4 className='text-end'>التخطيطت</h4>
                   </div>
-                  <p>
-                    <code>notification</code> , <code>alert</code> ,{" "}
-                    <code>success</code> , <code>warning</code> ,{" "}
-                    <code>error</code> , <code>info/informations</code>
+                  <p className='text-end'>
+                    <code>تنبيه</code> , <code>إنذار</code> , <code>نجاح</code>{" "}
+                    , <code>تحذير</code> , <code>خطأ</code> ,{" "}
+                    <code>معلومات / معلومات</code>
                   </p>
                   <div className='section-title mt-4 mb-3'>
-                    <h4>Types:</h4>
+                    <h4 className='text-end'>أنواع</h4>
                   </div>
-                  <p>
-                    <code>top</code> , <code>topLeft</code> ,{" "}
-                    <code>topCenter</code> , <code>topRight</code> ,{" "}
-                    <code>center</code> , <code>centerLeft</code> ,{" "}
-                    <code>centerRight</code> , <br />
-                    <code>bottom</code> , <code>bottomLeft</code> ,{" "}
-                    <code>bottomCenter</code> , <code>bottomRight</code>
+                  <p className='text-end'>
+                    <code>أعلى</code> , <code>أعلى اليسار</code> ,{" "}
+                    <code>مركز أعلى</code> , <code>اعلى اليمين</code> ,{" "}
+                    <code>المركز</code> , <code>يسار الوسط</code> ,{" "}
+                    <code>المنتصف</code> , <br />
+                    <code>الأسفل</code> , <code>أسفل اليسار</code> ,{" "}
+                    <code>مركز القاع</code> , <code>أسفل اليمين</code>
                   </p>
                   <div className='section-title mt-5 mb-3'>
-                    <h4>Directions (Top)</h4>
+                    <h4 className='text-end'>الاتجاهات (قمة)</h4>
                   </div>
-                  <button
-                    id='example-top'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Top
-                  </button>
-                  <button
-                    id='example-top-left'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Top Left
-                  </button>
-                  <button
-                    id='example-top-center'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Top Center
-                  </button>
-                  <button
-                    id='example-top-right'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Top Right
-                  </button>
+                  <div className='text-end'>
+                    <button
+                      id='example-top'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      قمة
+                    </button>
+                    <button
+                      id='example-top-left'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      قمة اليسار
+                    </button>
+                    <button
+                      id='example-top-center'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      قمة مركز
+                    </button>
+                    <button
+                      id='example-top-right'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      قمة حق
+                    </button>
+                  </div>
                   <div className='section-title mt-3 mb-3'>
-                    <h4>Directions (Center)</h4>
+                    <h4 className='text-end'>الاتجاهات (Center)</h4>
                   </div>
-                  <button
-                    id='example-center'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Center
-                  </button>
-                  <button
-                    id='example-center-left'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Center Left
-                  </button>
-                  <button
-                    id='example-center-right'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Center Right
-                  </button>
+                  <div className='text-end'>
+                    <button
+                      id='example-center'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      مركز اليسار
+                    </button>
+                    <button
+                      id='example-center-left'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      مركز حق
+                    </button>
+                    <button
+                      id='example-center-right'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      الأسفل
+                    </button>
+                  </div>
                   <div className='section-title mt-3 mb-3'>
-                    <h4>Directions (Bottom)</h4>
+                    <h4 className='text-end'>الأسفل اليسار</h4>
                   </div>
-                  <button
-                    id='example-bottom'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Bottom
-                  </button>
-                  <button
-                    id='example-bottom-left'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Bottom Left
-                  </button>
-                  <button
-                    id='example-bottom-center'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Bottom Center
-                  </button>
-                  <button
-                    id='example-bottom-right'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Bottom Right
-                  </button>
+                  <div className='text-end'>
+                    <button
+                      id='example-bottom'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      الأسفل مركز
+                    </button>
+                    <button
+                      id='example-bottom-left'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      الأسفل حق
+                    </button>
+                    <button
+                      id='example-bottom-center'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      اليسار
+                    </button>
+                    <button
+                      id='example-bottom-right'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      اليسار
+                    </button>
+                  </div>
                 </div>
               </div>
               {/*============= End Basic Example =============*/}
@@ -125,66 +131,68 @@ const Notifications = () => {
               <div className='widget has-shadow'>
                 <div className='widget-body'>
                   <div className='section-title mt-3 mb-3'>
-                    <h4>With Delay</h4>
+                    <h4 className='text-end'>مع تأخير</h4>
                   </div>
-                  <button
-                    id='example-top-left-delay'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Top Left
-                  </button>
-                  <button
-                    id='example-center-delay'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Center
-                  </button>
-                  <button
-                    id='example-bottom-right-delay'
-                    type='button'
-                    className='btn-c btn-shadow mr-2 mb-3'
-                  >
-                    Bottom Right
-                  </button>
+                  <div className='text-end'>
+                    <button
+                      id='example-top-left-delay'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      أعلى اليسار
+                    </button>
+                    <button
+                      id='example-center-delay'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      مركز
+                    </button>
+                    <button
+                      id='example-bottom-right-delay'
+                      type='button'
+                      className='btn-c btn-shadow mr-2 mb-3'
+                    >
+                      أسفل اليمين
+                    </button>
+                  </div>
                   <div className='section-title mt-5 mb-3'>
-                    <h4>Layouts:</h4>
+                    <h4 className='text-end'>التخطيطات</h4>
                   </div>
                   <button
                     id='example-default'
                     type='button'
                     className='d-block btn-c btn-primary mr-2 mb-3'
                   >
-                    Default
+                    تقصير
                   </button>
                   <button
                     id='example-success'
                     type='button'
                     className='d-block btn-c btn-success mr-2 mb-3'
                   >
-                    Success
+                    نجاح
                   </button>
                   <button
                     id='example-warning'
                     type='button'
                     className='d-block btn-c btn-warning mr-2 mb-3'
                   >
-                    Warning
+                    تحذير
                   </button>
                   <button
                     id='example-error'
                     type='button'
                     className='d-block btn-c btn-danger mr-2 mb-3'
                   >
-                    Error
+                    خطأ
                   </button>
                   <button
                     id='example-info'
                     type='button'
                     className='d-block btn-c btn-info mr-2 mb-3'
                   >
-                    Informations
+                    معلومات
                   </button>
                 </div>
               </div>

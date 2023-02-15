@@ -5,27 +5,27 @@ const Alerts = () => {
   return (
     <>
       {/* ==================== components alerts start ====================*/}
-      <div className='container-inner pd-top-110 alert-component'>
+      <div className='container-inner pd-top-110 alert-component rtl'>
         <Container fluid>
           <Row className=' flex-row'>
             <Col xl={6}>
               {/*==================== Basic Alerts ====================*/}
               <div className='widget-header'>
-                <h4>Default</h4>
+                <h4 className='text-end'>تقصير</h4>
               </div>
               <div className='widget has-shadow border-radius-5'>
                 <div className='widget-body'>
-                  <div className='alert alert-primary' role='alert'>
-                    A Simple alert !
+                  <div className='alert alert-primary text-end' role='alert'>
+                    تنبيه بسيط!
                   </div>
-                  <div className='alert alert-secondary' role='alert'>
-                    Dismissible Alert !
+                  <div className='alert alert-secondary text-end' role='alert'>
+                    تنبيه غير مقبول!
                   </div>
                   <div
-                    className='alert alert-outline-secondary alert-dismissible fade show'
+                    className='alert rtlclose alert-outline-secondary alert-dismissible fade show text-end'
                     role='alert'
                   >
-                    Outline Alert !
+                    تنبيه تفصيلي!
                     <button
                       type='button'
                       className='btn-close'
@@ -40,24 +40,36 @@ const Alerts = () => {
             <Col xl={6}>
               {/*==================== Basic Alerts ====================*/}
               <div className='widget-header'>
-                <h4>Image</h4>
+                <h4 className='text-end'>صورة</h4>
               </div>
               <div className='widget has-shadow border-radius-5'>
                 <div className='widget-body'>
-                  <div className='alert alert-primary' role='alert'>
-                    <img src='/Assets/Images/user.png' alt='img' />A Simple
-                    alert !
+                  <div className='alert alert-primary text-end' role='alert'>
+                    تنبيه بسيط!
+                    <img
+                      src='/Assets/Images/user.png'
+                      alt='img'
+                      className='ms-2'
+                    />
                   </div>
-                  <div className='alert alert-secondary' role='alert'>
-                    <img src='/Assets/Images/user.png' alt='img' /> Dismissible
-                    Alert !
+                  <div className='alert alert-secondary text-end' role='alert'>
+                    تنبيه غير مقبول!
+                    <img
+                      src='/Assets/Images/user.png'
+                      alt='img'
+                      className='ms-2'
+                    />
                   </div>
                   <div
-                    className='alert alert-outline-secondary alert-dismissible fade show'
+                    className='alert rtlclose alert-outline-secondary alert-dismissible fade show text-end'
                     role='alert'
                   >
-                    <img src='/Assets/Images/user.png' alt='img' /> Outline
-                    Alert !
+                    تنبيه مخطط!
+                    <img
+                      src='/Assets/Images/user.png'
+                      alt='img'
+                      className='ms-2'
+                    />
                     <button
                       type='button'
                       className='btn-close'
@@ -72,27 +84,27 @@ const Alerts = () => {
             <Col xl={6}>
               {/*==================== Basic Alerts ====================*/}
               <div className='widget-header'>
-                <h4>Colors</h4>
+                <h4 className='text-end'>الألوان</h4>
               </div>
               <div className='widget has-shadow border-radius-5'>
                 <div className='widget-body'>
-                  <div className='alert alert-primary' role='alert'>
-                    <strong>Hey!</strong> This is a primary alert
+                  <div className='alert alert-primary text-end' role='alert'>
+                    <strong>مهلا!</strong> هذا تنبيه أساسي
                   </div>
-                  <div className='alert alert-secondary' role='alert'>
-                    <strong>Hey!</strong> This is a secondary alert
+                  <div className='alert alert-secondary text-end' role='alert'>
+                    <strong>مهلا!</strong> هذا تنبيه ثانوي
                   </div>
-                  <div className='alert alert-success' role='alert'>
-                    <strong>Hey!</strong> This is a success alert
+                  <div className='alert alert-success text-end' role='alert'>
+                    <strong>مهلا!</strong> هذا تنبيه ثانوي
                   </div>
-                  <div className='alert alert-info' role='alert'>
-                    <strong>Hey!</strong> This is a info alert
+                  <div className='alert alert-info text-end' role='alert'>
+                    <strong>مهلا!</strong> هذا تنبيه ثانوي
                   </div>
-                  <div className='alert alert-warning' role='alert'>
-                    <strong>Hey!</strong> This is a warning alert
+                  <div className='alert alert-warning text-end' role='alert'>
+                    <strong>مهلا!</strong> هذا تنبيه ثانوي
                   </div>
-                  <div className='alert alert-danger' role='alert'>
-                    <strong>Hey!</strong> This is a danger alert
+                  <div className='alert alert-danger text-end' role='alert'>
+                    <strong>مهلا!</strong> هذا تنبيه ثانوي
                   </div>
                 </div>
               </div>
@@ -100,24 +112,24 @@ const Alerts = () => {
             </Col>
             <Col xl={6}>
               <div className='widget-header'>
-                <h4>Alerts Botder</h4>
+                <h4 className='text-end'>حدود التنبيهات</h4>
               </div>
               <div className='widget has-shadow border-radius-5'>
                 <div className='widget-body'>
                   <div className='alert alert-outline-primary' role='alert'>
-                    <strong>Hey!</strong> This is a primary alert
+                    <strong>مهلا!</strong> هذا تنبيه ثانوي
                   </div>
                   <div className='alert alert-outline-secondary' role='alert'>
-                    <strong>Hey!</strong> This is a secondary alert
+                    <strong>مهلا!</strong> هذا تنبيه ثانوي
                   </div>
                   <div className='alert alert-outline-success' role='alert'>
-                    <strong>Hey!</strong> This is a success alert
+                    <strong>مهلا!</strong> هذا تنبيه ثانوي
                   </div>
                   <div
                     className='alert alert-outline-secondary alert-dismissible fade show'
                     role='alert'
                   >
-                    Outline Alert !
+                    تنبيه تفصيلي!
                     <button
                       type='button'
                       className='btn-close'
@@ -129,7 +141,7 @@ const Alerts = () => {
                     className='alert alert-outline-secondary alert-dismissible fade show'
                     role='alert'
                   >
-                    <img src='assets/img/user.png' alt='img' /> Outline Alert !
+                    <img src='assets/img/user.png' alt='img' /> تنبيه تفصيلي!
                     <button
                       type='button'
                       className='btn-close'
@@ -138,58 +150,63 @@ const Alerts = () => {
                     />
                   </div>
                   <div className='alert alert-outline-info dashed' role='alert'>
-                    <strong>Hey!</strong> This is a info alert with dashed
-                    border
+                    <strong>يا!</strong> هذا تنبيه معلومات بحدود متقطعة
                   </div>
                 </div>
               </div>
             </Col>
             <Col xl={6}>
               <div className='widget-header'>
-                <h4>Border Style</h4>
+                <h4 className='text-end'> نمط الحدود</h4>
               </div>
               <div className='widget has-shadow border-radius-5'>
                 <div className='widget-body'>
                   {/*==================== Bordered Style ====================*/}
-                  <div className='alert alert-outline-info dashed' role='alert'>
-                    <strong>Hey!</strong> This is a info alert with dashed
-                    border
-                  </div>
-                  <p>
-                    Use <code>.dashed</code> class.
-                  </p>
                   <div
-                    className='alert alert-outline-danger dotted'
+                    className='alert alert-outline-info dashed text-end'
                     role='alert'
                   >
-                    <strong>Hey!</strong> This is a danger alert with dotted
-                    border
+                    <strong>مهلا!</strong> هذا تنبيه معلومات بحدود متقطعة
                   </div>
-                  <p>
-                    Use <code>.dotted</code> class.
+                  <p className='text-end'>
+                    يستخدم <code>متقطع</code> صف دراسي .
+                  </p>
+                  <div
+                    className='alert alert-outline-danger dotted text-end'
+                    role='alert'
+                  >
+                    <strong>مهلا!</strong> هذا تنبيه خطر بحدود منقطة
+                  </div>
+                  <p className='text-end'>
+                    يستخدم <code>.منقط</code> صف دراسي .
                   </p>
                 </div>
               </div>
             </Col>
             <Col xl={6}>
               <div className='widget-header'>
-                <h4>Gradient Style</h4>
+                <h4 className='text-end'>نمط التدرج</h4>
               </div>
               <div className='widget has-shadow border-radius-5'>
                 <div className='widget-body'>
                   {/*==================== Gradient Style ====================*/}
-                  <div className='alert bg-gradient-03 no-border' role='alert'>
-                    <strong>Hey!</strong> This is an alert with gradient
-                    background
+                  <div
+                    className='alert bg-gradient-03 no-border text-end'
+                    role='alert'
+                  >
+                    <strong>مهلا!</strong> هذا تنبيه بخلفية متدرجة
                   </div>
-                  <div className='alert alert-outline-secondary' role='alert'>
+                  <div
+                    className='alert alert-outline-secondary text-end'
+                    role='alert'
+                  >
                     <span className='text-gradient-03'>
-                      <strong>Hey!</strong> This is an alert with text gradient
+                      <strong>مهلا!</strong> هذا تنبيه مع نص متدرج
                     </span>
                   </div>
-                  <p>
-                    Use <code>.bg-gradient</code> and{" "}
-                    <code>.text-gradient</code> class.
+                  <p className='text-end'>
+                    يستخدم <code>.bg- الانحدار</code> و <code>.تدرج النص</code>{" "}
+                    صف دراسي .
                   </p>
                 </div>
               </div>

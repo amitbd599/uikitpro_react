@@ -55,7 +55,7 @@ const Carousel = () => {
         <Container>
           {/* Full Carousel */}
           <div className='mt-4'>
-            <h5>Full Carousel</h5>
+            <h5 className='text-end'>دائري كامل</h5>
             <Slider {...settings_1}>
               {[...Array(3)].map((item, index) => (
                 <div className='carousel-1 ' key={index}>
@@ -72,7 +72,7 @@ const Carousel = () => {
           </div>
           {/* Carousel 2 */}
           <div className='mt-4'>
-            <h5>Carousel 2</h5>
+            <h5 className='text-end'>دائري 2</h5>
             <Slider {...settings_2}>
               {[...Array(3)].map((item, index) => (
                 <div className='carousel-2' key={index}>
@@ -90,7 +90,7 @@ const Carousel = () => {
 
           {/* Carousel 3 */}
           <div className='mt-4'>
-            <h5>Carousel 3</h5>
+            <h5 className='text-end'>دائري 3</h5>
             <Slider {...settings_3}>
               {[...Array(5)].map((item, index) => (
                 <div className='carousel-3' key={index}>
@@ -108,7 +108,7 @@ const Carousel = () => {
 
           {/* Carousel 4 */}
           <div className='mt-4'>
-            <h5>Carousel 4</h5>
+            <h5 className='text-end'>دائري 4</h5>
             <Slider {...settings_4}>
               {[...Array(6)].map((item, index) => (
                 <div className='carousel-4' key={index}>
@@ -126,7 +126,7 @@ const Carousel = () => {
 
           {/* Carousel 5 */}
           <div className='my-4'>
-            <h5>Carousel 5</h5>
+            <h5 className='text-end'>دائري 5</h5>
             <Slider {...settings_5}>
               {[...Array(8)].map((item, index) => (
                 <div className='carousel-4' key={index}>

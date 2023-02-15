@@ -13,42 +13,48 @@ const AccordionIntro = () => {
               {/*=============== Begin Basic Accordion ===============*/}
               <Accordion defaultActiveKey='0'>
                 <Accordion.Item eventKey='0'>
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
+                  <Accordion.Header>البند الأكورديون # 1</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    <p className='text-end'>
+                      عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن
+                      لحضور المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12
+                      آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+                      خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت
+                      ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                      سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص
+                      التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة
+                      اللغات.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1'>
-                  <Accordion.Header>Accordion Item #2</Accordion.Header>
+                  <Accordion.Header>البند الأكورديون # 2</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    <p className='text-end'>
+                      عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن
+                      لحضور المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12
+                      آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+                      خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت
+                      ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                      سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص
+                      التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة
+                      اللغات.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='2'>
-                  <Accordion.Header>Accordion Item #2</Accordion.Header>
+                  <Accordion.Header>البند الأكورديون # 2</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    <p className='text-end'>
+                      عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن
+                      لحضور المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12
+                      آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+                      خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت
+                      ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                      سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص
+                      التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة
+                      اللغات.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -58,29 +64,33 @@ const AccordionIntro = () => {
               {/*=============== Begin Basic Accordion ===============*/}
               <Accordion defaultActiveKey={["0"]} alwaysOpen>
                 <Accordion.Item eventKey='0'>
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
+                  <Accordion.Header>البند الأكورديون # 1</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    <p className='text-end'>
+                      عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن
+                      لحضور المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12
+                      آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+                      خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت
+                      ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                      سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص
+                      التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة
+                      اللغات.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1'>
-                  <Accordion.Header>Accordion Item #2</Accordion.Header>
+                  <Accordion.Header>البند الأكورديون # 2</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    <p className='text-end'>
+                      عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن
+                      لحضور المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12
+                      آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+                      خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت
+                      ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                      سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص
+                      التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة
+                      اللغات.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -91,32 +101,36 @@ const AccordionIntro = () => {
               <Accordion defaultActiveKey={["0"]} alwaysOpen>
                 <Accordion.Item eventKey='0'>
                   <Accordion.Header>
-                    <FaDotCircle className='me-2' /> Accordion Item #1
+                    <FaDotCircle className='me-2' /> البند الأكورديون # 1
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    <p className='text-end'>
+                      عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن
+                      لحضور المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12
+                      آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+                      خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت
+                      ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                      سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص
+                      التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة
+                      اللغات.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1'>
                   <Accordion.Header>
-                    <FaDotCircle className='me-2' /> Accordion Item #2
+                    <FaDotCircle className='me-2' /> البند الأكورديون # 2
                   </Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    <p className='text-end'>
+                      عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن
+                      لحضور المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12
+                      آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+                      خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت
+                      ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                      سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص
+                      التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة
+                      اللغات.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
@@ -126,29 +140,33 @@ const AccordionIntro = () => {
               {/*=============== Begin Basic Accordion ===============*/}
               <Accordion defaultActiveKey={["0"]} alwaysOpen>
                 <Accordion.Item eventKey='0' className='mb-3'>
-                  <Accordion.Header>Accordion Item #1</Accordion.Header>
+                  <Accordion.Header>البند الأكورديون # 1</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    <p className='text-end'>
+                      عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن
+                      لحضور المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12
+                      آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+                      خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت
+                      ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                      سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص
+                      التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة
+                      اللغات.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey='1'>
-                  <Accordion.Header>Accordion Item #2</Accordion.Header>
+                  <Accordion.Header>البند الأكورديون # 2</Accordion.Header>
                   <Accordion.Body>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    <p className='text-end'>
+                      عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن
+                      لحضور المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12
+                      آذار 1997 بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين
+                      خبراء من كافة قطاعات الصناعة على الشبكة العالمية انترنيت
+                      ويونيكود، حيث ستتم، على الصعيدين الدولي والمحلي على حد
+                      سواء مناقشة سبل استخدام يونكود في النظم القائمة وفيما يخص
+                      التطبيقات الحاسوبية، الخطوط، تصميم النصوص والحوسبة متعددة
+                      اللغات.
+                    </p>
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>

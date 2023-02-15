@@ -5,45 +5,46 @@ const AddHome = () => {
   return (
     <>
       <Container className=' pd-top-110'>
-        <h5>How it Works ?</h5>
+        <h5 className='text-end'>كيف تعمل ؟</h5>
         <div className='single-blog'>
           <div className='details'>
-            <p className='mb-0'>
-              The Components Details system of the device use by the user and
-              show the appropaid modal
+            <p className='mb-0 text-end'>
+              نظام تفاصيل المكونات الخاص بالجهاز الذي يستخدمه المستخدم ويظهر
+              الشكل المدفوع l
             </p>
           </div>
         </div>
       </Container>
       <Container>
-        <h5>How it Use it ?</h5>
+        <h5 className='text-end'>كيف تستخدمه؟</h5>
         <div className='single-blog'>
           <div className='details'>
-            <h6>Prepare</h6>
-            <p className='mb-3'>
-              Dont Forget Past The Html Code of Details system of the device use
-              by the user and show the appropaid modal
+            <h6 className='text-end'>إعداد</h6>
+            <p className='mb-3 text-end'>
+              لا تنسى نظام Html Code of Details الخاص بالجهاز الذي يستخدمه
+              المستخدم وإظهار النموذج المدفوع
             </p>
-            <h6>Show Everytime</h6>
-            <p className='mb-3'>
-              You can show With <span>AddTo Home</span> Javascript Code.
+            <h6 className='text-end'>عرض في كل مرة</h6>
+            <p className='mb-3 text-end'>
+              يمكنك إظهار مع أضف إلى المنزل كود جافا سكريبت.{" "}
             </p>
-            <h6>Show After Delay</h6>
-            <p className='mb-0'>
-              You can show With to the Javascript Code.{" "}
-              <span>AddTo Home (3000)</span>
+            <h6 className='text-end'>تظهر بعد التأخير </h6>
+            <p className='mb-0 text-end'>
+              يمكنك إظهار بـ إلى كود جافا سكريبت. إضافة إلى المنزل (3000) لا
+              تنسى نظام Html Code of Details الخاص بالجهاز الذي يستخدمه المستخدم
+              وإظهار النموذج المدفوع
             </p>
-            <p className='mb-3'>
-              Dont Forget Past The Html Code of Details system of the device use
-              by the user and show the appropaid modal
-            </p>
-            <h6>Show Only Once</h6>
-            <p className='mb-0'>Show the modal only one user</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              consequatur cum at dolorum nesciunt, alias maiores tempora
-              quibusdam qui harum obcaecati voluptatibus aspernatur, aperiam
-              modi, nihil unde ipsa odio molestiae.
+
+            <h6 className='text-end'>تظهر مرة واحدة فقط </h6>
+            <p className='mb-0 text-end'>إظهار مشروط مستخدم واحد فقط</p>
+            <p className='text-end'>
+              عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن لحضور
+              المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12 آذار 1997
+              بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين خبراء من كافة
+              قطاعات الصناعة على الشبكة العالمية انترنيت ويونيكود، حيث ستتم، على
+              الصعيدين الدولي والمحلي على حد سواء مناقشة سبل استخدام يونكود في
+              النظم القائمة وفيما يخص التطبيقات الحاسوبية، الخطوط، تصميم النصوص
+              والحوسبة متعددة اللغات
             </p>
           </div>
         </div>

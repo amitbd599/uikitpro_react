@@ -50,6 +50,9 @@
   color: inherit;
   opacity: 1;
 }
+.alert.rtl .close {
+  left: 0;
+}
 
 .alert-primary .close,
 .alert-succes .close,
@@ -277,5 +280,11 @@
         }
       }
     }
+  }
+}
+
+.rtlclose {
+  .btn-close {
+    left: 0;
   }
 }

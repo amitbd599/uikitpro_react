@@ -15,29 +15,29 @@ const Search = () => {
       </div>
       {/*================ Search end ================*/}
       {/*================ allpage start ================*/}
-      <div className='allpage-area mt-4 search'>
+      <div className='allpage-area mt-5'>
         <Container>
-          <h5>Search For Title</h5>
-          <div className='ba-all-page-inner border-radius-4 mb-4 pt-2'>
+          <h5 className='text-end'>أساسي</h5>
+          <div className='ba-all-page-inner mb-4'>
             <ul>
-              <li className='border-bottom pb-2 mb-2'>
-                <h6>Heading Over Title 1</h6>
-                <p className='mb-0'>This is Example or search result </p>
+              <li className='border-bottom pb-2 mb-2 text-end'>
+                <h6>العنوان فوق العنوان 1</h6>
+                <p className='mb-0'>هذا مثال أو نتيجة بحث</p>
                 <p className='mb-0'>www.google.com</p>
               </li>
-              <li className='border-bottom pb-2 mb-2'>
-                <h6>Heading Over Title 1</h6>
-                <p className='mb-0'>This is Example or search result </p>
+              <li className='border-bottom pb-2 mb-2 text-end'>
+                <h6>العنوان فوق العنوان 1</h6>
+                <p className='mb-0'>هذا مثال أو نتيجة بحث</p>
                 <p className='mb-0'>www.google.com</p>
               </li>
-              <li className='border-bottom pb-2 mb-2'>
-                <h6>Heading Over Title 1</h6>
-                <p className='mb-0'>This is Example or search result </p>
+              <li className='border-bottom pb-2 mb-2 text-end'>
+                <h6>العنوان فوق العنوان 1</h6>
+                <p className='mb-0'>هذا مثال أو نتيجة بحث</p>
                 <p className='mb-0'>www.google.com</p>
               </li>
-              <li>
-                <h6>Heading Over Title 1</h6>
-                <p className='mb-0'>This is Example or search result </p>
+              <li className='text-end'>
+                <h6>العنوان فوق العنوان 1</h6>
+                <p className='mb-0'>هذا مثال أو نتيجة بحث</p>
                 <p className='mb-0'>www.google.com</p>
               </li>
             </ul>

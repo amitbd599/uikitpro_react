@@ -7,12 +7,12 @@ const Radio = () => {
       {/* =============== badge end ===============*/}
       <div className='allpage-area pd-top-110'>
         <Container>
-          <h5>Example</h5>
+          <h5 className='text-end'>مثال</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
               <li>
                 <div className='single-checkbox-inner'>
-                  <div className='form-check'>
+                  <div className='form-check d-flex justify-content-between'>
                     <input
                       className='form-check-input'
                       type='radio'
@@ -28,7 +28,7 @@ const Radio = () => {
                       $ 60
                     </label>
                   </div>
-                  <div className='form-check'>
+                  <div className='form-check d-flex justify-content-between'>
                     <input
                       className='form-check-input'
                       type='radio'
@@ -43,7 +43,7 @@ const Radio = () => {
                       $ 120
                     </label>
                   </div>
-                  <div className='form-check'>
+                  <div className='form-check d-flex justify-content-between'>
                     <input
                       className='form-check-input'
                       type='radio'
@@ -68,12 +68,12 @@ const Radio = () => {
       {/*=============== badge end ===============*/}
       <div className='allpage-area mt-4'>
         <Container>
-          <h5>Example</h5>
+          <h5 className='text-end'>مثال</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul className='uikit-badge-inner'>
               <li>
                 <div className='single-checkbox-inner'>
-                  <div className='form-check'>
+                  <div className='form-check d-flex justify-content-between'>
                     <input
                       className='form-check-input'
                       type='radio'
@@ -84,7 +84,7 @@ const Radio = () => {
                       $ 60
                     </label>
                   </div>
-                  <div className='form-check'>
+                  <div className='form-check d-flex justify-content-between'>
                     <input
                       className='form-check-input'
                       type='radio'
@@ -105,9 +105,10 @@ const Radio = () => {
       {/*=============== badge end ===============*/}
       <div className='allpage-area mt-4'>
         <div className='container'>
-          <h5>Inline</h5>
+          <h5 className='text-end'>في النسق</h5>
           <div className='ba-all-page-inner mb-4 p-3'>
-            Lorem ipsum dolor sit, amet elit. Perferendis,
+            على الشبكة العالمية انترنيت ويونيكود، حيث ستتم، على الصعيدين الدولي
+            والمحلي
             <span className='form-check d-inline-block ms-2 mx-2'>
               <input
                 className='form-check-input'
@@ -116,11 +117,11 @@ const Radio = () => {
                 id='flexRadioDefault1'
               />
               <label className='form-check-label' htmlFor='flexRadioDefault1'>
-                Default radio
+                الراديو الافتراضي
               </label>
             </span>
-            eius qui ut deleniti, tenetur fugiat dicta nam incidunt odit quod,
-            vero ipsa quis!
+            على الشبكة العالمية انترنيت ويونيكود، حيث ستتم، على الصعيدين الدولي
+            والمحلي
           </div>
         </div>
       </div>

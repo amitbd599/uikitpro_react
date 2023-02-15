@@ -8,52 +8,70 @@ const IntroPop = () => {
       <div className='uikit-alert-area'>
         <div className='uikit-alert-inner text-center'>
           <div className='details'>
-            <h6 className='title'>Add To Home</h6>
+            <h6 className='title'>أضف إلى المنزل</h6>
             <div className='thumb mt-3 mb-3'>
               <img src='/Assets/Images/logo-2.png' alt='img' />
             </div>
-            <p>Install uikitpro on Ypur Phone You Payment Sent To Josep</p>
+            <p>قم بتثبيت uikitpro على هاتفك الذي دفعته إلى جوزيف</p>{" "}
           </div>
         </div>
       </div>
 
       {/*===================== Inner View =====================*/}
-      <div className='allpage-area pd-top-110'>
+      <div className='allpage-area mg-top-90'>
         <Container>
-          <h5>Basic</h5>
+          <h5 className='text-end'>أساسي</h5>
           <div className='ba-all-page-inner mb-4'>
             <ul>
               <li>
-                <a href='#'>Default</a>
+                <a href='#' className='justify-content-end'>
+                  تقصير
+                </a>
               </li>
               <li>
-                <a href='#'>Inset</a>
+                <a href='#' className='justify-content-end'>
+                  أقحم
+                </a>
               </li>
               <li>
-                <a href='#'>Iconed</a>
+                <a href='#' className='justify-content-end'>
+                  مرمز
+                </a>
               </li>
             </ul>
           </div>
-          <h5>More</h5>
+          <h5 className='text-end'>أكثر</h5>
           <div className='ba-all-page-inner'>
             <ul>
               <li>
-                <a href='#'>With Form</a>
+                <a href='#' className='justify-content-end'>
+                  مع النموذج
+                </a>
               </li>
               <li>
-                <a href='#'>Content</a>
+                <a href='#' className='justify-content-end'>
+                  المحتوى
+                </a>
               </li>
               <li>
-                <a href='#'>Transaction</a>
+                <a href='#' className='justify-content-end'>
+                  عملية
+                </a>
               </li>
               <li>
-                <a href='#'>Alert</a>
+                <a href='#' className='justify-content-end'>
+                  انذار
+                </a>
               </li>
               <li>
-                <a href='#'>Alert Border</a>
+                <a href='#' className='justify-content-end'>
+                  حدود التنبيه
+                </a>
               </li>
               <li>
-                <a href='#'>Alert Image</a>
+                <a href='#' className='justify-content-end'>
+                  صورة التنبيه
+                </a>
               </li>
             </ul>
           </div>

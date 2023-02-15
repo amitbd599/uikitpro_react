@@ -7,35 +7,35 @@ const Table = () => {
       {/* ============== table 1 start ==============*/}
       <div className='table 1-area pd-top-110'>
         <Container>
-          <h5>Default</h5>
+          <h5 className='text-end'>تقصير</h5>
           <div className='ba-all-page-inner mb-4 p-0 border-radius-4'>
             <div className='table-responsive'>
-              <table className='table uikit-table-1'>
+              <table className='table uikit-table-1 text-end'>
                 <thead>
                   <tr>
-                    <th scope='col'>User ID</th>
-                    <th scope='col'>Name</th>
-                    <th scope='col'>Title</th>
-                    <th scope='col'>Balance</th>
+                    <th scope='col'>معرف المستخدم</th>
+                    <th scope='col'>اسم</th>
+                    <th scope='col'>عنوان</th>
+                    <th scope='col'>الرصيد</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope='row'>15323</th>
-                    <td>John</td>
-                    <td>Manager</td>
+                    <td>يوحنا</td>
+                    <td>مدير</td>
                     <td>$509.40</td>
                   </tr>
                   <tr>
                     <th scope='row'>15324</th>
-                    <td>Smith</td>
-                    <td>User</td>
+                    <td>حداد</td>
+                    <td>مستخدم</td>
                     <td>$509.40</td>
                   </tr>
                   <tr>
                     <th scope='row'>15325</th>
-                    <td>Mark</td>
-                    <td>User</td>
+                    <td>علامة</td>
+                    <td>مستخدم</td>
                     <td>$509.40</td>
                   </tr>
                 </tbody>
@@ -48,35 +48,35 @@ const Table = () => {
       {/*============== table 2 start ==============*/}
       <div className='table-area mg-top-40'>
         <Container>
-          <h5>Color Table</h5>
+          <h5 className='text-end'>جدول الألوان</h5>
           <div className='ba-all-page-inner mb-4 p-0 border-radius-4'>
             <div className='table-responsive'>
-              <table className='table uikit-table-2'>
+              <table className='table uikit-table-2 text-end'>
                 <thead>
                   <tr>
-                    <th scope='col'>User ID</th>
-                    <th scope='col'>Name</th>
-                    <th scope='col'>Title</th>
-                    <th scope='col'>Balance</th>
+                    <th scope='col'>معرف المستخدم</th>
+                    <th scope='col'>اسم</th>
+                    <th scope='col'>عنوان</th>
+                    <th scope='col'>الرصيد</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope='row'>15323</th>
-                    <td>John</td>
-                    <td>Manager</td>
+                    <td>يوحنا</td>
+                    <td>مدير</td>
                     <td>$509.40</td>
                   </tr>
                   <tr>
                     <th scope='row'>15324</th>
-                    <td>Smith</td>
-                    <td>User</td>
+                    <td>حداد</td>
+                    <td>مستخدم</td>
                     <td>$509.40</td>
                   </tr>
                   <tr>
                     <th scope='row'>15325</th>
-                    <td>Mark</td>
-                    <td>User</td>
+                    <td>علامة</td>
+                    <td>مستخدم</td>
                     <td>$509.40</td>
                   </tr>
                 </tbody>
@@ -89,35 +89,35 @@ const Table = () => {
       {/*============== table 3 start ==============*/}
       <div className='table-area mg-top-40'>
         <Container>
-          <h5>BG Table</h5>
+          <h5 className='text-end'>جدول الخلفية</h5>
           <div className='ba-all-page-inner mb-4 p-0 border-radius-4'>
             <div className='table-responsive'>
-              <table className='table uikit-table-3'>
+              <table className='table uikit-table-3 text-end'>
                 <thead>
                   <tr>
-                    <th scope='col'>User ID</th>
-                    <th scope='col'>Name</th>
-                    <th scope='col'>Title</th>
-                    <th scope='col'>Balance</th>
+                    <th scope='col'>معرف المستخدم</th>
+                    <th scope='col'>اسم</th>
+                    <th scope='col'>عنوان</th>
+                    <th scope='col'>الرصيد</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
                     <th scope='row'>15323</th>
-                    <td>John</td>
-                    <td>Manager</td>
+                    <td>يوحنا</td>
+                    <td>مدير</td>
                     <td>$509.40</td>
                   </tr>
                   <tr>
                     <th scope='row'>15324</th>
-                    <td>Smith</td>
-                    <td>User</td>
+                    <td>حداد</td>
+                    <td>مستخدم</td>
                     <td>$509.40</td>
                   </tr>
                   <tr>
                     <th scope='row'>15325</th>
-                    <td>Mark</td>
-                    <td>User</td>
+                    <td>علامة</td>
+                    <td>مستخدم</td>
                     <td>$509.40</td>
                   </tr>
                 </tbody>

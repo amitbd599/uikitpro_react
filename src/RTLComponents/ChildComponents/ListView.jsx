@@ -7,103 +7,77 @@ const ListView = () => {
       {/* ================== ListView end ==================*/}
       <div className='allpage-area pd-top-110'>
         <Container>
-          <h5>Simple List View</h5>
+          <h5 className='text-end'>عرض قائمة بسيط</h5>
           <div className='ba-all-page-inner listview style-no-arrow mb-4'>
             <ul>
               <li>
-                <a href='#'>John Fonseska</a>
+                <a href='#' className='d-flex justify-content-end'>
+                  جون فونسيسكا
+                </a>
               </li>
               <li>
-                <a href='#'>Shofie</a>
+                <a href='#' className='d-flex justify-content-end'>
+                  شوفي
+                </a>
               </li>
               <li>
-                <a href='#'>Farguson</a>
+                <a href='#' className='d-flex justify-content-end'>
+                  فارجسون
+                </a>
               </li>
             </ul>
           </div>
-          <h5>Link List View</h5>
+          <h5 className='text-end'>عرض قائمة الارتباط</h5>
           <div className='ba-all-page-inner listview mb-4'>
             <ul>
               <li>
-                <a href='#'>John Fonseska</a>
+                <a href='#'>فونسيسكا</a>
               </li>
               <li>
                 <a href='#'>
-                  Shofie <span className='bg-btn'>62</span>
+                  <span className='bg-btn'>62</span> شوفي
                 </a>
               </li>
               <li>
                 <a href='#'>
-                  Farguson <span className='text'>Edit</span>
+                  <span className='text'>Edit</span> فارجسون
                 </a>
               </li>
             </ul>
           </div>
-          <h5>Image List View</h5>
+          <h5 className='text-end'>عرض ارتباط الصورة</h5>
           <div className='ba-all-page-inner listview style-no-arrow mb-4'>
             <ul>
               <li>
                 <a href='#'>
-                  <div className='d-flex align-items-center'>
-                    <img src='/Assets/Images/send-money/1.png' alt='img' />
-                    <span>John Fonseska</span>
-                  </div>
                   <div>
                     <span className='bg-btn'>62</span>
+                  </div>
+                  <div className='d-flex align-items-center'>
+                    <span>فونسيسكا</span>
+                    <img src='/Assets/Images/send-money/1.png' alt='img' />
                   </div>
                 </a>
               </li>
               <li>
                 <a href='#'>
-                  <div className='d-flex align-items-center'>
-                    <img src='/Assets/Images/send-money/2.png' alt='img' />
-                    <span>Shofie</span>
-                  </div>
                   <div>
                     <span className='bg-btn'>Edit</span>
                   </div>
+                  <div className='d-flex align-items-center'>
+                    <span>فارجسون</span>
+                    <img src='/Assets/Images/send-money/2.png' alt='img' />
+                  </div>
                 </a>
               </li>
               <li>
                 <a href='#'>
+                  <div>
+                    <span>تعديل</span>
+                  </div>
                   <div className='d-flex align-items-center'>
                     <img src='/Assets/Images/send-money/3.png' alt='img' />
                   </div>
-                  <div>
-                    <span>Farguson</span>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <h5>Image Link View</h5>
-          <div className='ba-all-page-inner listview mb-4'>
-            <ul>
-              <li>
-                <a href='#'>
-                  <div className='d-flex align-items-center'>
-                    <img src='/Assets/Images/send-money/1.png' alt='img' />
-                  </div>
-                  <div>
-                    <span>John Fonseska</span>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href='#'>
-                  <div className='d-flex align-items-center'>
-                    <img src='/Assets/Images/send-money/2.png' alt='img' />
-                    <span>John Fonseska</span>
-                  </div>
-                  <div>
-                    <span className='bg-btn'>62</span>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href='#'>
-                  <img src='/Assets/Images/send-money/3.png' alt='img' />{" "}
-                  Farguson <span className='text'>Edit</span>
                 </a>
               </li>
             </ul>

@@ -1,62 +1,62 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleLeft } from "react-icons/fa";
 
 const Action = () => {
   return (
     <div className='allpage-area pd-top-110 action-component'>
       <Container>
-        <h5>Basic</h5>
+        <h5 className='text-end'>أساسي</h5>
         <div className='ba-all-page-inner mb-4'>
           <ul>
             <li>
               <a href='#'>
-                <span>Default</span> <FaAngleRight />
+                <FaAngleLeft /> <span>تقصير</span>
               </a>
             </li>
             <li>
               <a href='#'>
-                <span>Inset</span> <FaAngleRight />
+                <FaAngleLeft /> <span>أقحم</span>
               </a>
             </li>
             <li>
               <a href='#'>
-                <span>Iconed</span> <FaAngleRight />
+                <FaAngleLeft /> <span>مرمز</span>
               </a>
             </li>
           </ul>
         </div>
-        <h5>More</h5>
+        <h5 className='text-end'>أكثر</h5>
         <div className='ba-all-page-inner mb-4'>
           <ul>
             <li>
               <a href='#'>
-                <span>With Form</span> <FaAngleRight />
+                <FaAngleLeft /> <span>مع النموذج</span>
               </a>
             </li>
             <li>
               <a href='#'>
-                <span>Content</span> <FaAngleRight />
+                <FaAngleLeft /> <span>المحتوى</span>
               </a>
             </li>
             <li>
               <a href='#'>
-                <span>Transaction</span> <FaAngleRight />
+                <FaAngleLeft /> <span>عملية</span>
               </a>
             </li>
             <li>
               <a href='#'>
-                <span>Alert</span> <FaAngleRight />
+                <FaAngleLeft /> <span>انذار</span>
               </a>
             </li>
             <li>
               <a href='#'>
-                <span>Alert Border</span> <FaAngleRight />
+                <FaAngleLeft /> <span>حدود التنبيه</span>
               </a>
             </li>
             <li>
               <a href='#'>
-                <span>Alert Image</span> <FaAngleRight />
+                <FaAngleLeft /> <span>صورة التنبيه</span>
               </a>
             </li>
           </ul>

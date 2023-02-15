@@ -21,35 +21,33 @@ const UserModal = () => {
       {/* =============== Model Top ===============*/}
       <div className='pd-top-110 model-top'>
         <div className='header-text'>
-          <h3>Model Top</h3>
+          <h3>مشروط</h3>
         </div>
         <div className='model-inner'>
           <button
             className='btn-c bg-base text-white'
             onClick={() => controlTopModel(true)}
           >
-            Launch demo modal
+            إطلاق مشروط
           </button>
 
           <Modal show={modelTopShow} onHide={() => controlTopModel(false)}>
             <Modal.Header closeButton>
-              <Modal.Title>Modal heading</Modal.Title>
+              <Modal.Title>عنوان مشروط</Modal.Title>
             </Modal.Header>
-            <Modal.Body>
-              Woohoo, you're reading this text in a modal!
-            </Modal.Body>
+            <Modal.Body>رائع ، أنت تقرأ هذا النص بطريقة مشروطة! </Modal.Body>
             <Modal.Footer>
               <button
                 className='btn-c bg-red text-white'
                 onClick={() => controlTopModel(false)}
               >
-                Close
+                يغلق
               </button>
               <button
                 className='btn-c bg-base text-white'
                 onClick={() => controlTopModel(false)}
               >
-                Save Changes
+                احفظ التغييرات
               </button>
             </Modal.Footer>
           </Modal>
@@ -59,14 +57,14 @@ const UserModal = () => {
       <div className='model my-5'>
         <div className='model-centered'>
           <div className='header-text'>
-            <h3>Model Centered</h3>
+            <h3>توسيط النموذج</h3>
           </div>
           <div className='model-inner'>
             <button
               className='btn-c bg-base text-white'
               onClick={() => controlCenterModel(true)}
             >
-              Launch centered modal
+              إطلاق مشروطة مركزية
             </button>
 
             <Modal
@@ -75,23 +73,21 @@ const UserModal = () => {
               onHide={() => controlCenterModel(false)}
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
+                <Modal.Title>عنوان مشروط</Modal.Title>
               </Modal.Header>
-              <Modal.Body>
-                Woohoo, you're reading this text in a modal!
-              </Modal.Body>
+              <Modal.Body>رائع ، أنت تقرأ هذا النص بطريقة مشروطة! </Modal.Body>
               <Modal.Footer>
                 <button
                   className='btn-c bg-red text-white'
                   onClick={() => controlCenterModel(false)}
                 >
-                  Close
+                  يغلق
                 </button>
                 <button
                   className='btn-c bg-base text-white'
                   onClick={() => controlCenterModel(false)}
                 >
-                  Save Changes
+                  حفظ التغييرات
                 </button>
               </Modal.Footer>
             </Modal>
@@ -103,14 +99,14 @@ const UserModal = () => {
       <div className='model my-5'>
         <div className='model-input'>
           <div className='header-text'>
-            <h3>Model Input</h3>
+            <h3>حفظ التغييرات</h3>
           </div>
           <div className='model-inner'>
             <button
               className='btn-c bg-base text-white'
               onClick={() => controlInputModel(true)}
             >
-              Launch centered modal
+              إطلاق مشروطة مركزية
             </button>
 
             <Modal
@@ -119,7 +115,7 @@ const UserModal = () => {
               centered
             >
               <Modal.Header closeButton>
-                <Modal.Title>Modal heading</Modal.Title>
+                <Modal.Title>عنوان مشروط</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 <Form>
@@ -127,7 +123,7 @@ const UserModal = () => {
                     className='mb-3'
                     controlId='exampleForm.ControlInput1'
                   >
-                    <Form.Label>Email address</Form.Label>
+                    <Form.Label>عنوان البريد الإلكتروني</Form.Label>
                     <Form.Control
                       type='email'
                       placeholder='name@example.com'
@@ -138,7 +134,7 @@ const UserModal = () => {
                     className='mb-3'
                     controlId='exampleForm.ControlTextarea1'
                   >
-                    <Form.Label>Example textarea</Form.Label>
+                    <Form.Label>مثال </Form.Label>
                     <Form.Control as='textarea' rows={3} />
                   </Form.Group>
                 </Form>
@@ -148,13 +144,13 @@ const UserModal = () => {
                   className='btn-c bg-red text-white'
                   onClick={() => controlInputModel(false)}
                 >
-                  Close
+                  يغلق
                 </button>
                 <button
                   className='btn-c bg-base text-white'
                   onClick={() => controlInputModel(false)}
                 >
-                  Save Changes
+                  حفظ التغييرات
                 </button>
               </Modal.Footer>
             </Modal>

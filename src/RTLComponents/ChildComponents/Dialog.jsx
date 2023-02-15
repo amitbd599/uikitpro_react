@@ -11,7 +11,7 @@ const Dialog = () => {
             <Col xl={6}>
               {/* Basic Buttons */}
               <div className='widget-header'>
-                <h4>Basic</h4>
+                <h4 className='text-end'>أساسي</h4>
               </div>
               <div className='widget has-shadow'>
                 <div className='widget-body pb-1'>
@@ -20,19 +20,19 @@ const Dialog = () => {
                       type='button'
                       className='btn-c btn-success ripple mr-1 mb-2'
                     >
-                      Success
+                      نجاح
                     </button>
                     <button
                       type='button'
                       className='btn-c text-white bg-black ripple mr-1 mb-2'
                     >
-                      Primary
+                      أساسي
                     </button>
                     <button
                       type='button'
                       className='btn-c btn-danger ripple mr-1 mb-2'
                     >
-                      Danger
+                      خطر
                     </button>
                   </div>
                 </div>
@@ -42,7 +42,7 @@ const Dialog = () => {
             <Col xl={6}>
               {/*=================== Basic Buttons ===================*/}
               <div className='widget-header'>
-                <h4>Icond</h4>
+                <h4 className='text-end'>ايكوند</h4>
               </div>
               <div className='widget has-shadow'>
                 <div className='widget-body pb-1'>
@@ -51,19 +51,19 @@ const Dialog = () => {
                       type='button'
                       className='btn-c text-white bg-blue ripple mr-1 mb-2'
                     >
-                      Primary
+                      أساسي
                     </button>
                     <button
                       type='button'
                       className='btn-c btn-success ripple mr-1 mb-2'
                     >
-                      Success
+                      نجاح
                     </button>
                     <button
                       type='button'
                       className='btn-c btn-danger ripple mr-1 mb-2'
                     >
-                      Danger
+                      خطر
                     </button>
                   </div>
                 </div>
@@ -73,7 +73,7 @@ const Dialog = () => {
             <Col xl={6}>
               {/*=================== Outline Buttons ===================*/}
               <div className='widget-header'>
-                <h4>Outline Buttons</h4>
+                <h4 className='text-end'>أزرار المخطط التفصيلي</h4>
               </div>
               <div className='widget has-shadow'>
                 <div className='widget-body pb-1'>
@@ -82,13 +82,13 @@ const Dialog = () => {
                       type='button'
                       className='btn-c text-white bg-blue ripple mr-1 mb-2'
                     >
-                      Block Button
+                      زر الحظر
                     </button>
                     <button
                       type='button'
                       className='btn-c btn-success ripple mr-1 mb-2'
                     >
-                      Inline Button
+                      زر مضمن
                     </button>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ const Dialog = () => {
             <Col xl={6}>
               {/*=================== Bankapp Buttons ===================*/}
               <div className='widget-header'>
-                <h4>More</h4>
+                <h4 className='text-end'>أكثر</h4>
               </div>
               <div className='widget has-shadow'>
                 <div className='widget-body pb-1'>
@@ -107,13 +107,13 @@ const Dialog = () => {
                       type='button'
                       className='btn-c text-white bg-blue ripple mr-1 mb-2'
                     >
-                      Form Dialog
+                      نموذج الحوار
                     </button>
                     <button
                       type='button'
                       className='btn-c btn-success ripple mr-1 mb-2'
                     >
-                      Image Dialog
+                      حوار الصورة
                     </button>
                   </div>
                 </div>

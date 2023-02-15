@@ -11,7 +11,7 @@ const Progress = () => {
             <Col xl={6}>
               {/*============== Basic ==============*/}
               <div className='widget-header'>
-                <h4>Basic Progress Bars</h4>
+                <h4 className='text-end'>أشرطة التقدم الأساسية</h4>
               </div>
               <div className='widget has-shadow'>
                 <div className='widget-body'>
@@ -59,7 +59,7 @@ const Progress = () => {
               </div>
               {/*============== End Basic ==============*/}
               <div className='widget-header'>
-                <h4>With Labels</h4>
+                <h4 className='text-end'>مع تسميات</h4>
               </div>
               {/*============== Labels ==============*/}
               <div className='widget has-shadow'>
@@ -104,7 +104,7 @@ const Progress = () => {
               </div>
               {/*============== End Labels ==============*/}
               <div className='widget-header'>
-                <h4>With Gradient</h4>
+                <h4 className='text-end'>مع التدرج</h4>
               </div>
               {/*============== Gradient ==============*/}
               <div className='widget has-shadow'>
@@ -153,7 +153,7 @@ const Progress = () => {
               </div>
               {/*============== End Gradient ==============*/}
               <div className='widget-header'>
-                <h4>Multiple Bars</h4>
+                <h4 className='text-end'>قضبان متعددة</h4>
               </div>
               {/*============== Multiple ==============*/}
               <div className='widget has-shadow'>
@@ -243,7 +243,7 @@ const Progress = () => {
             <Col xl={6}>
               {/*============== Sizing ==============*/}
               <div className='widget-header'>
-                <h4>Sizing</h4>
+                <h4 className='text-end'>تحجيم</h4>
               </div>
               <div className='widget has-shadow'>
                 <div className='widget-body'>
@@ -311,7 +311,7 @@ const Progress = () => {
               </div>
               {/*============== End Sizing ==============*/}
               <div className='section-title mt-5'>
-                <h4>Large</h4>
+                <h4 className='text-end'>كبير</h4>
               </div>
               <div className='widget has-shadow'>
                 <div className='widget-body'>
@@ -359,7 +359,7 @@ const Progress = () => {
               </div>
               {/*============== End Sizing ==============*/}
               <div className='widget-header'>
-                <h4>Stipped Progress Bars</h4>
+                <h4 className='text-end'>أشرطة التقدم المحجوزة</h4>
               </div>
               {/*============== Stripped ==============*/}
               <div className='widget has-shadow'>
@@ -407,7 +407,7 @@ const Progress = () => {
                 </div>
               </div>
               <div className='section-title mt-5'>
-                <h4>Animated</h4>
+                <h4 className='text-end'>مفعم بالحيوية</h4>
               </div>
               {/*============== Stripped ==============*/}
               <div className='widget has-shadow'>
@@ -433,7 +433,7 @@ const Progress = () => {
                     />
                   </div>
                   <p>
-                    Use <code>.progress-bar-animated</code> class.
+                    يستخدم <code>.التقدم-شريط المتحركة</code> صف دراسي .
                   </p>
                 </div>
               </div>
