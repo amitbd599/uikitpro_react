@@ -9,25 +9,31 @@ const About = () => {
         <Container>
           <div className='blog-details-inner'>
             <div className='section-title'>
-              <h3 className='title'>About The Uikitpro</h3>
+              <h3 className='title float-end'>بالنسبه لشركتنا</h3>
             </div>
             <div className='thumb'>
               <img src='/Assets/Images/blog/7.png' alt='img' />
             </div>
             <div className='details'>
-              <h6>Recived Money By Aron Fince</h6>
-              <p>You have received a payment form Aron Fince.</p>
-              <p>
-                Money Aron magna sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
+              <h6 className='text-end'>تلقي المال من آرون فينش</h6>
+              <p className='text-end'>لقد تلقيت دفعة من آرون فينش.</p>
+              <p className='text-end'>
+                عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن لحضور
+                المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12 آذار 1997
+                بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين خبراء من كافة
+                قطاعات الصناعة على الشبكة العالمية انترنيت ويونيكود، حيث ستتم،
+                على الصعيدين الدولي والمحلي على حد سواء مناقشة سبل استخدام
+                يونكود في النظم القائمة وفيما يخص التطبيقات الحاسوبية، الخطوط،
+                تصميم النصوص والحوسبة متعددة اللغات.
               </p>
-              <p>
-                Fince ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, Consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam,
+              <p className='text-end'>
+                عندما يريد العالم أن فهو يتحدّث بلغة يونيكود. تسجّل الآن لحضور
+                المؤتمر الدولي العاشر ليونيكود الذي سيعقد في 10-12 آذار 1997
+                بمدينة مَايِنْتْس، ألمانيا. و سيجمع المؤتمر بين خبراء من كافة
+                قطاعات الصناعة على الشبكة العالمية انترنيت ويونيكود، حيث ستتم،
+                على الصعيدين الدولي والمحلي على حد سواء مناقشة سبل استخدام
+                يونكود في النظم القائمة وفيما يخص التطبيقات الحاسوبية، الخطوط،
+                تصميم النصوص والحوسبة متعددة اللغات.
               </p>
             </div>
           </div>

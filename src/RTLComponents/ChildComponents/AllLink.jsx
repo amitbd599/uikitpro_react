@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAngleRight } from "react-icons/fa";
+import { FaAngleLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const AllLink = () => {
@@ -8,10 +8,10 @@ const AllLink = () => {
       {/* page-title stary */}
       <div className='page-title pt-4'>
         <div className='container'>
-          <Link className='float-start' to='/home-1'>
-            Home
+          <Link className='float-end' to='/rtl-home-1'>
+            بيت
           </Link>
-          <span className='float-end'>All Pages</span>
+          <span className='float-start'>كل الصفحات</span>
         </div>
       </div>
       {/* page-title end */}
@@ -19,121 +19,121 @@ const AllLink = () => {
       <div className='allpage-area'>
         <div className='container'>
           <div className='ba-all-page-inner'>
-            <h5>Pages</h5>
+            <h5>الصفحات</h5>
             <ul>
               <li>
-                <Link to='/carts'>
-                  My Card <FaAngleRight />
+                <Link to='/rtl-carts'>
+                  <FaAngleLeft /> بطاقتي
                 </Link>
               </li>
               <li>
-                <Link to='/saving'>
-                  Saving <FaAngleRight />
+                <Link to='/rtl-saving'>
+                  <FaAngleLeft /> إنقاذ
                 </Link>
               </li>
               <li>
-                <Link to='/transaction'>
-                  Transaction <FaAngleRight />
+                <Link to='/rtl-transaction'>
+                  <FaAngleLeft /> عملية
                 </Link>
               </li>
               <li>
-                <Link to='/transaction-details'>
-                  Transaction Details <FaAngleRight />
+                <Link to='/rtl-transaction-details'>
+                  <FaAngleLeft /> تفاصيل الصفقه
                 </Link>
               </li>
               <li>
-                <Link to='/bill-pay'>
-                  Bills Details <FaAngleRight />
+                <Link to='/rtl-bill-pay'>
+                  <FaAngleLeft /> تفاصيل الفواتير
                 </Link>
               </li>
               <li>
-                <Link to='/notification'>
-                  Notification <FaAngleRight />
+                <Link to='/rtl-notification'>
+                  <FaAngleLeft /> إشعار
                 </Link>
               </li>
               <li>
-                <Link to='/bill-pay'>
-                  Bill Pay <FaAngleRight />
+                <Link to='/rtl-bill-pay'>
+                  <FaAngleLeft /> دفع الفاتورة
                 </Link>
               </li>
               <li>
-                <Link to='/blog'>
-                  Blog <FaAngleRight />
+                <Link to='/rtl-blog'>
+                  <FaAngleLeft /> مدونة
                 </Link>
               </li>
               <li>
-                <Link to='/blog-details'>
-                  Blog Details <FaAngleRight />
+                <Link to='/rtl-blog-details'>
+                  <FaAngleLeft /> تفاصيل المدونة
                 </Link>
               </li>
               <li>
-                <Link to='/about'>
-                  About <FaAngleRight />
+                <Link to='/rtl-about'>
+                  <FaAngleLeft /> عن
                 </Link>
               </li>
               <li>
-                <Link to='/all-page'>
-                  All Component <FaAngleRight />
+                <Link to='/rtl-all-page'>
+                  <FaAngleLeft /> كل مكون
                 </Link>
               </li>
               <li>
-                <Link to='/contact'>
-                  Contact <FaAngleRight />
+                <Link to='/rtl-contact'>
+                  <FaAngleLeft /> اتصال
                 </Link>
               </li>
             </ul>
           </div>
           <div className='ba-all-page-inner style-two'>
-            <h5>User Authentication</h5>
+            <h5 className='text-end'>مصادقة المستخدم</h5>
             <ul>
               <li>
-                <Link to='/signin'>
-                  Login <FaAngleRight />
+                <Link to='/rtl-signin'>
+                  <FaAngleLeft /> تسجيل الدخول
                 </Link>
               </li>
               <li>
-                <Link to='/signup'>
-                  Register <FaAngleRight />
+                <Link to='/rtl-signup'>
+                  <FaAngleLeft /> يسجل
                 </Link>
               </li>
               <li>
-                <Link to='/user-setting'>
-                  User Setting <FaAngleRight />
+                <Link to='/rtl-user-setting'>
+                  <FaAngleLeft /> إعداد المستخدم
                 </Link>
               </li>
               <li>
-                <Link to='/user-verification'>
-                  Sms Verification <FaAngleRight />
+                <Link to='/rtl-user-verification'>
+                  <FaAngleLeft /> التحقق من الرسائل القصيرة
                 </Link>
               </li>
               <li>
-                <Link to='/signup'>
-                  Forgot Password <FaAngleRight />
+                <Link to='/rtl-signup'>
+                  <FaAngleLeft /> هل نسيت كلمة السر
                 </Link>
               </li>
             </ul>
           </div>
           <div className='ba-all-page-inner style-three mb-4'>
-            <h5>Menu</h5>
+            <h5 className='text-end'>قائمة طعام</h5>
             <ul>
               <li>
-                <Link to='/about'>
-                  About <FaAngleRight />
+                <Link to='/rtl-about'>
+                  <FaAngleLeft /> عن
                 </Link>
               </li>
               <li>
-                <Link to='/blog'>
-                  Blog <FaAngleRight />
+                <Link to='/rtl-blog'>
+                  <FaAngleLeft /> مدونة
                 </Link>
               </li>
               <li>
-                <Link to='/blog-details'>
-                  Blog Details <FaAngleRight />
+                <Link to='/rtl-blog-details'>
+                  <FaAngleLeft /> تفاصيل المدونة
                 </Link>
               </li>
               <li>
-                <Link to='/saving'>
-                  Saving <FaAngleRight />
+                <Link to='/rtl-saving'>
+                  <FaAngleLeft /> إنقاذ
                 </Link>
               </li>
             </ul>

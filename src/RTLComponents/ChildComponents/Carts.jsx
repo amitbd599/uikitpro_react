@@ -8,10 +8,10 @@ const Carts = () => {
       <div className='cart-area pd-top-110'>
         <Container>
           <div className='section-title'>
-            <h3 className='title'>You Have Carts</h3>
-            <a className='count-title' href='#'>
+            <a className='count-title float-start' href='#'>
               5
             </a>
+            <h3 className='title float-end'>لديك عربات</h3>
           </div>
           <div className='ba-cart-inner mb-3'>
             <img src='/Assets/Images/cart/1.png' alt='img' />

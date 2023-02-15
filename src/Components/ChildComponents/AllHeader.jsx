@@ -6,29 +6,31 @@ import { Link } from "react-router-dom";
 const AllHeader = () => {
   return (
     <>
-      <div className='header-style pd-top-110'>
-        <Container>
-          <Row>
-            <Col sm={4} xs={4}>
-              <Link className='menu-back-page' to='/home-1'>
-                <FaAngleLeft />
-              </Link>
-            </Col>
-            <Col sm={4} xs={4} className=' text-center'>
-              <div className='page-name'>Title</div>
-            </Col>
-            <Col sm={4} xs={4} className=' align-self-center text-end'>
-              <ul className='header-right'>
-                <li>
-                  <Link className='notf' to='/notification'>
-                    <FaBell className='animated infinite swing' />
-                    <span className='badge'>8</span>
-                  </Link>
-                </li>
-              </ul>
-            </Col>
-          </Row>
-        </Container>
+      <div className='pd-top-110'>
+        <div className='header-style '>
+          <Container>
+            <Row>
+              <Col sm={4} xs={4}>
+                <Link className='menu-back-page' to='/home-1'>
+                  <FaAngleLeft />
+                </Link>
+              </Col>
+              <Col sm={4} xs={4} className=' text-center'>
+                <div className='page-name'>Title</div>
+              </Col>
+              <Col sm={4} xs={4} className=' align-self-center text-end'>
+                <ul className='header-right'>
+                  <li>
+                    <Link className='notf' to='/notification'>
+                      <FaBell className='animated infinite swing' />
+                      <span className='badge'>8</span>
+                    </Link>
+                  </li>
+                </ul>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </div>
       <div className='header-style mt-4'>
         <Container>
