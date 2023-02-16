@@ -401,7 +401,7 @@ function App() {
             path='/rtl-components-accordion'
             element={<RTLAccordionIntroPage />}
           />
-          <Route exact path='/rtl-all-intro' element={<RTLAllIntroPage />} />
+          <Route exact path='/rtl-all-intro' element={<RTLAllIntroPage />} /> 
           <Route exact path='/rtl-carts' element={<RTLCartsPage />} />
           <Route exact path='/rtl-all-page' element={<RTLAllLinkPage />} />
           <Route exact path='/rtl-about' element={<RTLAboutPage />} />

@@ -67,7 +67,7 @@ const Header = () => {
               <Col sm={4} xs={4} className='align-self-center text-end'>
                 <ul className='header-right'>
                   <li>
-                    <Link to='/notification'>
+                    <Link to='/rtl-notification'>
                       <FaBell className='animated infinite swing' />
                       <span className='badge'>8</span>
                     </Link>
@@ -118,7 +118,7 @@ const Header = () => {
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
-                  to='/home-1'
+                  to='/rtl-home-1'
                 >
                   <FaAngleLeft />
                   <span>عرض</span>
@@ -127,7 +127,7 @@ const Header = () => {
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
-                  to='/all-page'
+                  to='/rtl-all-page'
                 >
                   <FaAngleLeft />
                   <span>الصفحات</span>
@@ -136,7 +136,7 @@ const Header = () => {
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
-                  to='/about'
+                  to='/rtl-about'
                 >
                   <FaAngleLeft />
                   <span>معلومات عنا</span>
@@ -145,7 +145,7 @@ const Header = () => {
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
-                  to='/carts'
+                  to='/rtl-carts'
                 >
                   <FaAngleLeft />
                   <span>عربة التسوق الخاصة بي</span>
@@ -154,7 +154,7 @@ const Header = () => {
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
-                  to='/user-setting'
+                  to='/rtl-user-setting'
                 >
                   <FaAngleLeft /> <span>جلسة</span>
                 </NavLink>
@@ -162,7 +162,7 @@ const Header = () => {
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
-                  to='/notification'
+                  to='/rtl-notification'
                 >
                   <FaAngleLeft /> <span>تنبيه</span>
                 </NavLink>
@@ -170,7 +170,7 @@ const Header = () => {
               <li>
                 <NavLink
                   className={(navData) => (navData.isActive ? "active" : "")}
-                  to='/all-page'
+                  to='/rtl-all-page'
                 >
                   <FaAngleLeft /> <span>مكون</span>
                 </NavLink>
@@ -180,7 +180,7 @@ const Header = () => {
                   className={(navData) =>
                     navData.isActive ? "active mt-4" : "mt-4"
                   }
-                  to='/signup'
+                  to='/rtl-signup'
                 >
                   <FaAngleLeft /> <span>تسجيل خروج</span>
                 </NavLink>

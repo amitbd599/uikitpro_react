@@ -40,28 +40,28 @@ const TransactionDetails = () => {
               </span>
             </li>
             <li className='text-end'>
-              <span class='float-start'>ل</span> :
-              <span class='float-end'>راكيشوني روي</span>
+              <span className='float-start'>ل</span> :
+              <span className='float-end'>راكيشوني روي</span>
             </li>
             <li className='text-end'>
-              <span class='float-start'>اسم البنك</span> :
-              <span class='float-end'>بايونير</span>
+              <span className='float-start'>اسم البنك</span> :
+              <span className='float-end'>بايونير</span>
             </li>
             <li className='text-end'>
-              <span class='float-start'>فئة</span> :
-              <span class='float-end'>بصعوبة</span>
+              <span className='float-start'>فئة</span> :
+              <span className='float-end'>بصعوبة</span>
             </li>
             <li className='text-end'>
-              <span class='float-start'>إيصال الشراء</span> :
-              <span class='float-end'>نعم</span>
+              <span className='float-start'>إيصال الشراء</span> :
+              <span className='float-end'>نعم</span>
             </li>
             <li className='text-end'>
-              <span class='float-start'>تاريخ الشراء</span> :
-              <span class='float-end'>03/22/2020</span>
+              <span className='float-start'>تاريخ الشراء</span> :
+              <span className='float-end'>03/22/2020</span>
             </li>
             <li className='text-end'>
-              <span class='float-start'>المبالغ الإجمالية</span> :
-              <span class='float-end'>$757.00</span>
+              <span className='float-start'>المبالغ الإجمالية</span> :
+              <span className='float-end'>$757.00</span>
             </li>
           </ul>
         </Container>

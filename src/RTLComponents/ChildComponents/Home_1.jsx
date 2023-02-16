@@ -402,7 +402,7 @@ const Home_1 = () => {
       <div className='bill-pay-area pt-4'>
         <Container>
           <div className='section-title'>
-            <h3 class='title float-end'>دفع الفاتورة</h3>
+            <h3 className='title float-end'>دفع الفاتورة</h3>
             <Link to='/rtl-bill-pay' className='float-start'>
               مشاهدة الكل
             </Link>
@@ -452,7 +452,7 @@ const Home_1 = () => {
       <div className='blog-area pt-4'>
         <Container>
           <div className='section-title'>
-            <h3 class='title float-end'>المشاركات الاخيرة</h3>
+            <h3 className='title float-end'>المشاركات الاخيرة</h3>
             <Link to='/rtl-blog' className='float-start'>
               مشاهدة الكل
             </Link>

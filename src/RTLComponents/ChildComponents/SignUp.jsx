@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
@@ -59,7 +60,7 @@ const SignUp = () => {
             <div className='text-center'>
               <p>
                 بالفعل ليس لديك حساب؟
-                <a href='signin.html'> تسجيل الدخول</a>
+                <Link to='/rtl-signin'> تسجيل الدخول</Link>
               </p>
             </div>
           </form>

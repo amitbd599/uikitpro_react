@@ -9,7 +9,7 @@ const Blog = () => {
       <div className='blog-area pd-top-110'>
         <Container>
           <div className='section-title'>
-            <h3 class='title float-end'>المشاركات الاخيرة</h3>
+            <h3 className='title float-end'>المشاركات الاخيرة</h3>
             <a className='float-start' href='#'>
               مشاهدة الكل
             </a>

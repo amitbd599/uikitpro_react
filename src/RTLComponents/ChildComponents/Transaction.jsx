@@ -9,7 +9,7 @@ const Transaction = () => {
       <div className='transaction-area pd-top-110'>
         <Container>
           <div className='section-title'>
-            <h3 class='title float-end'>المعاملات الأخيرة</h3>
+            <h3 className='title float-end'>المعاملات الأخيرة</h3>
           </div>
           <ul className='transaction-inner'>
             <li className='ba-single-transaction'>

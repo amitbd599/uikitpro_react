@@ -74,7 +74,7 @@ const View = () => {
                   </a>
                   <Link
                     className='scroll-down-btn-demo m-auto d-inline-block d-lg-none'
-                    to='/home-1'
+                    to='/rtl-home-1'
                   >
                     Live Demo
                   </Link>

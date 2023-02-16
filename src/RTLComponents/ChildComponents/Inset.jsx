@@ -12,7 +12,7 @@ const Inset = () => {
             <FaCheckCircle />
           </div>
           <div className='details'>
-            <h6 class='title'>عنوان ورقة العمل</h6>
+            <h6 className='title'>عنوان ورقة العمل</h6>
             <p>أرسلت</p>
             <p>انسحب</p>
             <p>تبادل</p>

@@ -62,7 +62,7 @@ const SignIn = () => {
             </a>
             <div className='text-center'>
               <p>
-                بالفعل ليس لديك حساب؟ <Link to='/signup'>اشتراك !</Link>
+                بالفعل ليس لديك حساب؟ <Link to='/rtl-signup'>اشتراك !</Link>
               </p>
             </div>
           </form>

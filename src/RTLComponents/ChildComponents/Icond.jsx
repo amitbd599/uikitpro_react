@@ -14,13 +14,15 @@ const Icond = () => {
           <div className='details'>
             <h6 className='title'>عنوان ورقة العمل</h6>
             <p>
-              <i class='fa fa-check'></i>أرسلت
+              <FaCheck className='me-1' /> أرسلت
             </p>
             <p>
-              <i class='fa fa-check'></i>انسحب
+              <FaCheck className='me-1' />
+              انسحب
             </p>
             <p>
-              <i class='fa fa-check'></i>تبادل
+              <FaCheck className='me-1' />
+              تبادل
             </p>
             <a className='btn-text d-block border-top-black pt-2' href='#'>
               فعله
